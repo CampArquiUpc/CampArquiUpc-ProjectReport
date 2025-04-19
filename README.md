@@ -313,6 +313,108 @@ Para destacar en el competitivo entorno de plataformas financieras y educativas,
 
 ### 2.2.1. Diseño de entrevistas
 
+ <h3>Preguntas para Segmentos de Universitarios – Validación PonteBarbón</h1>
+
+  <h2>1. Contexto Inicial – Comportamientos financieros</h2>
+  <p><strong>1.1</strong> ¿Recibes una mesada, trabajas o cómo financias tus gastos?</p>
+  <p><strong>1.2</strong> ¿Tienes algún tipo de plan para controlar tus gastos?<br>
+  → ¿Qué herramientas usas? (Apps, libretas, Excel, nada)</p>
+
+  <h2>2. Motivaciones y deseos</h2>
+  <p><strong>2.1</strong> ¿Tienes metas financieras personales ahora mismo?<br>
+  → (Por ejemplo: viajar, comprarte algo, salir de deudas)</p>
+  <p><strong>2.2</strong> ¿Qué tan importante es para ti ahorrar o tener más control sobre tu dinero?</p>
+
+  <h2>3. Sentimientos y frustraciones</h2>
+  <p><strong>3.1</strong> ¿Te ha pasado que no sabes en qué se te va la plata?<br>
+  → ¿Cómo te sientes cuando eso pasa?</p>
+  <p><strong>3.2</strong> ¿Alguna vez has querido ahorrar pero te fue imposible?<br>
+  → ¿Qué fue lo que lo impidió?</p>
+
+  <h2>4. Presentación de la Solución – PonteBarbón App</h2>
+  <p><strong>4.1</strong> ¿Qué te parece la idea de tener un entrenador financiero personalizado en una app?<br>
+  → ¿Te suena útil o innecesario para ti en este momento?</p>
+  <p><strong>4.2</strong> ¿Preferirías que la app te ofrezca contenidos simples y directos, o con retos interactivos como juegos o videos? ¿Por qué?</p>
+  <p><strong>4.3</strong> ¿Te interesa tener predicciones sobre tu comportamiento financiero? ¿Por qué?</p>
+
+  <h2>5. Cierre – Evaluación personal</h2>
+  <p><strong>5.1</strong> De acuerdo a lo visto y hablado anteriormente:<br>
+  → ¿Qué características de la app te llamaron más la atención?</p>
+  <p><strong>5.2</strong> Imagina que usas nuestra app todos los días por seis meses:<br>
+  → ¿Qué cambio crees que notarías en tus hábitos financieros y gastos?</p>
+
+### 2.2.2. Registro de entrevistas
+
+
+**Entrevistado(a):** Yadira Quispe Garfias
+**Edad:** 21 años
+**Distrito:** Chorrillos
+**Captura de video:** 
+![imagen yadira](/assets/entrevistas/yadira.png)
+
+**Enlace al video:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211f984_upc_edu_pe/EYKk4AUaiWNJuDcWgOPDkRsBsjYaGNwRiuK-GJsuf0ydYg?e=7wYTSi](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211f984_upc_edu_pe/EYKk4AUaiWNJuDcWgOPDkRsBsjYaGNwRiuK-GJsuf0ydYg?e=7wYTSi)
+
+
+**Resumen descriptivo:**
+Yadira es una estudiante universitaria de 21 años que reside en el distrito de Chorrillos. Durante la entrevista, se identificó como una persona de perfil introvertido, que experimenta dificultades para cumplir sus metas de ahorro personal. A pesar de tener el deseo de ahorrar, menciona que su principal obstáculo son los llamados "gastos hormiga", es decir, pequeñas compras frecuentes que, acumuladas, afectan negativamente su economía. Además, reconoce que tiene comportamientos impulsivos al momento de comprar, lo cual refuerza este patrón de consumo descontrolado. Sus respuestas evidencian la necesidad de herramientas que le permitan tener un mayor control y conciencia sobre sus gastos diarios.
+
+
+
+**Entrevistado(a):** Alex Quispe Garfias
+**Edad:** 18 años
+**Distrito:** Chorrillos
+**Captura de video:**
+![imagen alex](/assets/entrevistas/alex.png)
+**Enlace al video:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211f984_upc_edu_pe/EYKk4AUaiWNJuDcWgOPDkRsBsjYaGNwRiuK-GJsuf0ydYg?e=7wYTSi](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211f984_upc_edu_pe/EYKk4AUaiWNJuDcWgOPDkRsBsjYaGNwRiuK-GJsuf0ydYg?e=7wYTSi)
+
+**Resumen descriptivo:**
+Alexander es un estudiante de los primeros ciclos universitarios que demuestra tener conocimientos básicos sobre el ahorro. Actualmente maneja dos cuentas bancarias, lo cual le ha permitido iniciarse en el hábito de separar su dinero. Sin embargo, considera que esto no es suficiente y expresa interés en seguir aprendiendo sobre finanzas personales. Muestra una actitud positiva hacia el uso de recursos tecnológicos para mejorar sus habilidades, especialmente mediante juegos interactivos y el apoyo de inteligencia artificial para recibir consejos personalizados. Su perfil refleja una disposición activa al aprendizaje y la mejora continua de su gestión financiera.
+
+
+**Entrevistado(a):** Abelardo Huañec Chirinos
+**Edad:** 22 años
+**Distrito:** San Juan de Miraflores
+**Captura de video:**
+![imagen abelardo](/assets/entrevistas/abelador.png)
+**Enlace al video:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211f984_upc_edu_pe/EYKk4AUaiWNJuDcWgOPDkRsBsjYaGNwRiuK-GJsuf0ydYg?e=7wYTSi](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211f984_upc_edu_pe/EYKk4AUaiWNJuDcWgOPDkRsBsjYaGNwRiuK-GJsuf0ydYg?e=7wYTSi)
+
+
+**Resumen descriptivo:**
+
+Abelardo es un estudiante que también trabaja en Interbank, percibiendo un ingreso mensual de aproximadamente S/ 2,500. A pesar de tener un empleo estable, enfrenta dificultades para ahorrar debido a un nivel elevado de deudas acumuladas. Además, menciona que maneja múltiples cuentas en diferentes bancos, lo cual complica la gestión de sus finanzas personales. Durante la entrevista, expresó la necesidad de contar con una aplicación que le permita centralizar y organizar todos sus gastos, facilitando así el control de sus ingresos y egresos. Su caso refleja la importancia de soluciones digitales integradas que simplifiquen la administración financiera para personas con obligaciones laborales y académicas.
+
+
+### 2.2.3. Análisis de entrevistas.
+
+**Perfil Demografrico:**
+  * Promedios de edades: 20
+  * Moda de Estados civil: Solteros
+  * Moda Composicion Familiar: Solo
+
+**Perfil Psicograficos y interes :**
+
+El 75% de los entrevistados aún depende económicamente de sus padres, lo cual revela una limitada autonomía financiera. Esta dependencia puede ser un factor que influye directamente en su interés por mejorar su educación financiera.
+
+![grafico 1](/assets/Graficos%20del%20analisis%20de%20entrevistas/grafico%201.png)
+
+La mitad de los entrevistados muestra interes por formas de aprendizaje fuera de lo tradicional.
+
+![grafico 1](/assets/Graficos%20del%20analisis%20de%20entrevistas/grafico%202.png)
+
+Un 50% de los entrevistados usa smartphones dando una tendencia en los dispositivos moviles
+
+![grafico 1](/assets/Graficos%20del%20analisis%20de%20entrevistas/grafico%203.png)
+
+
+El 50% de los entrevistados expresó preocupación por no saber manejar adecuadamente sus ingresos, lo que evidencia un interés creciente entre los jóvenes por adquirir conocimientos sobre educación financiera. Esta preocupación refleja una necesidad latente de herramientas o recursos que les permitan tomar decisiones más informadas sobre su economía personal.
+
+![grafico 1](/assets/Graficos%20del%20analisis%20de%20entrevistas/grafico%205.png)
+
+se observa una tendencia hacia las puntuaciones más altas en cuanto a la importancia de aprender sobre educación financiera. Esto indica que, en general, los entrevistados valoran positivamente el desarrollo de competencias en esta área
+
+![grafico 1](/assets/Graficos%20del%20analisis%20de%20entrevistas/grafico%206.png)
+  
+
 ## 2.3. Needfinding
 
 ### 2.3.2. User Task Matrix
