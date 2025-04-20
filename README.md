@@ -417,6 +417,8 @@ se observa una tendencia hacia las puntuaciones más altas en cuanto a la import
 
 ## 2.3. Needfinding
 
+### 2.3.1. User Person
+
 ### 2.3.2. User Task Matrix
 
 ### 2.3.3. User Journey Mapping
