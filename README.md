@@ -486,12 +486,80 @@ se observa una tendencia hacia las puntuaciones más altas en cuanto a la import
 
 ### 2.3.4. As-is
 
-
+![](/assets/needfinfing/Scenario%20Mapping%20-%20As-Is.jpg)
 ## 2.4. Ubiquitous Language
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Término</strong></th>
+      <th><strong>Definición</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Usuario</td>
+      <td>Persona que utiliza la aplicación para gestionar sus finanzas personales.</td>
+    </tr>
+    <tr>
+      <td>Gasto hormiga</td>
+      <td>Gastos pequeños y frecuentes que parecen insignificantes pero afectan el ahorro.</td>
+    </tr>
+    <tr>
+      <td>Meta financiera</td>
+      <td>Objetivo que el usuario quiere alcanzar.</td>
+    </tr>
+    <tr>
+      <td>Educación financiera</td>
+      <td>Conjunto de conocimientos y habilidades para tomar decisiones económicas.</td>
+    </tr>
+    <tr>
+      <td>Presupuesto mensual</td>
+      <td>Plan financiero donde el usuario define sus ingresos y límites de gasto.</td>
+    </tr>
+    <tr>
+      <td>Ingreso fijo</td>
+      <td>Dinero recibido regularmente, como la mesada mensual de Mario.</td>
+    </tr>
+    <tr>
+      <td>Saldo disponible</td>
+      <td>Cantidad de dinero que queda tras registrar los ingresos y gastos.</td>
+    </tr>
+    <tr>
+      <td>Categoría de gasto</td>
+      <td>Clasificación del gasto.</td>
+    </tr>
+    <tr>
+      <td>Notificación de gasto</td>
+      <td>Alerta sobre un gasto que ha sido registrado o que se aproxima al límite.</td>
+    </tr>
+    <tr>
+      <td>Gráfico de control</td>
+      <td>Visualización del comportamiento financiero del usuario.</td>
+    </tr>
+    <tr>
+      <td>Consejo financiero</td>
+      <td>Recomendación personalizada para mejorar hábitos financieros.</td>
+    </tr>
+    <tr>
+      <td>Historial de transacciones</td>
+      <td>Registro detallado de todos los ingresos y gastos del usuario.</td>
+    </tr>
+    <tr>
+      <td>Banco</td>
+      <td>Institución financiera vinculada a la cuenta del usuario.</td>
+    </tr>
+    <tr>
+      <td>Meta de ahorro</td>
+      <td>Cantidad deseada que el usuario quiere alcanzar al guardando dinero.</td>
+    </tr>
+  </tbody>
+</table>
 
 # Capítulo III: Requirements specification
 
 ## 3.1. To-Be Scenario Mapping
+![](/assets/needfinfing/AS%20IS%20Y%20TO%20BE%20%20Scenario%20Mapping%20-%20To-be.jpg)
 
 ## 3.2. User Stories
 
