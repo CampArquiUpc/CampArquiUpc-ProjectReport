@@ -85,9 +85,8 @@
   * [2.3. Needfinding](#23-needfinding)
     * [2.3.1. User Personas](#231-user-personas)
     * [2.3.2. User Task Matrix](#232-user-task-matrix)
-    * [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-    * [2.3.4. Empathy Mapping](#234-empathy-mapping)
-    * [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+    * [2.3.3. Empathy Mapping](#233-empathy-mapping)
+    * [2.3.4. As-is Scenario Mapping](#234-as-is-scenario-mapping)
   * [2.4. Ubiquitous Language](#24-ubiquitous-language)
 * [Capítulo III: Requirements specification](#capítulo-iii-requirements-specification)
 
@@ -393,39 +392,98 @@ Abelardo es un estudiante que también trabaja en Interbank, percibiendo un ingr
 
 **Perfil Psicograficos y interes :**
 
-El 75% de los entrevistados aún depende económicamente de sus padres, lo cual revela una limitada autonomía financiera. Esta dependencia puede ser un factor que influye directamente en su interés por mejorar su educación financiera.
+El 75% de los entrevistados aún depende económicamente de sus padres, lo cual revela una limitada autonomía financiera. Esta dependencia puede ser un factor que influye directamente en su interés por mejorar su educación financiera. (Grafico 1)
 
 ![grafico 1](/assets/Graficos%20del%20analisis%20de%20entrevistas/grafico%201.png)
+<p>Grafico 1</p>
 
-La mitad de los entrevistados muestra interes por formas de aprendizaje fuera de lo tradicional.
+La mitad de los entrevistados muestra interes por formas de aprendizaje fuera de lo tradicional. (Grafico 2)
 
 ![grafico 1](/assets/Graficos%20del%20analisis%20de%20entrevistas/grafico%202.png)
+<p>Grafico 2</p>
 
-Un 50% de los entrevistados usa smartphones dando una tendencia en los dispositivos moviles
+Un 50% de los entrevistados usa smartphones dando una tendencia en los dispositivos moviles. (Grafico 3)
 
 ![grafico 1](/assets/Graficos%20del%20analisis%20de%20entrevistas/grafico%203.png)
+<p>Grafico 3</p>
 
-
-El 50% de los entrevistados expresó preocupación por no saber manejar adecuadamente sus ingresos, lo que evidencia un interés creciente entre los jóvenes por adquirir conocimientos sobre educación financiera. Esta preocupación refleja una necesidad latente de herramientas o recursos que les permitan tomar decisiones más informadas sobre su economía personal.
+El 50% de los entrevistados expresó preocupación por no saber manejar adecuadamente sus ingresos, lo que evidencia un interés creciente entre los jóvenes por adquirir conocimientos sobre educación financiera. Esta preocupación refleja una necesidad latente de herramientas o recursos que les permitan tomar decisiones más informadas sobre su economía personal. (Grafico 4)
 
 ![grafico 1](/assets/Graficos%20del%20analisis%20de%20entrevistas/grafico%205.png)
 
-se observa una tendencia hacia las puntuaciones más altas en cuanto a la importancia de aprender sobre educación financiera. Esto indica que, en general, los entrevistados valoran positivamente el desarrollo de competencias en esta área
+<p>Grafico 4</p>
+
+se observa una tendencia hacia las puntuaciones más altas en cuanto a la importancia de aprender sobre educación financiera. Esto indica que, en general, los entrevistados valoran positivamente el desarrollo de competencias en esta área. (Grafico 5)
 
 ![grafico 1](/assets/Graficos%20del%20analisis%20de%20entrevistas/grafico%206.png)
   
+  <p>Grafico 5</p>
 
 ## 2.3. Needfinding
 
 ### 2.3.1. User Person
 
+**Segmento Objetivo de Estudiante Universitario**
+
+![](/assets/needfinfing/Mario%20Garcia%20Perez.png)
+
 ### 2.3.2. User Task Matrix
 
-### 2.3.3. User Journey Mapping
+<table cellpadding="8" style="border-collapse: collapse; text-align: center; width: 100%;">
+  <thead>
+    <tr>
+      <th rowspan="2" style="text-align: left;">Tareas</th>
+      <th colspan="2">Universitario</th>
+    </tr>
+    <tr>
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left;">Hacer seguimiento de sus gastos mensuales </td>
+      <td>Diaria</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;">Comparar precios antes de comprar.</td>
+      <td>Ocasional</td>
+      <td>Media</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;">Manejar un Presupuesto para el mes</td>
+      <td>Ocasional</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;">Buscar ampliar conocimiento financiero</td>
+      <td>Nunca</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;">Establecer metas de ahorro a corto o largo plazo</td>
+      <td>Ocasional</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;">Usar aplicaciones de finanzas personales</td>
+      <td>Ocasional</td>
+      <td>Media</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;">Ahorrar un porcentaje de sus ingresos</td>
+      <td>Ocasional</td>
+      <td>Alta</td>
+    </tr>
+  </tbody>
+</table>
 
-### 2.3.4. Empathy Mapping
 
-### 2.3.5. As-is Scenario Mapping
+
+### 2.3.3. Empathy Mapping
+
+### 2.3.4. As-is Scenario Mapping
 
 ## 2.4. Ubiquitous Language
 
