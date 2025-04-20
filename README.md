@@ -482,8 +482,10 @@ se observa una tendencia hacia las puntuaciones más altas en cuanto a la import
 
 
 ### 2.3.3. Empathy Mapping
+![](/assets/needfinfing/Empathy%20map%20(1).png)
 
-### 2.3.4. As-is Scenario Mapping
+### 2.3.4. As-is
+
 
 ## 2.4. Ubiquitous Language
 
