@@ -563,6 +563,343 @@ se observa una tendencia hacia las puntuaciones más altas en cuanto a la import
 
 ## 3.2. User Stories
 
+<table>
+        <thead>
+            <tr>
+                <th>Título</th>
+                <th>Epic / User Story ID</th>
+                <th>Descripción</th>
+                <th>Criterios de Aceptación</th>
+                <th>Relacionado con (Epic ID)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sección de Información</td>
+                <td>SCRUM-36</td>
+                <td>Como usuario, quiero tener una sección de información adicional en la landing page, donde pueda obtener más detalles sobre la aplicación y cómo puede beneficiarme.</td>
+                <td>Escenario 1: Acceso a información detallada, Escenario 2: Información clara y accesible</td>
+                <td>SCRUM-28</td>
+            </tr>
+            <tr>
+                <td>Sección del equipo</td>
+                <td>SCRUM-35</td>
+                <td>Como usuario, quiero ver una sección con el equipo detrás de la aplicación, para generar confianza y transparencia sobre quiénes están desarrollando el producto.</td>
+                <td>Escenario 1: Visualización del equipo, Escenario 2: Descripción del equipo</td>
+                <td>SCRUM-28</td>
+            </tr>
+            <tr>
+                <td>Sección de videos</td>
+                <td>SCRUM-34</td>
+                <td>Como usuario, quiero que la landing page tenga una sección de videos explicativos, para comprender mejor cómo funciona la aplicación.</td>
+                <td>Escenario 1: Visualización de videos explicativos</td>
+                <td>SCRUM-28</td>
+            </tr>
+            <tr>
+                <td>Sección de Planes</td>
+                <td>SCRUM-32</td>
+                <td>Como usuario, quiero que la landing page tenga una sección que detalle los planes y precios de la aplicación, para poder tomar una decisión informada.</td>
+                <td>Escenario 1: Visualización clara de los planes, Escenario 2: Comparación de planes</td>
+                <td>SCRUM-28</td>
+            </tr>
+            <tr>
+                <td>Sección de Hero</td>
+                <td>SCRUM-31</td>
+                <td>Como usuario, quiero que la página de inicio tenga una sección hero que dé una buena bienvenida a la aplicación.</td>
+                <td>Escenario 1: Visualización de la sección de Hero</td>
+                <td>SCRUM-28</td>
+            </tr>
+            <tr>
+                <td>Sección con beneficios</td>
+                <td>SCRUM-30</td>
+                <td>Como usuario, quiero que la landing page tenga una sección destacando los beneficios del uso de la aplicación, para motivar a los visitantes a registrarse.</td>
+                <td>Escenario 1: Beneficios bien destacados, Escenario 2: Beneficios organizados y fáciles de entender</td>
+                <td>SCRUM-28</td>
+            </tr>
+             <tr>
+      <td>SCRUM-29</td>
+      <td>Diseño responsivo</td>
+      <td>Como usuario, quiero que el diseño de la página sea responsivo, para que la experiencia de navegación sea óptima tanto en dispositivos móviles como en computadoras de escritorio.</td>
+      <td>
+        <strong>Escenario 1: Diseño adaptado a dispositivos móviles</strong><br>
+        Given que el usuario accede al sitio desde un dispositivo móvil,<br>
+        When visualiza la página,<br>
+        Then el contenido se ajusta correctamente al tamaño de la pantalla.<br>
+        <strong>Escenario 2: Diseño adaptado a pantallas de escritorio</strong><br>
+        Given que el usuario accede al sitio desde una pantalla de escritorio,<br>
+        When visualiza la página,<br>
+        Then la página se muestra en un formato apropiado y sin desbordes.
+      </td>
+      <td>SCRUM-28</td>
+    </tr>
+    <tr>
+      <td>SCRUM-27</td>
+      <td>Gráficos de ingresos vs egresos</td>
+      <td>Como usuario, quiero ver gráficos que comparen mis ingresos con mis egresos, para poder entender mejor mi situación financiera.</td>
+      <td>
+        <strong>Escenario: Visualización de gráfico de ingresos y egresos</strong><br>
+        Given que el usuario solicita ver los gráficos de su flujo de dinero,<br>
+        When se genera el gráfico,<br>
+        Then se muestra la comparación entre ingresos y egresos de manera visual.<br>
+        <strong>Escenario: Filtrado de gráficos por periodo</strong><br>
+        Given que el usuario desea ver el gráfico por un periodo específico,<br>
+        When selecciona el intervalo de tiempo,<br>
+        Then el gráfico se actualiza para reflejar los datos de ese periodo.
+      </td>
+      <td>SCRUM-4</td>
+    </tr>
+    <tr>
+      <td>SCRUM-26</td>
+      <td>Predicción de gastos futuros</td>
+      <td>Como usuario, quiero recibir predicciones de mis gastos futuros, para poder planificar mejor mis finanzas.</td>
+      <td>
+        <strong>Escenario 1: Predicción de gasto futuro basado en patrones</strong><br>
+        Given que el sistema ha registrado varios patrones de gasto,<br>
+        When el usuario solicita una predicción,<br>
+        Then el sistema muestra una estimación de los gastos para el próximo mes.<br>
+        <strong>Escenario 2: Ajuste de predicción por variación de gastos</strong><br>
+        Given que el usuario ha ajustado su presupuesto o gasto,<br>
+        When el sistema recalcula los gastos,<br>
+        Then se actualiza la predicción de gastos futuros.
+      </td>
+      <td>SCRUM-6</td>
+    </tr>
+    <tr>
+      <td>SCRUM-25</td>
+      <td>Registro de metas</td>
+      <td>Como usuario, quiero registrar metas financieras, para poder enfocar mis esfuerzos en alcanzarlas.</td>
+      <td>
+        <strong>Escenario 1: Registro de nueva meta</strong><br>
+        Given que el usuario desea establecer una nueva meta,<br>
+        When introduce el nombre y el monto objetivo,<br>
+        Then el sistema guarda la meta para su seguimiento.<br>
+        <strong>Escenario 2: Actualización de meta</strong><br>
+        Given que el usuario quiere actualizar una meta existente,<br>
+        When modifica el monto o nombre de la meta,<br>
+        Then el sistema actualiza la información correctamente.
+      </td>
+      <td>SCRUM-4</td>
+    </tr>
+    <tr>
+      <td>SCRUM-24</td>
+      <td>Registra un presupuesto mensual</td>
+      <td>Como usuario, quiero registrar un presupuesto mensual, para asegurarme de que mis ingresos y gastos estén balanceados.</td>
+      <td>
+        <strong>Escenario 1: Registro de presupuesto mensual</strong><br>
+        Given que el usuario tiene un monto en mente para su presupuesto mensual,<br>
+        When introduce los valores de ingreso y gasto,<br>
+        Then el sistema guarda el presupuesto para ese mes.<br>
+        <strong>Escenario 2: Revisión de presupuesto mensual</strong><br>
+        Given que el usuario consulta su presupuesto,<br>
+        When se visualiza la sección de presupuesto,<br>
+        Then el sistema muestra el balance entre ingresos y gastos.
+      </td>
+      <td>SCRUM-4</td>
+    </tr>
+    <tr>
+      <td>SCRUM-23</td>
+      <td>Limite de Gastos</td>
+      <td>Como usuario, quiero establecer un límite de gastos mensuales, para evitar excederme en mis compras y controlar mejor mi presupuesto.</td>
+      <td>
+        <strong>Escenario 1: Establecer límite de gasto</strong><br>
+        Given que el usuario accede a la sección de configuración de presupuesto,<br>
+        When introduce un monto límite para sus gastos mensuales,<br>
+        Then el sistema guarda el límite y notifica al usuario si lo supera.<br>
+        <strong>Escenario 2: Alerta al superar el límite de gasto</strong><br>
+        Given que el usuario ha superado su límite de gasto,<br>
+        When el sistema detecta el exceso,<br>
+        Then se envía una alerta notificando que se ha superado el límite establecido.
+      </td>
+      <td>SCRUM-4</td>
+    </tr>
+    <tr>
+      <td>SCRUM-22</td>
+      <td>Resumen mensual de movimientos</td>
+      <td>Como usuario, quiero recibir un resumen mensual de mis movimientos financieros, para evaluar mi comportamiento de gastos e ingresos.</td>
+      <td>
+        <strong>Escenario 1: Generación de resumen mensual</strong><br>
+        Given que el usuario solicita el resumen mensual,<br>
+        When el sistema procesa los movimientos del mes,<br>
+        Then el sistema genera un informe detallado con los ingresos y gastos.<br>
+        <strong>Escenario: Visualización de resumen</strong><br>
+        Given que el resumen está generado,<br>
+        When el usuario accede a la sección de resumen mensual,<br>
+        Then se muestra un desglose detallado de los movimientos financieros del mes.
+      </td>
+      <td>SCRUM-4</td>
+    </tr>
+    <tr>
+      <td>SCRUM-21</td>
+      <td>Registrar mis gastos e ingresos</td>
+      <td>Como usuario, quiero registrar mis gastos e ingresos de manera fácil, para llevar un control de mis finanzas personales.</td>
+      <td>
+        <strong>Escenario 1: Registro de ingreso</strong><br>
+        Given que el usuario tiene un ingreso para registrar,<br>
+        When introduce la cantidad y categoría del ingreso,<br>
+        Then el sistema guarda el registro correctamente.<br>
+        <strong>Escenario 2: Registro de gasto</strong><br>
+        Given que el usuario tiene un gasto para registrar,<br>
+        When introduce la cantidad y categoría del gasto,<br>
+        Then el sistema guarda el registro correctamente.
+      </td>
+      <td>SCRUM-4</td>
+    </tr>
+    <tr>
+      <td>SCRUM-20</td>
+      <td>Configurar notificaciones</td>
+      <td>Como usuario, quiero configurar las notificaciones de la aplicación, para recibir solo la información que me interesa.</td>
+      <td>
+        <strong>Escenario 1: Configuración de notificaciones de alertas</strong><br>
+        Given que el usuario accede a la configuración de notificaciones,<br>
+        When selecciona qué alertas desea recibir,<br>
+        Then el sistema debe guardar la configuración y notificar solo lo que ha sido seleccionado.<br>
+        <strong>Escenario 2: Desactivación de notificaciones</strong><br>
+        Given que el usuario decide desactivar las notificaciones,<br>
+        When lo configura en la sección de ajustes,<br>
+        Then el sistema deja de enviar notificaciones hasta que se reactive.
+      </td>
+      <td>SCRUM-5</td>
+    </tr>
+    <tr>
+            <td>Alertas con consejos personalizados</td>
+            <td>SCRUM-19</td>
+            <td>Como usuario, quiero recibir alertas con consejos personalizados relacionados a mi comportamiento financiero, para mejorar la administración de mis finanzas.</td>
+            <td>
+                <ul>
+                    <li><strong>Escenario 1: Consejos personalizados por comportamiento de gastos</strong><br>Given que el sistema ha detectado patrones de gastos inusuales, When el usuario supera un umbral de gasto, Then el sistema envía una alerta con un consejo personalizado para optimizar sus gastos.</li>
+                    <li><strong>Escenario 2: Consejos de ahorro basado en metas</strong><br>Given que el usuario tiene una meta de ahorro, When el progreso hacia la meta es lento, Then el sistema envía un consejo personalizado para aumentar el ahorro.</li>
+                </ul>
+            </td>
+            <td>SCRUM-5</td>
+        </tr>
+        <tr>
+            <td>Alertas de metas alcanzadas</td>
+            <td>SCRUM-18</td>
+            <td>Como usuario, quiero recibir alertas cuando alcance mis metas financieras, para tener una retroalimentación inmediata sobre mi progreso.</td>
+            <td>
+                <ul>
+                    <li><strong>Escenario 1: Alerta al alcanzar una meta</strong><br>Given que el usuario ha establecido una meta financiera, When alcanza dicha meta, Then el sistema debe enviar una alerta notificando que la meta ha sido alcanzada.</li>
+                    <li><strong>Escenario 2: Alerta al superar una meta</strong><br>Given que el usuario ha establecido una meta financiera, When supera la meta, Then el sistema envía una alerta celebrando el logro y mostrando el nuevo saldo alcanzado.</li>
+                </ul>
+            </td>
+            <td>SCRUM-5</td>
+        </tr>
+        <tr>
+            <td>Alertas por límites de gastos</td>
+            <td>SCRUM-17</td>
+            <td>Como usuario, quiero recibir alertas cuando me acerco o supero mis límites de gastos, para poder controlar mejor mis finanzas.</td>
+            <td>
+                <ul>
+                    <li><strong>Escenario 1: Alerta al alcanzar límite</strong><br>Given que el usuario ha establecido un límite, When se alcanza o supera dicho límite, Then el sistema envía una alerta inmediata.</li>
+                    <li><strong>Escenario 2: Personalización de alertas</strong><br>Given que el usuario accede a configuración, When ajusta los parámetros de sus alertas, Then el sistema guarda la configuración y actúa en consecuencia.</li>
+                </ul>
+            </td>
+            <td>SCRUM-5</td>
+        </tr>
+        <tr>
+            <td>Chatbot financiero con IA</td>
+            <td>SCRUM-16</td>
+            <td>Como usuario, quiero interactuar con un chatbot inteligente, para obtener respuestas rápidas a mis preguntas financieras.</td>
+            <td>
+                <ul>
+                    <li><strong>Escenario 1: Interacción básica con el chatbot</strong><br>Given que el usuario accede al chatbot, When escribe una pregunta, Then el sistema responde con información precisa.</li>
+                    <li><strong>Escenario 2: Consulta no comprendida</strong><br>Given que el chatbot no entiende la consulta, When ocurre esto, Then sugiere reformular o contactar soporte humano.</li>
+                </ul>
+            </td>
+            <td>SCRUM-6</td>
+        </tr>
+        <tr>
+            <td>Recomendaciones de Aprendizaje</td>
+            <td>SCRUM-15</td>
+            <td>Como usuario, quiero recibir recomendaciones personalizadas de aprendizaje, para enfocar mis esfuerzos en lo que más necesito mejorar.</td>
+            <td>
+                <ul>
+                    <li><strong>Escenario 1: Recomendaciones basadas en progreso</strong><br>Given que el sistema analiza el progreso del usuario, When se detectan áreas de mejora, Then se muestran recomendaciones relevantes.</li>
+                    <li><strong>Escenario 2: Notificación de nuevo contenido</strong><br>Given que el usuario consulta su panel de aprendizaje, When hay contenido nuevo sugerido, Then se notifica visiblemente.</li>
+                </ul>
+            </td>
+            <td>SCRUM-6</td>
+        </tr>
+        <tr>
+            <td>Juegos interactivos</td>
+            <td>SCRUM-14</td>
+            <td>Como usuario, quiero jugar juegos interactivos relacionados a finanzas, para aprender de forma divertida y dinámica.</td>
+            <td>
+                <ul>
+                    <li><strong>Escenario 1: Usuario intenta acceder a los juegos</strong><br>Given que el usuario accede a la sección de juegos, When selecciona uno, Then el sistema lo carga correctamente.</li>
+                    <li><strong>Escenario 2: Interacción en juegos</strong><br>Given que el juego incluye interacciones, When el usuario responde correctamente, Then el sistema debe dar retroalimentación positiva.</li>
+                </ul>
+            </td>
+            <td>SCRUM-6</td>
+        </tr>
+        <tr>
+            <td>Videos de educación financiera</td>
+            <td>SCRUM-13</td>
+            <td>Como usuario, quiero acceder a videos educativos sobre finanzas, para mejorar mi conocimiento en el manejo de mi dinero.</td>
+            <td>
+                <ul>
+                    <li><strong>Escenario 1: Reproducción de video</strong><br>Given que el usuario entra a la sección de videos, When selecciona uno, Then el sistema debe reproducirlo correctamente.</li>
+                    <li><strong>Escenario 2: Navegación de videos</strong><br>Given que hay varios videos disponibles, When se navega por la lista, Then el sistema permite ver descripciones y temas tratados.</li>
+                </ul>
+            </td>
+            <td>SCRUM-6</td>
+        </tr>
+        <tr>
+            <td>Completar perfil de usuario</td>
+            <td>SCRUM-12</td>
+            <td>Como usuario, quiero completar los campos faltantes de mi perfil, para poder acceder a todas las funcionalidades de la plataforma.</td>
+            <td>
+                <ul>
+                    <li><strong>Escenario 1: Completado del perfil</strong><br>Given que el usuario tiene un perfil incompleto, When ingresa los datos requeridos, Then el sistema habilita funciones adicionales.</li>
+                    <li><strong>Escenario 2: Perfil completo sin restricciones</strong><br>Given que el perfil está completo, When se accede a otras secciones, Then no se muestran advertencias ni bloqueos por datos faltantes.</li>
+                </ul>
+            </td>
+            <td>SCRUM-3</td>
+        </tr>
+        <tr>
+            <td>Visualizar y editar perfil</td>
+            <td>SCRUM-11</td>
+            <td>Como usuario, quiero poder visualizar y editar la información de mi perfil, para mantener mis datos actualizados.</td>
+            <td>
+                <ul>
+                    <li><strong>Escenario 1: Visualización del perfil</strong><br>Given que el usuario accede a la sección de perfil, When se carga la vista, Then se muestran sus datos actuales.</li>
+                    <li><strong>Escenario 2: Edición del perfil</strong><br>Given que el usuario modifica sus datos, When guarda los cambios, Then el sistema actualiza la información y confirma la operación.</li>
+                </ul>
+            </td>
+            <td>SCRUM-3</td>
+        </tr>
+        <tr>
+            <td>Mantener la sesión iniciada</td>
+            <td>SCRUM-10</td>
+            <td>Como usuario, quiero mantener mi sesión iniciada incluso al cerrar la aplicación, para no tener que ingresar mis datos cada vez que accedo.</td>
+            <td>
+                <ul>
+                    <li><strong>Escenario 1: Sesión persistente</strong><br>Given que el usuario ha iniciado sesión correctamente, When cierra y vuelve a abrir la aplicación, Then el sistema debe reconocer al usuario sin pedirle las credenciales nuevamente.</li>
+                    <li><strong>Escenario 2: Cierre de sesión manual</strong><br>Given que el usuario decide cerrar sesión, When lo hace manualmente, Then el sistema elimina sus datos de sesión almacenados.</li>
+                </ul>
+            </td>
+            <td>SCRUM-2</td>
+        </tr>
+        <tr>
+            <td>Inicio de Sesión</td>
+            <td>SCRUM-9</td>
+            <td>Como usuario, quiero poder iniciar sesión en la plataforma, para acceder de forma segura a mi cuenta y datos personales.</td>
+            <td>
+                <ul>
+                    <li><strong>Escenario 1: Inicio de sesión exitoso</strong><br>Given que el usuario está en la pantalla de inicio de sesión, When introduce credenciales válidas, Then el sistema lo redirige a su panel de inicio.</li>
+                    <li><strong>Escenario 2: Error en las credenciales</strong><br>Given que el usuario introduce datos incorrectos, When presiona "Iniciar sesión", Then el sistema muestra un mensaje de error indicando credenciales inválidas.</li>
+                </ul>
+            </td>
+            <td>SCRUM-2</td>
+        </tr>
+        </tbody>
+    </table>
+    
+A continuacion se presenta el link a Jira software que nos ayuda a contener y gestionar las user stories planteadas.
+
+**Link:** [https://brayanmq12-1745135914862.atlassian.net/jira/software/projects/SCRUM/boards/1/timeline?atlOrigin=eyJpIjoiN2JkODYzOTc3ZTkxNGQ4YTgxZTVmZDhiMGZhZTYzZGQiLCJwIjoiaiJ9](https://brayanmq12-1745135914862.atlassian.net/jira/software/projects/SCRUM/boards/1/timeline?atlOrigin=eyJpIjoiN2JkODYzOTc3ZTkxNGQ4YTgxZTVmZDhiMGZhZTYzZGQiLCJwIjoiaiJ9)
+
+
 ## 3.3. Impact Mapping
 
 ## 3.4. Product Backlog
