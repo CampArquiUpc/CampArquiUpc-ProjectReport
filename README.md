@@ -980,7 +980,7 @@ A continuacion se presenta el link a Jira software que nos ayuda a contener y ge
 
 A continuacion se vera nuestro product backlog en la plataforma de jira donde estamos gestionando todas las users stories en la seccion del Product Backlog.
 
-![](/assets/Product%20Backlog/Product%20Backlog%20Jira.png)
+![jira-product-backlog](/assets/Product%20Backlog/Product%20Backlog%20Jira.png)
 
 # Capítulo IV: Strategic-Level Software Design.
 
