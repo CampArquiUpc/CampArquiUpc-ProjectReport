@@ -421,13 +421,13 @@ En esta sección identificamos los principales competidores que ofrecen solucion
 
 ### 2.1.1. Análisis competitivo
 
-A continuación se presenta el **Competitive Analysis Landscape:**
+A continuación, se muestra el análisis competitivo
 
-| ¿Por qué llevar a cabo de este análisis? | Este análisis nos permitirá responder a la siguiente pregunta:                                                |
-| ------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-|                                             | ¿Qué nos diferencia a nosotros respecto a tecnologías emergentes frente a nuestros principales competidores? |
+| ¿Por qué llevar a cabo este análisis? | ¿Cuál es el propósito principal de realizar un análisis competitivo del panorama en el mercado de educación financiera para estudiantes universitarios? |
+|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| Este análisis nos permitirá comprender el posicionamiento de PonteBarbón frente a otras soluciones del mercado, evaluar oportunidades de mejora e identificar ventajas diferenciales mediante el uso de tecnologías emergentes. | Identificar oportunidades y ventajas competitivas para diferenciarnos de soluciones como Fintonic, GoHenry o Yape, integrando tecnologías como inteligencia artificial y personalización educativa orientada al segmento universitario. |
 
-|                                 |                                    | PonteBarbón                                                                                                  | **Fintonic**                                                                               | **GoHenry**                                                         | **Billetera Móvil Yape**                                |
+|                                 |                                    | **PonteBarbón**                                                                                                  | **Fintonic**                                                                               | **GoHenry**                                                         | **Billetera Móvil Yape**                                |
 | ------------------------------- | :--------------------------------: | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------- | -------------------------------------------------------------- |
 | **Perfil**                |         **Overview**         | Plataforma de gestión y educación de finanzas con IA y Machine Learning.                                    | Plataforma de gestión financiera con conexión bancaria, análisis de gastos y recomendaciones. | Tarjeta prepago para menores con control parental para enseñar finanzas. | Billetera móvil para pagos, transferencias y compras del BCP. |
 | **Perfil**                |  **Ventajas Competitivas**  | Funcionalidades personalizadas según el compartamiento universitario apoyandose en la IA y Machine Learning. | Análisis financiero personalizado basado en hábitos de consumo.                                | Enfoque educativo y control parental.                                     | Integración bancaria para pagos eficientes.                   |
@@ -443,34 +443,34 @@ A continuación se presenta el **Competitive Analysis Landscape:**
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
-Para destacar en el competitivo entorno de plataformas financieras y educativas, **PonteBarbón** adoptará las siguientes estrategias y tácticas:
+Para destacar en el competitivo entorno de plataformas financieras y educativas, PonteBarbón adoptará las siguientes estrategias y tácticas:
 
-###### 1. Diferenciación por tecnología emergente
+##### 1. Diferenciación por tecnología emergente
 
-- **Estrategia:** Aprovechar el uso de **IA y Machine Learning** para brindar recomendaciones personalizadas según los hábitos financieros de los estudiantes universitarios peruanos.
+- **Estrategia:** Aprovechar el uso de IA y Machine Learning para brindar recomendaciones personalizadas según los hábitos financieros de los estudiantes universitarios peruanos.
 - **Táctica:** Implementar motores de recomendación que adapten contenido y consejos financieros según el comportamiento del usuario en base a análitica de comportamiento, diferenciándonos del enfoque genérico de plataformas como Fintonic y Yape.
 
-###### 2. Enfoque de nicho definido
+##### 2. Enfoque de nicho definido
 
 - **Estrategia:** Dirigirnos exclusivamente a jóvenes universitarios peruanos, un segmento desatendido por los actuales líderes del mercado.
 - **Táctica:** Crear campañas en redes sociales universitarias, alianzas con centros de estudios y programas de referidos dentro del ecosistema académico.
 
-###### 3. Modelo Freemium para escalar usuarios
+##### 3. Modelo Freemium para escalar usuarios
 
 - **Estrategia:** Ingresar al mercado con una versión gratuita para ganar usuarios rápidamente y escalar nuestra cartera de clientes.
 - **Táctica:** Ofrecer planes de suscripción con funciones avanzadas como proyecciones financieras, simuladores de ahorro y visualizaciones personalizadas.
 
-###### 4. Rapidez en iteración y mejoras
+##### 4. Rapidez en iteración y mejoras
 
 - **Estrategia:** Usar metodologías ágiles para adaptarse rápidamente al feedback de los usuarios y lanzar actualizaciones frecuentes.
 - **Táctica:** Incluir módulos de retroalimentación directa desde la app y analizar patrones de uso con herramientas analíticas internas.
 
-###### 5. Alianzas estratégicas con bancos y comercios
+##### 5. Alianzas estratégicas con bancos y comercios
 
 - **Estrategia:** Formar alianzas con entidades financieras que deseen acercarse al público joven mediante soluciones digitales.
 - **Táctica:** Negociar beneficios (cashbacks, descuentos o microcréditos) para usuarios PonteBarbón que consuman en comercios aliados, mejorando la experiencia y fomentando el uso continuo.
 
-###### 6. Mitigación de amenazas
+##### 6. Mitigación de amenazas
 
 - **Estrategia:** Monitorear constantemente el mercado fintech y adaptarse a las nuevas regulaciones y movimientos de la competencia.
 - **Táctica:** Designar un equipo de vigilancia competitiva y cumplimiento normativo que identifique riesgos regulatorios o lanzamientos de productos similares, y proponga medidas anticipadas.
