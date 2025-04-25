@@ -427,8 +427,6 @@ A continuación, se muestra el análisis competitivo
 |--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Este análisis nos permitirá comprender el posicionamiento de PonteBarbón frente a otras soluciones del mercado, evaluar oportunidades de mejora e identificar ventajas diferenciales mediante el uso de tecnologías emergentes. | Identificar oportunidades y ventajas competitivas para diferenciarnos de soluciones como Fintonic, GoHenry o Yape, integrando tecnologías como inteligencia artificial y personalización educativa orientada al segmento universitario. |
 
-### 2.1.1. Análisis competitivo
-
 <table border="1" cellspacing="0" cellpadding="6">
   <thead>
     <tr>
