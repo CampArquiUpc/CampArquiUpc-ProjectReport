@@ -427,19 +427,110 @@ A continuación, se muestra el análisis competitivo
 |--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Este análisis nos permitirá comprender el posicionamiento de PonteBarbón frente a otras soluciones del mercado, evaluar oportunidades de mejora e identificar ventajas diferenciales mediante el uso de tecnologías emergentes. | Identificar oportunidades y ventajas competitivas para diferenciarnos de soluciones como Fintonic, GoHenry o Yape, integrando tecnologías como inteligencia artificial y personalización educativa orientada al segmento universitario. |
 
-|                                 |                                    | **PonteBarbón**                                                                                                  | **Fintonic**                                                                               | **GoHenry**                                                         | **Billetera Móvil Yape**                                |
-| ------------------------------- | :--------------------------------: | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------- | -------------------------------------------------------------- |
-| **Perfil**                |         **Overview**         | Plataforma de gestión y educación de finanzas con IA y Machine Learning.                                    | Plataforma de gestión financiera con conexión bancaria, análisis de gastos y recomendaciones. | Tarjeta prepago para menores con control parental para enseñar finanzas. | Billetera móvil para pagos, transferencias y compras del BCP. |
-| **Perfil**                |  **Ventajas Competitivas**  | Funcionalidades personalizadas según el compartamiento universitario apoyandose en la IA y Machine Learning. | Análisis financiero personalizado basado en hábitos de consumo.                                | Enfoque educativo y control parental.                                     | Integración bancaria para pagos eficientes.                   |
-| **Perfil de marketing**   |     **Mercado Objetivo**     | Jóvenes estudiantes universitarios peruanos que busquen gestionar y educarse en finanzas.                    | Personas que buscan controlar sus finanzas y reducir gastos.                                     | Familias con hijos menores interesados en educación financiera.          | Usuarios de todas las edades que buscan facilidad en pagos.    |
-| **Perfil de marketing**   | **Estrategias de Marketing** | Anuncios digitales en redes sociales populares entre nuestro mercado objetivo.                                | Anuncios digitales y contenido sobre gestión financiera.                                        | Redes sociales y contenido educativo para padres e hijos.                 | Descuentos y promociones con comercios aliados.                |
-| **Perfil de producto**    |  **Productos & Servicios**  | Aplicación móvil para una gestión de dinero mucho más rápida y sitio web para ver las análiticas.      | Análisis de gastos, presupuestos y recomendaciones.                                             | Tarjetas prepagas y plataforma con control parental.                      | Pagos entre usuarios, recargas y compras en comercios.         |
-| **Perfil de producto**    |     **Precios & Costos**     | Versión gratuita y funcionalidades avanzadas en base a planes de suscripción.                               | Versión gratuita y opción premium con funciones extra.                                         | Suscripción mensual por tarjeta y plataforma.                            | Gratuito; ingresos por alianzas y comisiones.                  |
-| **Perfil de producto**    | **Canales de distribución** | Aplicación móvil y sitio web.                                                                               | App móvil para iOS/Android y sitio web.                                                         | App móvil para iOS y Android.                                            | App móvil para iOS/Android y funciones web limitadas.         |
-| **Análisis SWOT (FODA)** |        **Fortalezas**        | Uso de tecnologías emergentes para un análisis financiero enfocado en un segmento único.                   | Automatización del análisis financiero y recomendaciones.                                      | Seguridad, enfoque educativo y tranquilidad para padres.                  | Popularidad en Perú y respaldo de BCP.                        |
-| **Análisis SWOT (FODA)** |       **Debilidades**       | Startup iniciando con pocas alianzas con otras plataformas.                                                   | Requiere acceso a cuentas bancarias, generando preocupaciones de privacidad.                     | Público limitado a menores, lo que restringe su crecimiento.             | Alta competencia en el mercado de pagos móviles.              |
-| **Análisis SWOT (FODA)** |      **Oportunidades**      | Tecnologías emergenes combinandolas para ofrecer un producto de calidad.                                     | Expansión del modelo a América Latina.                                                         | Crecimiento internacional en educación financiera digital.               | Posibilidad de expandirse fuera de Perú.                      |
-| **Análisis SWOT (FODA)** |         **Amenazas**         | Competencia de otras apps ya consolidadas.                                                                    | Competencia de otras apps de finanzas con funciones similares.                                   | Competencia con otras plataformas educativas y de pagos.                  | Regulaciones gubernamentales pueden afectar su operación.     |
+### 2.1.1. Análisis competitivo
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th>Competidor</th>
+      <th>PonteBarbón</th>
+      <th>Fintonic</th>
+      <th>GoHenry</th>
+      <th>Billetera Móvil Yape</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="5" style="text-align:center; font-weight:bold;">Perfil</td>
+    </tr>
+    <tr>
+      <td>Overview</td>
+      <td>Plataforma de gestión y educación de finanzas con IA y Machine Learning.</td>
+      <td>Gestión financiera con conexión bancaria y análisis de gastos.</td>
+      <td>Tarjeta prepago con control parental y enfoque educativo.</td>
+      <td>App de pagos respaldada por el BCP.</td>
+    </tr>
+    <tr>
+      <td>Ventaja Competitiva</td>
+      <td>Personalización por IA basada en comportamiento universitario.</td>
+      <td>Análisis financiero basado en hábitos de consumo.</td>
+      <td>Enseñanza financiera con control parental.</td>
+      <td>Alto nivel de adopción en Perú y eficiencia en pagos.</td>
+    </tr>
+    <tr>
+      <td colspan="5" style="text-align:center; font-weight:bold;">Perfil de Marketing</td>
+    </tr>
+    <tr>
+      <td>Mercado Objetivo</td>
+      <td>Estudiantes universitarios peruanos que desean educarse y gestionar sus finanzas.</td>
+      <td>Usuarios que desean reducir gastos y administrar sus finanzas.</td>
+      <td>Familias que quieren enseñar finanzas a sus hijos.</td>
+      <td>Público general que busca simplicidad en pagos móviles.</td>
+    </tr>
+    <tr>
+      <td>Estrategias de Marketing</td>
+      <td>Contenido educativo en redes, alianzas con universidades y promociones estudiantiles.</td>
+      <td>Contenido educativo y promociones en canales digitales.</td>
+      <td>Enfoque en padres con tutoriales y herramientas de seguimiento.</td>
+      <td>Descuentos en comercios, marketing masivo y beneficios por uso.</td>
+    </tr>
+    <tr>
+      <td colspan="5" style="text-align:center; font-weight:bold;">Perfil de Producto</td>
+    </tr>
+    <tr>
+      <td>Productos & Servicios</td>
+      <td>Gestión financiera, recomendaciones personalizadas, simuladores y chatbot.</td>
+      <td>Presupuestos, informes y conexión bancaria.</td>
+      <td>Tarjetas, plataforma educativa y aplicación de seguimiento.</td>
+      <td>Transferencias, pagos, recargas y retiro en agentes.</td>
+    </tr>
+    <tr>
+      <td>Precios & Costos</td>
+      <td>Freemium con módulos premium educativos y personalizados.</td>
+      <td>Gratuito con opción premium para funcionalidades avanzadas.</td>
+      <td>Suscripción mensual por tarjeta y cuenta.</td>
+      <td>Gratis; monetiza por alianzas comerciales y comisiones.</td>
+    </tr>
+    <tr>
+      <td>Canales de Distribución</td>
+      <td>App móvil y sitio web.</td>
+      <td>App móvil y sitio web.</td>
+      <td>App para padres e hijos.</td>
+      <td>App móvil con funciones web integradas.</td>
+    </tr>
+    <tr>
+      <td colspan="5" style="text-align:center; font-weight:bold;">Análisis SWOT (FODA)</td>
+    </tr>
+    <tr>
+      <td>Fortalezas</td>
+      <td>Uso de IA y enfoque en educación financiera para estudiantes.</td>
+      <td>Automatización de análisis financiero.</td>
+      <td>Plataforma educativa con control parental.</td>
+      <td>Popularidad, confianza y respaldo bancario en Perú.</td>
+    </tr>
+    <tr>
+      <td>Debilidades</td>
+      <td>Startup en etapa inicial con baja visibilidad institucional.</td>
+      <td>Dependencia de datos bancarios para análisis.</td>
+      <td>Público reducido y limitado a menores.</td>
+      <td>Escasa diferenciación en innovación tecnológica.</td>
+    </tr>
+    <tr>
+      <td>Oportunidades</td>
+      <td>Alianzas educativas y expansión del modelo Freemium con IA.</td>
+      <td>Ingreso a mercados latinoamericanos.</td>
+      <td>Crecimiento del interés en educación financiera infantil.</td>
+      <td>Mayor adopción de apps financieras en jóvenes.</td>
+    </tr>
+    <tr>
+      <td>Amenazas</td>
+      <td>Competencia consolidada y baja cultura financiera.</td>
+      <td>Aparición de apps más abiertas y colaborativas.</td>
+      <td>Competencia de plataformas gratuitas educativas.</td>
+      <td>Riesgos regulatorios y saturación del mercado.</td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
