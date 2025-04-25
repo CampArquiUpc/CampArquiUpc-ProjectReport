@@ -227,6 +227,23 @@
 
 ### 1.1.1. Descripción de la Startup
 
+**Nombre de la startup:** CampArquiUPC
+
+**Producto:** PonteBarbón
+
+**Sector:** Educación financiera y tecnología educativa (EdTech/FinTech)
+
+**Descripción:**
+
+CampArquiUPC es una startup universitaria que busca transformar la manera en que los jóvenes gestionan y aprenden sobre sus finanzas personales. A través de soluciones tecnológicas innovadoras, la empresa apunta a cerrar la brecha entre la teoría financiera y la práctica cotidiana en la vida de los estudiantes.
+
+Su primer producto, PonteBarbón, es una aplicación móvil diseñada para estudiantes universitarios peruanos que desean mejorar sus habilidades de gestión financiera de forma práctica, dinámica y contextualizada a su realidad.
+
+La propuesta se apoya en tecnologías emergentes como la inteligencia artificial, que permite ofrecer asesoramiento personalizado mediante un chatbot educativo, así como en módulos de aprendizaje interactivo que enseñan conceptos clave como presupuesto, ahorro, inversión básica y uso responsable del crédito.
+
+PonteBarbón se posiciona como una solución educativa accesible, escalable y centrada en el usuario, que no solo ayuda a tomar mejores decisiones económicas en el presente, sino que también siembra las bases para una cultura financiera sólida a futuro.
+
+
 ### 1.1.2. Perfiles de los integrantes del equipo
 
 <table border="1" cellspacing="0" cellpadding="8">
