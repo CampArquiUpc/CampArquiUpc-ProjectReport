@@ -194,7 +194,7 @@
       <td><strong>SO1.</strong> Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería. </td>
       <td>
         <strong>TB1:</strong>
-        <p><strong>Nombre:</strong> Contenido</p>
+        <p><strong>Nombre: Brayan Smith Morales Quispe</strong> En el desarrollo del proyecto PonteBarbón, he aprendido a comunicar de manera efectiva los resultados de la investigación y la solución propuesta, ajustando el nivel de complejidad del mensaje según el público.</p>
       </td>
       <td>
         <strong>TB1:</strong>
@@ -206,7 +206,7 @@
       jerarquicos, en el marco del desarrollo de un proyecto en ingeniería..</td>
       <td>
         <strong>TB1:</strong>
-        <p><strong>Nombre:</strong> Contenido</p>
+        <p><strong>Nombre: Brayan Smith Morales Quispe</strong> Las descripciones de las funcionalidades, la implementación de la inteligencia artificial y los módulos de aprendizaje fueron bien detalladas, pero siempre con un enfoque accesible.</p>
       </td>
       <td>
         <strong>TB1:</strong>
