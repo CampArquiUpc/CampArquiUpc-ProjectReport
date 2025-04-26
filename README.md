@@ -198,7 +198,7 @@
       </td>
       <td>
         <strong>TB1:</strong>
-        Contenido de conclusión
+        Fuimos capaces de presentar nuestra propuesta de forma clara y accesible a distintos públicos, adaptando el contenido según el nivel técnico y jerárquico de cada audiencia. Esto permitió transmitir la visión del proyecto de manera efectiva y recibir valioso feedback.
       </td>
     </tr>
     <tr>
@@ -210,7 +210,7 @@
       </td>
       <td>
         <strong>TB1:</strong>
-        Contenido de conclusión
+        Conseguimos documentar el proyecto de manera precisa y comprensible, abordando tanto los aspectos técnicos como sociales de la solución, con un enfoque que permitió a públicos diversos entender el impacto de PonteBarbón en la educación financiera de los estudiantes universitarios.
       </td>
     </tr>
   </tbody>
