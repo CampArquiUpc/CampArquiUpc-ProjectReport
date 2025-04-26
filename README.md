@@ -268,10 +268,11 @@ PonteBarbón se posiciona como una solución educativa accesible, escalable y ce
   </tr>
   <tr>
     <td>
-      <strong>Brayan Smith Morales Quispe</strong>
+      <strong>Brayan Smith Morales Quispe</strong><br>
+      Soy estudiante de ingenieria de software de la upc 8vo ciclo que le gusta el desarrollo web.
     </td>
     <td>
-      <img src="" alt="Bryan" style="max-height:250px;">
+      <img src="assets/student/foto.png" alt="Bryan" style="max-height:250px;">
     </td>
   </tr>
 </table>
