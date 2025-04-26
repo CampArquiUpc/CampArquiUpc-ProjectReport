@@ -1272,13 +1272,14 @@ A continuacion se vera nuestro product backlog en la plataforma de jira donde es
 ## 4.3. Software Architecture.
 
 ### 4.3.1. Software Architecture System Landscape Diagram.
-
+![](/assets/c4/structurizr-Landscape.png)
 ### 4.3.1. Software Architecture Context Level Diagrams.
+![](/assets/c4/structurizr-101659-SystemContext.png)
 
 ### 4.3.2. Software Architecture Container Level Diagrams.
-
+![](/assets/c4/structurizr-101659-Containers.png)
 ### 4.3.3. Software Architecture Deployment Diagrams.
-
+![](/assets/c4/structurizr-101659-ProductionDeployment.png)
 # Capítulo V: Tactical-Level Software Design.
 
 ## 5.1. Bounded Context: "Bounded Context Name"
