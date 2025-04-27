@@ -1200,6 +1200,8 @@ A continuacion se presenta el link a Jira software que nos ayuda a contener y ge
 
 ## 3.3. Impact Mapping
 
+![](/assets/needfinfing/Impact%20map%201%20(3).png)
+
 ## 3.4. Product Backlog
 
 <table border="1">
