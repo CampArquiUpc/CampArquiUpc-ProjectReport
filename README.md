@@ -1,4 +1,4 @@
-<div align="center">
+r `<div align="center">`
 
 **Universidad Peruana de Ciencias Aplicadas - Ingeniería de Software**
 
@@ -77,12 +77,12 @@ Producto: PonteBarbón
   - [2.1. Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-        - [1. Diferenciación por tecnología emergente](#1-diferenciación-por-tecnología-emergente)
-        - [2. Enfoque de nicho definido](#2-enfoque-de-nicho-definido)
-        - [3. Modelo Freemium para escalar usuarios](#3-modelo-freemium-para-escalar-usuarios)
-        - [4. Rapidez en iteración y mejoras](#4-rapidez-en-iteración-y-mejoras)
-        - [5. Alianzas estratégicas con bancos y comercios](#5-alianzas-estratégicas-con-bancos-y-comercios)
-        - [6. Mitigación de amenazas](#6-mitigación-de-amenazas)
+      - [1. Diferenciación por tecnología emergente](#1-diferenciación-por-tecnología-emergente)
+      - [2. Enfoque de nicho definido](#2-enfoque-de-nicho-definido)
+      - [3. Modelo Freemium para escalar usuarios](#3-modelo-freemium-para-escalar-usuarios)
+      - [4. Rapidez en iteración y mejoras](#4-rapidez-en-iteración-y-mejoras)
+      - [5. Alianzas estratégicas con bancos y comercios](#5-alianzas-estratégicas-con-bancos-y-comercios)
+      - [6. Mitigación de amenazas](#6-mitigación-de-amenazas)
   - [2.2. Entrevistas](#22-entrevistas)
     - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
@@ -107,19 +107,16 @@ Producto: PonteBarbón
       - [4.1.2.3. Constraints.](#4123-constraints)
     - [4.1.3. Architectural Drivers Backlog.](#413-architectural-drivers-backlog)
     - [4.1.4. Architectural Design Decisions.](#414-architectural-design-decisions)
-  - [**Driver 1: Gestión de Finanzas en Tiempo Real (AD-1)**](#driver-1-gestión-de-finanzas-en-tiempo-real-ad-1)
-  - [**Driver 2: Recomendaciones Personalizadas (AD-2)**](#driver-2-recomendaciones-personalizadas-ad-2)
-  - [**Driver 3: Integración con Servicios Financieros Externos (AD-3)**](#driver-3-integración-con-servicios-financieros-externos-ad-3)
-  - [**Driver 4: Predicción de Gastos Futuros (AD-4)**](#driver-4-predicción-de-gastos-futuros-ad-4)
-  - [**Driver 5: Seguridad de los Datos Financieros (AD-5)**](#driver-5-seguridad-de-los-datos-financieros-ad-5)
-  - [**Driver 6: Optimización del Desempeño en Dispositivos Móviles (AD-6)**](#driver-6-optimización-del-desempeño-en-dispositivos-móviles-ad-6)
-  - [**Driver 7: Escalabilidad del Sistema (AD-7)**](#driver-7-escalabilidad-del-sistema-ad-7)
-  - [**Driver 8: Integración de Inteligencia Artificial y Machine Learning (AD-8)**](#driver-8-integración-de-inteligencia-artificial-y-machine-learning-ad-8)
-  - [**Driver 9: Cumplimiento de Normativas Financieras (AD-9)**](#driver-9-cumplimiento-de-normativas-financieras-ad-9)
-  - [**Driver 10: Soporte para Android (AD-10)**](#driver-10-soporte-para-android-ad-10)
-    - [4.1.5. Quality Attribute Scenario Refinements.](#415-quality-attribute-scenario-refinements)
+  - - [4.1.5. Quality Attribute Scenario Refinements.](#415-quality-attribute-scenario-refinements)
   - [4.2. Strategic-Level Domain-Driven Design.](#42-strategic-level-domain-driven-design)
     - [4.2.1. EventStorming.](#421-eventstorming)
+      - [Eventos Clave](#eventos-clave)
+      - [Acciones del Usuario](#acciones-del-usuario)
+      - [Flujo 1: Registro y configuración inicial](#flujo-1-registro-y-configuración-inicial)
+      - [Flujo 2: Creación y gestión de metas financieras](#flujo-2-creación-y-gestión-de-metas-financieras)
+      - [Flujo 3: Educación financiera gamificada](#flujo-3-educación-financiera-gamificada)
+      - [Flujo 4: Interacción con el chatbot financiero](#flujo-4-interacción-con-el-chatbot-financiero)
+      - [Flujo 5: Visualización de progreso financiero](#flujo-5-visualización-de-progreso-financiero)
     - [4.2.2. Candidate Context Discovery.](#422-candidate-context-discovery)
     - [4.2.3. Domain Message Flows Modeling.](#423-domain-message-flows-modeling)
     - [4.2.4. Bounded Context Canvases.](#424-bounded-context-canvases)
@@ -130,7 +127,7 @@ Producto: PonteBarbón
     - [4.3.2. Software Architecture Container Level Diagrams.](#432-software-architecture-container-level-diagrams)
     - [4.3.3. Software Architecture Deployment Diagrams.](#433-software-architecture-deployment-diagrams)
 - [Capítulo V: Tactical-Level Software Design.](#capítulo-v-tactical-level-software-design)
-  - [5.1. Bounded Context: "Bounded Context Name"](#51-bounded-context-bounded-context-name)
+  - [5.1. Bounded Context: &#34;Bounded Context Name&#34;](#51-bounded-context-bounded-context-name)
     - [5.1.1. Domain Layer.](#511-domain-layer)
     - [5.1.2. Interface Layer.](#512-interface-layer)
     - [5.1.3. Application Layer.](#513-application-layer)
@@ -205,6 +202,7 @@ Producto: PonteBarbón
         <strong>TB1:</strong>
         <p><strong>Nombre: Brayan Smith Morales Quispe</strong> En el desarrollo del proyecto PonteBarbón, he aprendido a comunicar de manera efectiva los resultados de la investigación y la solución propuesta, ajustando el nivel de complejidad del mensaje según el público.</p>
 <p><strong>Nombre: Fernando Daniel Quispe Condori</strong> En el desarrollo de esta entrega pude alcanzar este objetivo específico coordinando con mi equipo las ideas que tenía para así coordinar y buscar un acuerdo para una solución.</p>
+<p><strong>Nombre: Carlos Alberto Ochoa Colonia</strong> En esta entrega pude desarrollar este objetivo colaborativamente resolviendo dudas y comunicando mis ideas sobre el event storming.</p>
       </td>
       <td>
         <strong>TB1:</strong>
@@ -218,6 +216,7 @@ Producto: PonteBarbón
         <strong>TB1:</strong>
         <p><strong>Nombre: Brayan Smith Morales Quispe</strong> Las descripciones de las funcionalidades, la implementación de la inteligencia artificial y los módulos de aprendizaje fueron bien detalladas, pero siempre con un enfoque accesible.</p>
 <p><strong>Nombre: Fernando Daniel Quispe Condori</strong> En la entrega pude ser capaz de desarrollar los artefactos que nos permiten experesar las ideas de nuestro proyecto.</p>
+<p><strong>Nombre: Carlos Alberto Ochoa Colonia</strong> En esta entrega desarrolle los artefactos y de esa manera pude alcanzar los objetivos de manera escrita.</p>
       </td>
       <td>
         <strong>TB1:</strong>
@@ -294,15 +293,15 @@ PonteBarbón se posiciona como una solución educativa accesible, escalable y ce
 
 En esta sección se presenta una aproximación preliminar a la descripción de los antecedentes y la problemática que aborda la solución PonteBarbón. Se utiliza la técnica de las **5W y 2H** (Quién, Qué, Dónde, Cuándo, Por qué, Cómo y Cuánto) para identificar los elementos clave del problema y la posible solución que ofrecerá la aplicación.
 
-| Elemento           | Descripción                                                                                                                                                                                                                                                                                                                                                  |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **WHO**      | **Equipo:** CampArquiUPC  `<br>` **Usuarios:** Estudiantes universitarios que desean mejorar su educación financiera y gestión de finanzas personales.                                                                                                                                                                                        |
-| **WHAT**     | **Producto/Servicio:** PonteBarbón, una app móvil educativa y de gestión financiera que usa IA para brindar recomendaciones personalizadas y acompañamiento con chatbot. `<br>` **Problema/Necesidad:** Deficiente cultura financiera entre jóvenes universitarios, lo que limita su capacidad de ahorro, inversión y toma de decisiones. |
-| **WHERE**    | **Ubicación:** Perú (foco inicial en universidades peruanas). `<br>` **Entorno:** Académico, financiero y digital.                                                                                                                                                                                                                           |
-| **WHEN**     | **Momento:** Contexto post-pandemia, con alto uso de apps fintech y urgencia por formar hábitos financieros saludables en jóvenes.                                                                                                                                                                                                                    |
-| **WHY**      | **Causas:** Formación académica sin enfoque práctico en finanzas personales, acceso fácil al crédito sin acompañamiento educativo. `<br>` **Consecuencias:** Malas decisiones financieras, endeudamiento temprano, bajo ahorro y estrés económico.                                                                                      |
-| **HOW**      | **Solución:** PonteBarbón ofrecerá recomendaciones, seguimiento y educación financiera a través de IA entrenada en patrones de uso. Incluirá un chatbot interactivo para resolver dudas en tiempo real.                                                                                                                                           |
-| **HOW MUCH** | **Costo:** Modelo freemium con funcionalidades básicas gratuitas y módulos premium por suscripción. `<br>` **Impacto:** Aumento en el conocimiento financiero, mejores decisiones económicas, hábitos de ahorro sostenibles.                                                                                                               |
+| Elemento           | Descripción                                                                                                                                                                                                                                                                                                                                          |
+| ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **WHO**      | **Equipo:** CampArquiUPC   **Usuarios:** Estudiantes universitarios que desean mejorar su educación financiera y gestión de finanzas personales.                                                                                                                                                                                        |
+| **WHAT**     | **Producto/Servicio:** PonteBarbón, una app móvil educativa y de gestión financiera que usa IA para brindar recomendaciones personalizadas y acompañamiento con chatbot.  **Problema/Necesidad:** Deficiente cultura financiera entre jóvenes universitarios, lo que limita su capacidad de ahorro, inversión y toma de decisiones. |
+| **WHERE**    | **Ubicación:** Perú (foco inicial en universidades peruanas).  **Entorno:** Académico, financiero y digital.                                                                                                                                                                                                                           |
+| **WHEN**     | **Momento:** Contexto post-pandemia, con alto uso de apps fintech y urgencia por formar hábitos financieros saludables en jóvenes.                                                                                                                                                                                                            |
+| **WHY**      | **Causas:** Formación académica sin enfoque práctico en finanzas personales, acceso fácil al crédito sin acompañamiento educativo.  **Consecuencias:** Malas decisiones financieras, endeudamiento temprano, bajo ahorro y estrés económico.                                                                                      |
+| **HOW**      | **Solución:** PonteBarbón ofrecerá recomendaciones, seguimiento y educación financiera a través de IA entrenada en patrones de uso. Incluirá un chatbot interactivo para resolver dudas en tiempo real.                                                                                                                                   |
+| **HOW MUCH** | **Costo:** Modelo freemium con funcionalidades básicas gratuitas y módulos premium por suscripción.   **Impacto:** Aumento en el conocimiento financiero, mejores decisiones económicas, hábitos de ahorro sostenibles.                                                                                                              |
 
 ### 1.2.2. Lean UX Process
 
@@ -373,21 +372,21 @@ Este apartado resume nuestras suposiciones clave sobre los usuarios, sus necesid
 
 #### 1.2.2.4. Lean UX Canvas
 
-| **Business Problem**                                                                                                                                                                                                                                                                                                                                                                                                       | **Solution Ideas**                                                                                                                                                                                                                                                                                                                                                       | **Business Outcomes**                                                                                                                                                                                                                                                                 |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Estudiantes universitarios enfrentan dificultades para gestionar sus finanzas personales de forma eficiente y sostenible.`<br><br>`Esto se debe a:`<br>`• Falta de educación financiera práctica.`<br>`• Poco acceso a asesoramiento adaptado a su realidad económica.`<br>`• Ausencia de herramientas personalizadas y fáciles de usar.`<br>`• Baja motivación para adoptar hábitos financieros saludables. | Aplicación móvil PonteBarbón que utiliza inteligencia artificial para:`<br>`• Brindar recomendaciones personalizadas según comportamiento de gasto.`<br>`• Ofrecer acompañamiento mediante un chatbot financiero.`<br>`• Visualizar el progreso financiero de manera interactiva.`<br>`• Enseñar conceptos financieros mediante microcontenidos gamificados. | • Reducción de errores financieros entre estudiantes.`<br>`• Aumento de la cultura de ahorro y control del gasto.`<br>`• Incremento en el uso de herramientas financieras entre jóvenes.`<br>`• Fidelización de usuarios a través de una experiencia educativa personalizada. |
+| **Business Problem**                                                                                                                                                                                                                                                                                                                                                                        | **Solution Ideas**                                                                                                                                                                                                                                                                                                                           | **Business Outcomes**                                                                                                                                                                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Estudiantes universitarios enfrentan dificultades para gestionar sus finanzas personales de forma eficiente y sostenible.      Esto se debe a: ' '• Falta de educación financiera práctica. • Poco acceso a asesoramiento adaptado a su realidad económica. • Ausencia de herramientas personalizadas y fáciles de usar. • Baja motivación para adoptar hábitos financieros saludables. | Aplicación móvil PonteBarbón que utiliza inteligencia artificial para: • Brindar recomendaciones personalizadas según comportamiento de gasto. • Ofrecer acompañamiento mediante un chatbot financiero. • Visualizar el progreso financiero de manera interactiva. • Enseñar conceptos financieros mediante microcontenidos gamificados. | • Reducción de errores financieros entre estudiantes. • Aumento de la cultura de ahorro y control del gasto. • Incremento en el uso de herramientas financieras entre jóvenes. • Fidelización de usuarios a través de una experiencia educativa personalizada. |
 
-| **Users & Customers**                                                                                                                                                                                                                               | **User Benefits**                                                                                                                                                                                                                                                                                                            |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Users:** Estudiantes universitarios con interés en mejorar sus finanzas personales.`<br>`**Customers:** Universidades, incubadoras educativas, o instituciones financieras interesadas en fomentar educación financiera entre jóvenes. | • Recibir recomendaciones personalizadas y contextualizadas.`<br>`• Aprender a ahorrar, presupuestar y evitar deudas.`<br>`• Visualizar metas financieras y progreso con gráficos.`<br>`• Resolver dudas en tiempo real con un chatbot.`<br>`• Acceder a contenidos gamificados que hacen el aprendizaje más ameno. |
+| **Users & Customers**                                                                                                                                                                                                                        | **User Benefits**                                                                                                                                                                                                                                                                                |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Users:** Estudiantes universitarios con interés en mejorar sus finanzas personales. **Customers:** Universidades, incubadoras educativas, o instituciones financieras interesadas en fomentar educación financiera entre jóvenes. | • Recibir recomendaciones personalizadas y contextualizadas. • Aprender a ahorrar, presupuestar y evitar deudas. • Visualizar metas financieras y progreso con gráficos. • Resolver dudas en tiempo real con un chatbot. • Acceder a contenidos gamificados que hacen el aprendizaje más ameno. |
 
-| **Hypotheses**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| • Los estudiantes estarán más motivados a usar la app si se les ofrece contenido personalizado y visualmente atractivo.`<br>`• Un chatbot que responde dudas en tiempo real mejorará la retención de usuarios.`<br>`• El acompañamiento constante aumentará la probabilidad de adquirir buenos hábitos financieros.`<br>`• El progreso visual y la gamificación reforzarán la constancia en el uso.`<br>`• Explicar los beneficios del ahorro y la planificación aumentará la percepción de valor de la app. |
+| **Hypotheses**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| • Los estudiantes estarán más motivados a usar la app si se les ofrece contenido personalizado y visualmente atractivo. • Un chatbot que responde dudas en tiempo real mejorará la retención de usuarios. • El acompañamiento constante aumentará la probabilidad de adquirir buenos hábitos financieros. • El progreso visual y la gamificación reforzarán la constancia en el uso. • Explicar los beneficios del ahorro y la planificación aumentará la percepción de valor de la app. |
 
-| **What’s the most important thing we need to learn first?**                                                                                                                                                      | **What’s the least amount of work we need to do to learn the next most important thing?**                                                                                                                                                                                            |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ¿Las recomendaciones personalizadas basadas en IA y el chatbot realmente ayudan a los estudiantes a tomar mejores decisiones financieras?`<br>`¿Cómo prefieren aprender los estudiantes sobre finanzas personales? | Desarrollar un prototipo funcional con:`<br>`• Chatbot básico con respuestas comunes.`<br>`• Módulo de visualización de metas y gastos.`<br>`• Un set de microlecciones gamificadas.`<br>`Probar con estudiantes y medir impacto en toma de decisiones financieras iniciales. |
+| **What’s the most important thing we need to learn first?**                                                                                                                                               | **What’s the least amount of work we need to do to learn the next most important thing?**                                                                                                                                                                |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ¿Las recomendaciones personalizadas basadas en IA y el chatbot realmente ayudan a los estudiantes a tomar mejores decisiones financieras? ¿Cómo prefieren aprender los estudiantes sobre finanzas personales? | Desarrollar un prototipo funcional con: • Chatbot básico con respuestas comunes. • Módulo de visualización de metas y gastos. • Un set de microlecciones gamificadas. Probar con estudiantes y medir impacto en toma de decisiones financieras iniciales. |
 
 ## 1.3. Segmentos objetivo
 
@@ -1268,13 +1267,13 @@ Esta sección recoge los inputs fundamentales para la toma de decisiones de dise
 
 Se han seleccionado las User Stories con mayor relevancia funcional y que afectan directamente la arquitectura de la solución en el contexto de software emergentes. Estas incluyen:
 
-| ID       | Título                             | Historia de Usuario                                                                                                                                            | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Epic Relacionada |
-| -------- | ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------- |
-| SCRUM-22 | Resumen mensual de movimientos      | Como usuario, quiero recibir un resumen mensual de mis movimientos financieros, para evaluar mi comportamiento de gastos e ingresos.                           | **Escenario 1: Generación de resumen mensual** `<br>`- Given que el usuario solicita el resumen mensual.`<br>`- When el sistema procesa los movimientos del mes.`<br>`- Then el sistema genera un informe detallado con los ingresos y gastos.`<br><br>`**Escenario 2: Visualización de resumen** `<br>`- Given que el resumen está generado.`<br>`- When el usuario accede a la sección de resumen mensual.`<br>`- Then se muestra un desglose detallado de los movimientos financieros del mes.                                                | SCRUM-4          |
-| SCRUM-16 | Chatbot financiero con IA           | Como usuario, quiero interactuar con un chatbot inteligente, para obtener respuestas rápidas a mis preguntas financieras.                                     | **Escenario 1: Interacción básica con el chatbot** `<br>`- Given que el usuario accede al chatbot.`<br>`- When escribe una pregunta.`<br>`- Then el sistema responde con información precisa.`<br><br>`**Escenario 2: Consulta no comprendida** `<br>`- Given que el chatbot no entiende la consulta.`<br>`- When ocurre esto.`<br>`- Then sugiere reformular o contactar soporte humano.                                                                                                                                                         | SCRUM-6          |
-| SCRUM-15 | Recomendaciones de Aprendizaje      | Como usuario, quiero recibir recomendaciones personalizadas de aprendizaje, para enfocar mis esfuerzos en lo que más necesito mejorar.                        | **Escenario 1: Recomendaciones basadas en progreso** `<br>`- Given que el sistema analiza el progreso del usuario.`<br>`- When se detectan áreas de mejora.`<br>`- Then se muestran recomendaciones relevantes.`<br><br>`**Escenario 2: Notificación de nuevo contenido** `<br>`- Given que el usuario consulta su panel de aprendizaje.`<br>`- When hay contenido nuevo sugerido.`<br>`- Then se notifica visiblemente.                                                                                                                           | SCRUM-6          |
-| SCRUM-26 | Predicción de gastos futuros       | Como usuario, quiero recibir predicciones de mis gastos futuros, para poder planificar mejor mis finanzas.                                                     | **Escenario 1: Predicción de gasto futuro basado en patrones** `<br>`- Given que el sistema ha registrado varios patrones de gasto.`<br>`- When el usuario solicita una predicción.`<br>`- Then el sistema muestra una estimación de los gastos para el próximo mes.`<br><br>`**Escenario 2: Ajuste de predicción por variación de gastos** `<br>`- Given que el usuario ha ajustado su presupuesto o gasto.`<br>`- When el sistema recalcula los gastos.`<br>`- Then se actualiza la predicción de gastos futuros.                           | SCRUM-6          |
-| SCRUM-19 | Alertas con consejos personalizados | Como usuario, quiero recibir alertas con consejos personalizados relacionados a mi comportamiento financiero, para mejorar la administración de mis finanzas. | **Escenario 1: Consejos personalizados por comportamiento de gastos** `<br>`- Given que el sistema ha detectado patrones de gastos inusuales.`<br>`- When el usuario supera un umbral de gasto.`<br>`- Then el sistema envía una alerta con un consejo personalizado para optimizar sus gastos.`<br><br>`**Escenario 2: Consejos de ahorro basado en metas** `<br>`- Given que el usuario tiene una meta de ahorro.`<br>`- When el progreso hacia la meta es lento.`<br>`- Then el sistema envía un consejo personalizado para aumentar el ahorro. | SCRUM-5          |
+| ID       | Título                             | Historia de Usuario                                                                                                                                            | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Epic Relacionada |
+| -------- | ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
+| SCRUM-22 | Resumen mensual de movimientos      | Como usuario, quiero recibir un resumen mensual de mis movimientos financieros, para evaluar mi comportamiento de gastos e ingresos.                           | **Escenario 1: Generación de resumen mensual**  - Given que el usuario solicita el resumen mensual. - When el sistema procesa los movimientos del mes. - Then el sistema genera un informe detallado con los ingresos y gastos.  **Escenario 2: Visualización de resumen**  - Given que el resumen está generado. - When el usuario accede a la sección de resumen mensual. - Then se muestra un desglose detallado de los movimientos financieros del mes.                                                | SCRUM-4          |
+| SCRUM-16 | Chatbot financiero con IA           | Como usuario, quiero interactuar con un chatbot inteligente, para obtener respuestas rápidas a mis preguntas financieras.                                     | **Escenario 1: Interacción básica con el chatbot**  - Given que el usuario accede al chatbot. - When escribe una pregunta. - Then el sistema responde con información precisa.  **Escenario 2: Consulta no comprendida**  - Given que el chatbot no entiende la consulta. - When ocurre esto. - Then sugiere reformular o contactar soporte humano.                                                                                                                                                         | SCRUM-6          |
+| SCRUM-15 | Recomendaciones de Aprendizaje      | Como usuario, quiero recibir recomendaciones personalizadas de aprendizaje, para enfocar mis esfuerzos en lo que más necesito mejorar.                        | **Escenario 1: Recomendaciones basadas en progreso**  - Given que el sistema analiza el progreso del usuario. - When se detectan áreas de mejora. - Then se muestran recomendaciones relevantes.  **Escenario 2: Notificación de nuevo contenido**  - Given que el usuario consulta su panel de aprendizaje. - When hay contenido nuevo sugerido. - Then se notifica visiblemente.                                                                                                                           | SCRUM-6          |
+| SCRUM-26 | Predicción de gastos futuros       | Como usuario, quiero recibir predicciones de mis gastos futuros, para poder planificar mejor mis finanzas.                                                     | **Escenario 1: Predicción de gasto futuro basado en patrones**  - Given que el sistema ha registrado varios patrones de gasto. - When el usuario solicita una predicción. - Then el sistema muestra una estimación de los gastos para el próximo mes.  **Escenario 2: Ajuste de predicción por variación de gastos**  - Given que el usuario ha ajustado su presupuesto o gasto. - When el sistema recalcula los gastos. - Then se actualiza la predicción de gastos futuros.                           | SCRUM-6          |
+| SCRUM-19 | Alertas con consejos personalizados | Como usuario, quiero recibir alertas con consejos personalizados relacionados a mi comportamiento financiero, para mejorar la administración de mis finanzas. | **Escenario 1: Consejos personalizados por comportamiento de gastos**  - Given que el sistema ha detectado patrones de gastos inusuales. - When el usuario supera un umbral de gasto. - Then el sistema envía una alerta con un consejo personalizado para optimizar sus gastos.  **Escenario 2: Consejos de ahorro basado en metas**  - Given que el usuario tiene una meta de ahorro. - When el progreso hacia la meta es lento. - Then el sistema envía un consejo personalizado para aumentar el ahorro. | SCRUM-5          |
 
 #### 4.1.2.2. Quality attribute Scenarios.
 
@@ -1337,13 +1336,13 @@ A continuación se presenta el **Architectural Drivers Backlog**:
 
 A continuación, se presentan las decisiones de diseño arquitectónico tomadas en el proyecto. Para cada Driver, se evaluaron diversos patrones candidatos, considerando sus pros y contras, y se seleccionó el patrón más adecuado.
 
-## **Driver 1: Gestión de Finanzas en Tiempo Real (AD-1)**
+**Driver 1: Gestión de Finanzas en Tiempo Real (AD-1)**
 
-| **Pattern**                                         | **Pro**                                                                                                                | **Con**                                                                                                                   |
-| --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| **Event-Driven Architecture (EDA)**                 | - Alta escalabilidad y flexibilidad para manejar eventos en tiempo real.`<br>`- Desacoplamiento de componentes.            | - Complejidad en la gestión de eventos.`<br>`- Requiere infraestructura robusta para asegurar la entrega de eventos.         |
-| **Microservices**                                   | - Escalabilidad independiente de cada servicio.`<br>`- Mejora la resiliencia del sistema al dividirlo en servicios.        | - Mayor sobrecarga en la gestión y comunicación entre servicios.`<br>`- Requiere un control más estricto de la seguridad.  |
-| **CQRS (Command Query Responsibility Segregation)** | - Mejor rendimiento en sistemas con alta carga de lectura y escritura.`<br>`- Separación clara entre lectura y escritura. | - Complejidad adicional en la implementación.`<br>`- Puede generar duplicación de datos y mayor necesidad de mantenimiento. |
+| **Pattern**                                         | **Pro**                                                                                                         | **Con**                                                                                                            |
+| --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| **Event-Driven Architecture (EDA)**                 | - Alta escalabilidad y flexibilidad para manejar eventos en tiempo real. - Desacoplamiento de componentes.            | - Complejidad en la gestión de eventos. - Requiere infraestructura robusta para asegurar la entrega de eventos.         |
+| **Microservices**                                   | - Escalabilidad independiente de cada servicio. - Mejora la resiliencia del sistema al dividirlo en servicios.        | - Mayor sobrecarga en la gestión y comunicación entre servicios. - Requiere un control más estricto de la seguridad.  |
+| **CQRS (Command Query Responsibility Segregation)** | - Mejor rendimiento en sistemas con alta carga de lectura y escritura. - Separación clara entre lectura y escritura. | - Complejidad adicional en la implementación. - Puede generar duplicación de datos y mayor necesidad de mantenimiento. |
 
 **Decisión de Diseño:**
 
@@ -1352,13 +1351,13 @@ A continuación, se presentan las decisiones de diseño arquitectónico tomadas 
 
 ---
 
-## **Driver 2: Recomendaciones Personalizadas (AD-2)**
+**Driver 2: Recomendaciones Personalizadas (AD-2)**
 
-| **Pattern**                     | **Pro**                                                                                                                                      | **Con**                                                                                                                                       |
-| ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Layered Architecture**        | - Fácil de implementar y entender.`<br>`- Modulariza las capas de lógica, facilitando el mantenimiento.                                        | - Rigidez en la adaptación a nuevos requisitos.`<br>`- Menos flexible frente a cambios rápidos o complejos.                                     |
-| **Microservices**               | - Cada servicio puede ser especializado y escalado de forma independiente.`<br>`- Facilita la actualización de componentes sin afectar a otros. | - Aumenta la complejidad en la gestión y despliegue.`<br>`- Requiere una infraestructura compleja para manejar la comunicación entre servicios. |
-| **Model-View-Controller (MVC)** | - Buena separación de preocupaciones.`<br>`- Fácil de implementar en aplicaciones con interacción sencilla.                                   | - No es adecuado para sistemas complejos.`<br>`- Puede volverse difícil de manejar cuando las recomendaciones son dinámicas.                    |
+| **Pattern**                     | **Pro**                                                                                                                               | **Con**                                                                                                                                |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Layered Architecture**        | - Fácil de implementar y entender. - Modulariza las capas de lógica, facilitando el mantenimiento.                                        | - Rigidez en la adaptación a nuevos requisitos. - Menos flexible frente a cambios rápidos o complejos.                                     |
+| **Microservices**               | - Cada servicio puede ser especializado y escalado de forma independiente. - Facilita la actualización de componentes sin afectar a otros. | - Aumenta la complejidad en la gestión y despliegue. - Requiere una infraestructura compleja para manejar la comunicación entre servicios. |
+| **Model-View-Controller (MVC)** | - Buena separación de preocupaciones. - Fácil de implementar en aplicaciones con interacción sencilla.                                   | - No es adecuado para sistemas complejos. - Puede volverse difícil de manejar cuando las recomendaciones son dinámicas.                    |
 
 **Decisión de Diseño:**
 
@@ -1367,13 +1366,13 @@ A continuación, se presentan las decisiones de diseño arquitectónico tomadas 
 
 ---
 
-## **Driver 3: Integración con Servicios Financieros Externos (AD-3)**
+**Driver 3: Integración con Servicios Financieros Externos (AD-3)**
 
-| **Pattern**                             | **Pro**                                                                                                                               | **Con**                                                                                                                   |
-| --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| **API Gateway**                         | - Centraliza la gestión de APIs externas.`<br>`- Mejora la seguridad y control de acceso.`<br>`- Facilita el enrutamiento.             | - Puede convertirse en un punto único de fallo.`<br>`- Requiere una configuración adecuada para evitar cuellos de botella.  |
-| **Service-Oriented Architecture (SOA)** | - Facilita la interoperabilidad entre servicios externos.`<br>`- Arquitectura flexible y modular.                                         | - Mayor complejidad al gestionar múltiples servicios.`<br>`- Los costos pueden ser altos debido a la integración constante. |
-| **Microservices**                       | - Escalabilidad y flexibilidad al manejar microservicios independientes.`<br>`- Facilita la integración de nuevos servicios financieros. | - Aumento en la complejidad de gestión.`<br>`- Requiere un enfoque riguroso en la seguridad de cada servicio.                |
+| **Pattern**                             | **Pro**                                                                                                                        | **Con**                                                                                                            |
+| --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ |
+| **API Gateway**                         | - Centraliza la gestión de APIs externas. - Mejora la seguridad y control de acceso. - Facilita el enrutamiento.                    | - Puede convertirse en un punto único de fallo. - Requiere una configuración adecuada para evitar cuellos de botella.  |
+| **Service-Oriented Architecture (SOA)** | - Facilita la interoperabilidad entre servicios externos. - Arquitectura flexible y modular.                                         | - Mayor complejidad al gestionar múltiples servicios. - Los costos pueden ser altos debido a la integración constante. |
+| **Microservices**                       | - Escalabilidad y flexibilidad al manejar microservicios independientes. - Facilita la integración de nuevos servicios financieros. | - Aumento en la complejidad de gestión. - Requiere un enfoque riguroso en la seguridad de cada servicio.                |
 
 **Decisión de Diseño:**
 
@@ -1382,12 +1381,12 @@ A continuación, se presentan las decisiones de diseño arquitectónico tomadas 
 
 ---
 
-## **Driver 4: Predicción de Gastos Futuros (AD-4)**
+**Driver 4: Predicción de Gastos Futuros (AD-4)**
 
-| **Pattern**           | **Pro**                                                                                                      | **Con**                                                                                                               |
-| --------------------------- | ------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
-| **Machine Learning**  | - Capaz de aprender patrones complejos y realizar predicciones precisas.`<br>`- Adaptación dinámica a cambios. | - Requiere grandes volúmenes de datos para entrenar los modelos.`<br>`- La implementación puede ser costosa y compleja. |
-| **Rule-Based System** | - Simple de implementar y fácil de entender.`<br>`- No requiere grandes volúmenes de datos.                    | - Limitado en capacidad para aprender de datos nuevos.`<br>`- No tan flexible para situaciones complejas.                 |
+| **Pattern**           | **Pro**                                                                                               | **Con**                                                                                                        |
+| --------------------------- | ----------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| **Machine Learning**  | - Capaz de aprender patrones complejos y realizar predicciones precisas. - Adaptación dinámica a cambios. | - Requiere grandes volúmenes de datos para entrenar los modelos. - La implementación puede ser costosa y compleja. |
+| **Rule-Based System** | - Simple de implementar y fácil de entender. - No requiere grandes volúmenes de datos.                    | - Limitado en capacidad para aprender de datos nuevos. - No tan flexible para situaciones complejas.                 |
 
 **Decisión de Diseño:**
 
@@ -1396,13 +1395,13 @@ A continuación, se presentan las decisiones de diseño arquitectónico tomadas 
 
 ---
 
-## **Driver 5: Seguridad de los Datos Financieros (AD-5)**
+**Driver 5: Seguridad de los Datos Financieros (AD-5)**
 
-| **Pattern**                           | **Pro**                                                                                                           | **Con**                                                                                                                   |
-| ------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| **Zero Trust Security Model**         | - Máxima seguridad mediante la verificación constante.`<br>`- Minimiza la superficie de ataque.                     | - Requiere una infraestructura robusta y continua vigilancia.`<br>`- Puede generar latencia adicional en la autenticación.   |
-| **Encryption Everywhere**             | - Asegura que los datos estén protegidos tanto en tránsito como en reposo.`<br>`- Alta confianza para los usuarios. | - Requiere procesamiento adicional, lo que puede afectar el rendimiento.`<br>`- Gestión compleja de claves de encriptación. |
-| **Multi-Factor Authentication (MFA)** | - Añade una capa adicional de seguridad.`<br>`- Reducción significativa del riesgo de acceso no autorizado.         | - Puede ser intrusivo para los usuarios.`<br>`- Necesita ser implementado en todos los puntos de acceso.                      |
+| **Pattern**                           | **Pro**                                                                                                    | **Con**                                                                                                            |
+| ------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| **Zero Trust Security Model**         | - Máxima seguridad mediante la verificación constante. - Minimiza la superficie de ataque.                     | - Requiere una infraestructura robusta y continua vigilancia. - Puede generar latencia adicional en la autenticación.   |
+| **Encryption Everywhere**             | - Asegura que los datos estén protegidos tanto en tránsito como en reposo. - Alta confianza para los usuarios. | - Requiere procesamiento adicional, lo que puede afectar el rendimiento. - Gestión compleja de claves de encriptación. |
+| **Multi-Factor Authentication (MFA)** | - Añade una capa adicional de seguridad. - Reducción significativa del riesgo de acceso no autorizado.         | - Puede ser intrusivo para los usuarios. - Necesita ser implementado en todos los puntos de acceso.                      |
 
 **Decisión de Diseño:**
 
@@ -1411,13 +1410,13 @@ A continuación, se presentan las decisiones de diseño arquitectónico tomadas 
 
 ---
 
-## **Driver 6: Optimización del Desempeño en Dispositivos Móviles (AD-6)**
+**Driver 6: Optimización del Desempeño en Dispositivos Móviles (AD-6)**
 
-| **Pattern**                    | **Pro**                                                                                                                                    | **Con**                                                                                                                    |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
-| **Mobile-First Design**        | - Optimiza la experiencia de usuario para dispositivos móviles.`<br>`- Asegura que la aplicación sea ligera y rápida.                       | - Puede dificultar la adaptabilidad para plataformas no móviles.`<br>`- Requiere un enfoque específico para la UI.           |
-| **Progressive Web Apps (PWA)** | - Permite el uso de la aplicación sin necesidad de una conexión constante.`<br>`- Mejora la experiencia de usuario en dispositivos móviles. | - Requiere infraestructura adicional para soporte de servicios offline.`<br>`- Menor rendimiento que las aplicaciones nativas. |
-| **Native Mobile App**          | - Mejor rendimiento y acceso a recursos nativos del dispositivo.`<br>`- Experiencia de usuario más fluida.                                    | - Requiere desarrollo específico para cada plataforma.`<br>`- Costoso en términos de tiempo y recursos.                      |
+| **Pattern**                    | **Pro**                                                                                                                             | **Con**                                                                                                             |
+| ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| **Mobile-First Design**        | - Optimiza la experiencia de usuario para dispositivos móviles. - Asegura que la aplicación sea ligera y rápida.                       | - Puede dificultar la adaptabilidad para plataformas no móviles. - Requiere un enfoque específico para la UI.           |
+| **Progressive Web Apps (PWA)** | - Permite el uso de la aplicación sin necesidad de una conexión constante. - Mejora la experiencia de usuario en dispositivos móviles. | - Requiere infraestructura adicional para soporte de servicios offline. - Menor rendimiento que las aplicaciones nativas. |
+| **Native Mobile App**          | - Mejor rendimiento y acceso a recursos nativos del dispositivo. - Experiencia de usuario más fluida.                                    | - Requiere desarrollo específico para cada plataforma. - Costoso en términos de tiempo y recursos.                      |
 
 **Decisión de Diseño:**
 
@@ -1426,13 +1425,13 @@ A continuación, se presentan las decisiones de diseño arquitectónico tomadas 
 
 ---
 
-## **Driver 7: Escalabilidad del Sistema (AD-7)**
+**Driver 7: Escalabilidad del Sistema (AD-7)**
 
-| **Pattern**                         | **Pro**                                                                                                                          | **Con**                                                                                                                           |
-| ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| **Microservices**                   | - Escalabilidad independiente de cada servicio.`<br>`- Mejora la resiliencia del sistema al dividirlo en servicios.                  | - Aumenta la complejidad en la gestión.`<br>`- Requiere infraestructura más avanzada para manejar la comunicación entre servicios. |
-| **Event-Driven Architecture (EDA)** | - Escalabilidad a través del manejo eficiente de eventos.`<br>`- Flexibilidad para agregar nuevos servicios sin afectar el sistema. | - Requiere un sistema robusto para gestionar eventos.`<br>`- Puede ser difícil de implementar y mantener en sistemas grandes.        |
-| **Cloud-Native Architecture**       | - Escalabilidad automática con servicios en la nube.`<br>`- Adaptabilidad para manejar cargas variables.                            | - Puede ser más costoso debido a los recursos en la nube.`<br>`- Requiere una infraestructura adecuada para la implementación.      |
+| **Pattern**                         | **Pro**                                                                                                                   | **Con**                                                                                                                    |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| **Microservices**                   | - Escalabilidad independiente de cada servicio. - Mejora la resiliencia del sistema al dividirlo en servicios.                  | - Aumenta la complejidad en la gestión. - Requiere infraestructura más avanzada para manejar la comunicación entre servicios. |
+| **Event-Driven Architecture (EDA)** | - Escalabilidad a través del manejo eficiente de eventos. - Flexibilidad para agregar nuevos servicios sin afectar el sistema. | - Requiere un sistema robusto para gestionar eventos. - Puede ser difícil de implementar y mantener en sistemas grandes.        |
+| **Cloud-Native Architecture**       | - Escalabilidad automática con servicios en la nube. - Adaptabilidad para manejar cargas variables.                            | - Puede ser más costoso debido a los recursos en la nube. - Requiere una infraestructura adecuada para la implementación.      |
 
 **Decisión de Diseño:**
 
@@ -1441,13 +1440,13 @@ A continuación, se presentan las decisiones de diseño arquitectónico tomadas 
 
 ---
 
-## **Driver 8: Integración de Inteligencia Artificial y Machine Learning (AD-8)**
+**Driver 8: Integración de Inteligencia Artificial y Machine Learning (AD-8)**
 
-| **Pattern**                 | **Pro**                                                                                                                                              | **Con**                                                                                                          |
-| --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| **Microservices**           | - Permite la integración de múltiples modelos y servicios de AI/ML de forma independiente.`<br>`- Escalabilidad.                                       | - Aumenta la complejidad en la gestión.`<br>`- Requiere una infraestructura robusta para manejar los modelos.       |
-| **Data Lake Architecture**  | - Permite almacenar grandes volúmenes de datos para entrenamiento de modelos.`<br>`- Flexibilidad para procesar datos estructurados y no estructurados. | - Requiere gran capacidad de almacenamiento.`<br>`- Puede ser complejo en términos de integración y mantenimiento. |
-| **Serverless Architecture** | - Facilita el escalado de funciones específicas de AI/ML.`<br>`- Menor costo por ejecución.                                                            | - Puede generar latencia adicional en procesos de AI/ML.`<br>`- No siempre adecuado para modelos muy grandes.        |
+| **Pattern**                 | **Pro**                                                                                                                                       | **Con**                                                                                                   |
+| --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| **Microservices**           | - Permite la integración de múltiples modelos y servicios de AI/ML de forma independiente. - Escalabilidad.                                       | - Aumenta la complejidad en la gestión. - Requiere una infraestructura robusta para manejar los modelos.       |
+| **Data Lake Architecture**  | - Permite almacenar grandes volúmenes de datos para entrenamiento de modelos. - Flexibilidad para procesar datos estructurados y no estructurados. | - Requiere gran capacidad de almacenamiento. - Puede ser complejo en términos de integración y mantenimiento. |
+| **Serverless Architecture** | - Facilita el escalado de funciones específicas de AI/ML. - Menor costo por ejecución.                                                            | - Puede generar latencia adicional en procesos de AI/ML. - No siempre adecuado para modelos muy grandes.        |
 
 **Decisión de Diseño:**
 
@@ -1456,12 +1455,12 @@ A continuación, se presentan las decisiones de diseño arquitectónico tomadas 
 
 ---
 
-## **Driver 9: Cumplimiento de Normativas Financieras (AD-9)**
+**Driver 9: Cumplimiento de Normativas Financieras (AD-9)**
 
-| **Pattern**                             | **Pro**                                                                                                                                                                 | **Con**                                                                                                                           |
-| --------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| **SOA (Service-Oriented Architecture)** | - Flexibilidad para adaptarse a normativas y cambios regulatorios.`<br>`- Facilidad para integrar nuevos servicios y componentes regulatorios.                              | - Aumento de la complejidad.`<br>`- Requiere una gestión más cuidadosa de los servicios.                                            |
-| **Domain-Driven Design (DDD)**          | - Escalabilidad y flexibilidad para realizar modificaciones rápidas.`<br>`- Adaptabilidad ante cambios normativos.`<br>`- Mejora la comprensión del dominio de negocio. | - Requiere una curva de aprendizaje para implementarlo correctamente.`<br>`- Puede ser complejo si el dominio no está bien definido. |
+| **Pattern**                             | **Pro**                                                                                                                                                   | **Con**                                                                                                                    |
+| --------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| **SOA (Service-Oriented Architecture)** | - Flexibilidad para adaptarse a normativas y cambios regulatorios. - Facilidad para integrar nuevos servicios y componentes regulatorios.                       | - Aumento de la complejidad. - Requiere una gestión más cuidadosa de los servicios.                                            |
+| **Domain-Driven Design (DDD)**          | - Escalabilidad y flexibilidad para realizar modificaciones rápidas. - Adaptabilidad ante cambios normativos. - Mejora la comprensión del dominio de negocio. | - Requiere una curva de aprendizaje para implementarlo correctamente. - Puede ser complejo si el dominio no está bien definido. |
 
 **Decisión de Diseño:**
 
@@ -1470,12 +1469,12 @@ A continuación, se presentan las decisiones de diseño arquitectónico tomadas 
 
 ---
 
-## **Driver 10: Soporte para Android (AD-10)**
+**Driver 10: Soporte para Android (AD-10)**
 
-| **Pattern**                            | **Pro**                                                                                                            | **Con**                                                                                                               |
-| -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
-| **Desarrollo Nativo (Kotlin/Java)**    | - Mejor rendimiento y experiencia de usuario en Android.`<br>`- Acceso completo a todas las funciones de Android.      | - Requiere desarrollo separado para otras plataformas.`<br>`- Más costoso en términos de tiempo y recursos.             |
-| **Cross-Platform Framework (Flutter)** | - Permite el desarrollo de aplicaciones para múltiples plataformas, incluyendo Android.`<br>`- Acelera el desarrollo. | - Puede no aprovechar al máximo las capacidades nativas de Android.`<br>`- Requiere manejo adicional para optimización. |
+| **Pattern**                            | **Pro**                                                                                                     | **Con**                                                                                                        |
+| -------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| **Desarrollo Nativo (Kotlin/Java)**    | - Mejor rendimiento y experiencia de usuario en Android. - Acceso completo a todas las funciones de Android.      | - Requiere desarrollo separado para otras plataformas. - Más costoso en términos de tiempo y recursos.             |
+| **Cross-Platform Framework (Flutter)** | - Permite el desarrollo de aplicaciones para múltiples plataformas, incluyendo Android. - Acelera el desarrollo. | - Puede no aprovechar al máximo las capacidades nativas de Android. - Requiere manejo adicional para optimización. |
 
 **Decisión de Diseño:**
 
@@ -1565,27 +1564,16 @@ El EventStorming nos permitió identificar de manera colaborativa los eventos cl
 #### Eventos Clave
 
 1. **El usuario descarga e instala la aplicación PonteBarbón.**
-
 2. **El usuario se registra o inicia sesión en la aplicación.**
-
 3. **El usuario completa su perfil financiero inicial (ingresos, gastos, objetivos).**
-
 4. **El sistema analiza el perfil y genera un plan financiero personalizado.**
-
 5. **El usuario navega entre módulos de educación financiera interactiva.**
-
 6. **El usuario interactúa con el chatbot para resolver dudas o recibir recomendaciones.**
-
 7. **El usuario crea una meta de ahorro o presupuesto personal.**
-
 8. **El sistema realiza un seguimiento automático de los progresos hacia la meta.**
-
 9. **El usuario recibe notificaciones de progreso o alertas de desviaciones de su presupuesto.**
-
 10. **El usuario ajusta o actualiza sus metas financieras en función de su evolución.**
-
 11. **El sistema entrena sus modelos internos basados en nuevos patrones de comportamiento.**
-
 12. **El usuario revisa su historial financiero y estadísticas de desempeño en la app.**
 
 Estos eventos constituyen la columna vertebral del flujo funcional de PonteBarbón, y cada uno de ellos se alinea con los objetivos de negocio de promover la educación financiera accesible, fomentar hábitos de ahorro y facilitar la toma de decisiones financieras responsables entre estudiantes universitarios.
@@ -1595,27 +1583,16 @@ Estos eventos constituyen la columna vertebral del flujo funcional de PonteBarb�
 Las acciones del usuario representan las interacciones directas que los estudiantes universitarios realizan dentro de la aplicación PonteBarbón para alcanzar sus objetivos financieros. Estas acciones fueron identificadas a partir del EventStorming colaborativo y se detallan a continuación:
 
 1. **Registrarse o iniciar sesión en la aplicación.**
-
 2. **Completar el perfil financiero inicial (ingresos, gastos, metas).**
-
 3. **Explorar y seleccionar módulos de aprendizaje financiero.**
-
 4. **Realizar consultas o recibir recomendaciones a través del chatbot financiero.**
-
 5. **Crear una meta de ahorro o un presupuesto mensual personalizado.**
-
 6. **Registrar gastos manualmente o vincular cuentas para seguimiento automático.**
-
 7. **Consultar su progreso hacia metas financieras en tiempo real.**
-
 8. **Ajustar o eliminar metas financieras según cambios en su situación personal.**
-
 9. **Participar en desafíos financieros gamificados (por ejemplo: "Ahorra $50 en 30 días").**
-
 10. **Configurar recordatorios de gastos, pagos o hábitos de ahorro.**
-
 11. **Consultar reportes financieros y visualizar estadísticas personalizadas.**
-
 12. **Proporcionar feedback sobre la experiencia de uso o funcionalidades del sistema.**
 
 Estas acciones reflejan el ciclo completo de interacción que un usuario típico seguiría en PonteBarbón, asegurando un acompañamiento personalizado y continuo en su educación y gestión financiera diaria.
