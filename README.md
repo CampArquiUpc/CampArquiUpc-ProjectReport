@@ -1261,13 +1261,251 @@ A continuacion se vera nuestro product backlog en la plataforma de jira donde es
 
 ### 4.2.1. EventStorming.
 
+El EventStorming nos permitió identificar de manera colaborativa los eventos clave que definen el flujo de interacción entre el usuario y la aplicación PonteBarbón, desde el registro inicial hasta la gestión de metas financieras personalizadas. Esta técnica facilitó la comprensión integral del dominio y sirvió como base para estructurar los contextos delimitados del sistema. A continuación, se describen los eventos clave:
+
+#### Eventos Clave
+
+1. **El usuario descarga e instala la aplicación PonteBarbón.**
+
+2. **El usuario se registra o inicia sesión en la aplicación.**
+
+3. **El usuario completa su perfil financiero inicial (ingresos, gastos, objetivos).**
+
+4. **El sistema analiza el perfil y genera un plan financiero personalizado.**
+
+5. **El usuario navega entre módulos de educación financiera interactiva.**
+
+6. **El usuario interactúa con el chatbot para resolver dudas o recibir recomendaciones.**
+
+7. **El usuario crea una meta de ahorro o presupuesto personal.**
+
+8. **El sistema realiza un seguimiento automático de los progresos hacia la meta.**
+
+9. **El usuario recibe notificaciones de progreso o alertas de desviaciones de su presupuesto.**
+
+10. **El usuario ajusta o actualiza sus metas financieras en función de su evolución.**
+
+11. **El sistema entrena sus modelos internos basados en nuevos patrones de comportamiento.**
+
+12. **El usuario revisa su historial financiero y estadísticas de desempeño en la app.**
+
+Estos eventos constituyen la columna vertebral del flujo funcional de PonteBarbón, y cada uno de ellos se alinea con los objetivos de negocio de promover la educación financiera accesible, fomentar hábitos de ahorro y facilitar la toma de decisiones financieras responsables entre estudiantes universitarios.
+
+#### Acciones del Usuario
+
+Las acciones del usuario representan las interacciones directas que los estudiantes universitarios realizan dentro de la aplicación PonteBarbón para alcanzar sus objetivos financieros. Estas acciones fueron identificadas a partir del EventStorming colaborativo y se detallan a continuación:
+
+1. **Registrarse o iniciar sesión en la aplicación.**
+
+2. **Completar el perfil financiero inicial (ingresos, gastos, metas).**
+
+3. **Explorar y seleccionar módulos de aprendizaje financiero.**
+
+4. **Realizar consultas o recibir recomendaciones a través del chatbot financiero.**
+
+5. **Crear una meta de ahorro o un presupuesto mensual personalizado.**
+
+6. **Registrar gastos manualmente o vincular cuentas para seguimiento automático.**
+
+7. **Consultar su progreso hacia metas financieras en tiempo real.**
+
+8. **Ajustar o eliminar metas financieras según cambios en su situación personal.**
+
+9. **Participar en desafíos financieros gamificados (por ejemplo: "Ahorra $50 en 30 días").**
+
+10. **Configurar recordatorios de gastos, pagos o hábitos de ahorro.**
+
+11. **Consultar reportes financieros y visualizar estadísticas personalizadas.**
+
+12. **Proporcionar feedback sobre la experiencia de uso o funcionalidades del sistema.**
+
+Estas acciones reflejan el ciclo completo de interacción que un usuario típico seguiría en PonteBarbón, asegurando un acompañamiento personalizado y continuo en su educación y gestión financiera diaria.
+
+---
+
+A partir de los eventos clave y las acciones del usuario identificados, se determinaron los principales flujos de mensaje que describen cómo la aplicación PonteBarbón maneja la interacción entre los diferentes componentes y usuarios. A continuación, se detallan los principales flujos:
+
+#### Flujo 1: Registro y configuración inicial
+
+1. **Usuario** se registra en la app o inicia sesión.
+2. **Sistema de autenticación** valida credenciales o crea un nuevo perfil.
+3. **Usuario** completa el formulario de perfil financiero inicial (ingresos, gastos, metas).
+4. **Sistema de configuración** registra la información y genera una recomendación inicial de objetivos financieros.
+
+**Detalle:**
+Este flujo garantiza que el usuario pueda comenzar a interactuar de manera personalizada desde el primer momento, configurando un perfil financiero de referencia.
+
+---
+
+#### Flujo 2: Creación y gestión de metas financieras
+
+1. **Usuario** accede al módulo de metas financieras.
+2. **Usuario** crea una nueva meta (por ejemplo, “Ahorrar para matrícula universitaria”).
+3. **Sistema de metas** almacena la meta y programa recordatorios periódicos.
+4. **Sistema de IA** analiza patrones de ahorro y sugiere mejoras personalizadas.
+
+**Detalle:**
+Este flujo promueve la autonomía del usuario para establecer, monitorear y ajustar sus propios objetivos financieros con acompañamiento inteligente.
+
+---
+
+#### Flujo 3: Educación financiera gamificada
+
+1. **Usuario** selecciona un módulo de aprendizaje financiero (por ejemplo, “Cómo construir un presupuesto mensual”).
+2. **Sistema educativo** presenta microlecciones de forma interactiva.
+3. **Usuario** completa los desafíos o cuestionarios asociados.
+4. **Sistema educativo** registra los avances y desbloquea nuevos niveles de contenido.
+
+**Detalle:**
+Este flujo mantiene la motivación y facilita la adquisición progresiva de habilidades financieras mediante técnicas de gamificación.
+
+---
+
+#### Flujo 4: Interacción con el chatbot financiero
+
+1. **Usuario** inicia una consulta al **chatbot** (por ejemplo, “¿Cuánto debería ahorrar cada mes?”).
+2. **Chatbot** procesa la consulta utilizando procesamiento de lenguaje natural (NLP).
+3. **Chatbot** responde con recomendaciones o sugiere recursos adicionales dentro de la app.
+
+**Detalle:**
+Este flujo permite resolver dudas en tiempo real, ofreciendo soporte personalizado y reduciendo la fricción de aprendizaje para el usuario.
+
+---
+
+#### Flujo 5: Visualización de progreso financiero
+
+1. **Usuario** accede al módulo de reportes.
+2. **Sistema de visualización** genera gráficos de ahorro, gastos y cumplimiento de metas.
+3. **Usuario** analiza su progreso y ajusta su comportamiento financiero según las estadísticas mostradas.
+
+**Detalle:**
+Este flujo permite al usuario tener un control visual y sencillo de su evolución, reforzando los hábitos financieros saludables a lo largo del tiempo.
+
 ### 4.2.2. Candidate Context Discovery.
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th colspan="2" style="text-align:center; font-size:18px;">Bounded Context</th>
+    </tr>
+    <tr>
+      <th>Nombre</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Gestión Financiera</td>
+      <td>Administra la creación, seguimiento y ajustes de presupuestos, ingresos, gastos y metas financieras de los usuarios.</td>
+    </tr>
+    <tr>
+      <td>Educación Financiera</td>
+      <td>Ofrece módulos de microlecciones, desafíos gamificados y contenidos interactivos para mejorar las habilidades financieras de los estudiantes.</td>
+    </tr>
+    <tr>
+      <td>Interacción Conversacional</td>
+      <td>Gestiona el chatbot basado en IA que responde preguntas, brinda recomendaciones financieras y guía al usuario en su aprendizaje y decisiones.</td>
+    </tr>
+    <tr>
+      <td>Perfil de Usuario</td>
+      <td>Maneja el registro, inicio de sesión, configuración de perfil y personalización del sistema según las características financieras del usuario.</td>
+    </tr>
+    <tr>
+      <td>Notificaciones y Alertas</td>
+      <td>Administra el envío de recordatorios, alertas de desviaciones presupuestarias y notificaciones sobre avances en las metas financieras.</td>
+    </tr>
+    <tr>
+      <td>Análisis y Recomendaciones</td>
+      <td>Procesa datos de comportamiento financiero para generar visualizaciones, reportes de progreso y sugerencias de optimización financiera personalizadas.</td>
+    </tr>
+  </tbody>
+</table>
+
+Link del Miro: [https://miro.com/app/board/uXjVI9xUGTI=/?share_link_id=436378574816](https://miro.com/app/board/uXjVI9xUGTI=/?share_link_id=436378574816)
+
+Gestion Financiera Context:
+
+![Gestión Financiera Context](assets/Bounded%20Context/Gestion%20Financiera.png)
+
+Educacion Financiera Context
+
+![Educacion Financiera Context](assets/Bounded%20Context/Educacion%20Financiera.png)
+
+Interaccion Conversacional Context
+
+![Interaccion Conversacional Context](assets/Bounded%20Context/Interaccion%20Conversacional.png)
+
+Perfil de Usuario Context
+
+![Perfil de Usuario Context](assets/Bounded%20Context/Perfil%20de%20Usuario.png)
+
+Notificaciones y Alertas Context
+
+![Notificaciones y Alertas Context](assets/Bounded%20Context/Notificaciones%20y%20Alertas.png)
+
+Analisis y Recomendaciones Context
+
+![Analisis y Recomendaciones Context](assets/Bounded%20Context/Analisis%20y%20Recomendaciones.png)
 
 ### 4.2.3. Domain Message Flows Modeling.
 
+Link del Miro: [https://miro.com/app/board/uXjVI9xUGTI=/?share_link_id=436378574816](https://miro.com/app/board/uXjVI9xUGTI=/?share_link_id=436378574816)
+
+Gestion Financiera Context:
+
+![Gestión Financiera Context](assets/Message%20Flows/MF%20-%20Gestion%20Financiera.jpg)
+
+Educacion Financiera Context
+
+![Educacion Financiera Context](assets/Message%20Flows/MF%20-%20Educacion%20Financiera.jpg)
+
+Interaccion Conversacional Context
+
+![Interaccion Conversacional Context](assets/Message%20Flows/MF%20-%20Interaccion%20Conversacional.jpg)
+
+Perfil de Usuario Context
+
+![Perfil de Usuario Context](assets/Message%20Flows/MF%20-%20Perfil%20de%20Usuario.jpg)
+
+Notificaciones y Alertas Context
+
+![Notificaciones y Alertas Context](assets/Message%20Flows/MF%20-%20Notificaciones%20y%20Alertas.jpg)
+
+Analisis y Recomendaciones Context
+
+![Analisis y Recomendaciones Context](assets/Message%20Flows/MF%20-%20Analisis%20y%20Recomendaciones.jpg)
+
 ### 4.2.4. Bounded Context Canvases.
 
+Link del Miro: [https://miro.com/app/board/uXjVI9xUGTI=/?share_link_id=436378574816](https://miro.com/app/board/uXjVI9xUGTI=/?share_link_id=436378574816)
+
+Gestion Financiera Context:
+
+![Gestión Financiera Context](assets/Bounded%20Context%20Canvases/BCC%20-%20Gestion%20Financiera.jpg)
+
+Educacion Financiera Context
+
+![Educacion Financiera Context](assets/Bounded%20Context%20Canvases/BCC%20-%20Educacion%20Financiera.jpg)
+
+Interaccion Conversacional Context
+
+![Interaccion Conversacional Context](assets/Bounded%20Context%20Canvases/BCC%20-%20Interaccion%20Conversacional.jpg)
+
+Perfil de Usuario Context
+
+![Perfil de Usuario Context](assets/Bounded%20Context%20Canvases/BCC%20-%20Perfil%20de%20Usuario.jpg)
+
+Notificaciones y Alertas Context
+
+![Notificaciones y Alertas Context](assets/Bounded%20Context%20Canvases/BCC%20-%20Notificaciones%20y%20Alertas.jpg)
+
+Analisis y Recomendaciones Context
+
+![Analisis y Recomendaciones Context](assets/Bounded%20Context%20Canvases/BCC%20-%20Analisis%20y%20Recomendaciones.jpg)
+
 ### 4.2.5. Context Mapping.
+
+![Context Mapping](assets/Context%20Mapping/Context%20Mapping.jpg)
 
 ## 4.3. Software Architecture.
 
