@@ -261,9 +261,10 @@ PonteBarbón se posiciona como una solución educativa accesible, escalable y ce
   <tr>
     <td>
       <strong>Fernando Daniel Quispe Condori</strong>
+        Soy estudiante de la carrera de ingeniería de Software con habilidades técnicas y blandas para cooperar con mi equipo y desarrollar el objetivo del curso.
     </td>
     <td>
-      <img src="" alt="Fernando" style="max-height:250px;">
+      <img src="assets/student/Me2.jpg" alt="Carlos" style="max-height: 250px;">
     </td>
   </tr>
   <tr>
