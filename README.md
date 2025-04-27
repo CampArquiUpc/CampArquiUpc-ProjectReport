@@ -1,36 +1,32 @@
-<body>
-    <div style="text-align: center; font-weight: bolder">
-        <p>Universidad Peruana de Ciencias Aplicadas - Ingeniería de Software - 6 Ciclo</p>
-        <img src="./assets/cover/logo-upc.png" alt="logo of UPC"/>
-        <p>1ASI0728 - Arquitectura de Software Emergentes</p>
-        <p>Docente: Christian Luis De Los Rios Fernandez</p>   
-        <p>Informe de Trabajo Final<p>
-        <p>Startup: CampArquiUpc</p>
-        <p>Producto: PonteBarbón </p>
-    </div>
-    <div style="text-align: center; display: flex; flex-direction: column; align-items: center">
-        <h3 style="font-weight: bolder">Team Members:</h3>
-        <table style="width: fit-content">
-            <tr>
-                <th style="text-align:center;">Estudiante</th>
-                <th style="text-align:center;">Código</th>
-            </tr>
-            <tr>
-                <td>Morales Quispe, Brayan Smith</td>
-                <td>202317638</td>
-            </tr>
-            <tr>
-                <td>Quispe Condori, Fernando Daniel</td>
-                <td>u20221c628</td>
-            </tr>
-            <tr>
-                <td>Ochoa Colonio, Carlos Alberto</td>
-                <td>u20231595</td>
-            </tr>   
-        </table>
-    </div>
-    <p style="text-align: center">Marzo 2025</p>
-</body>
+<div align="center">
+
+**Universidad Peruana de Ciencias Aplicadas - Ingeniería de Software**
+
+![logo of UPC](./assets/cover/logo-upc.png)
+
+## 1ASI0728 - Arquitectura de Software Emergentes
+
+Docente: Christian Luis De Los Rios Fernandez
+Informe TB1
+
+Startup: CampArquiUpc
+Producto: PonteBarbón
+
+<br/>
+
+### Team Members
+
+| Estudiante                      | Código    |
+| ------------------------------- | ---------- |
+| Morales Quispe, Brayan Smith    | 202317638  |
+| Quispe Condori, Fernando Daniel | u20221c628 |
+| Ochoa Colonio, Carlos Alberto   | u20231595  |
+
+<br/>
+
+ 2025-01
+
+</div>
 
 <div style="page-break-before: always"></div>
 
@@ -39,13 +35,15 @@
 | Versión | Fecha      | Autor           | Descripción de la modificación                                                      |
 | -------- | ---------- | --------------- | ------------------------------------------------------------------------------------- |
 | 1.0      | 13/04/2025 | Fernando Quispe | Análisis competitivo identificando los principales competidores de nuestro producto. |
+| 1.1      | 15/04/2025 | Brayan Morales  | Needfinding process, C4 Architecture                                                  |
+| 1.2      | 17/04/2025 | Carlos Ochoa    | Event storming process, Redacción del capítulo 1.                                   |
 
 <div style="page-break-before: always"></div>
 
 # Project Report Collaboration Insights
 
 * URL del repositorio del Project Report en la organización de GitHub del equipo:
-* [https://github.com/CampusMov/Report](https://github.com/CampusMov/Report)
+* [Link de la organización](https://github.com/CampArquiUpc)
 
 <div style="page-break-before: always"></div>
 
@@ -67,18 +65,24 @@
       - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
       - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
       - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [Asesoría Financiera Personalizada](#asesoría-financiera-personalizada)
+      - [Educación Financiera Continua](#educación-financiera-continua)
+      - [Interacción con Chatbot](#interacción-con-chatbot)
+      - [Visualización de Progreso Financiero](#visualización-de-progreso-financiero)
+      - [Facilidad de Uso](#facilidad-de-uso)
+      - [Confianza y Privacidad](#confianza-y-privacidad)
       - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
   - [2.1. Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-          - [1. Diferenciación por tecnología emergente](#1-diferenciación-por-tecnología-emergente)
-          - [2. Enfoque de nicho definido](#2-enfoque-de-nicho-definido)
-          - [3. Modelo Freemium para escalar usuarios](#3-modelo-freemium-para-escalar-usuarios)
-          - [4. Rapidez en iteración y mejoras](#4-rapidez-en-iteración-y-mejoras)
-          - [5. Alianzas estratégicas con bancos y comercios](#5-alianzas-estratégicas-con-bancos-y-comercios)
-          - [6. Mitigación de amenazas](#6-mitigación-de-amenazas)
+        - [1. Diferenciación por tecnología emergente](#1-diferenciación-por-tecnología-emergente)
+        - [2. Enfoque de nicho definido](#2-enfoque-de-nicho-definido)
+        - [3. Modelo Freemium para escalar usuarios](#3-modelo-freemium-para-escalar-usuarios)
+        - [4. Rapidez en iteración y mejoras](#4-rapidez-en-iteración-y-mejoras)
+        - [5. Alianzas estratégicas con bancos y comercios](#5-alianzas-estratégicas-con-bancos-y-comercios)
+        - [6. Mitigación de amenazas](#6-mitigación-de-amenazas)
   - [2.2. Entrevistas](#22-entrevistas)
     - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
@@ -200,6 +204,7 @@
       <td>
         <strong>TB1:</strong>
         <p><strong>Nombre: Brayan Smith Morales Quispe</strong> En el desarrollo del proyecto PonteBarbón, he aprendido a comunicar de manera efectiva los resultados de la investigación y la solución propuesta, ajustando el nivel de complejidad del mensaje según el público.</p>
+<p><strong>Nombre: Fernando Daniel Quispe Condori</strong> En el desarrollo de esta entrega pude alcanzar este objetivo específico coordinando con mi equipo las ideas que tenía para así coordinar y buscar un acuerdo para una solución.</p>
       </td>
       <td>
         <strong>TB1:</strong>
@@ -212,6 +217,7 @@
       <td>
         <strong>TB1:</strong>
         <p><strong>Nombre: Brayan Smith Morales Quispe</strong> Las descripciones de las funcionalidades, la implementación de la inteligencia artificial y los módulos de aprendizaje fueron bien detalladas, pero siempre con un enfoque accesible.</p>
+<p><strong>Nombre: Fernando Daniel Quispe Condori</strong> En la entrega pude ser capaz de desarrollar los artefactos que nos permiten experesar las ideas de nuestro proyecto.</p>
       </td>
       <td>
         <strong>TB1:</strong>
@@ -239,14 +245,13 @@
 
 **Descripción:**
 
-CampArquiUPC es una startup universitaria que busca transformar la manera en que los jóvenes gestionan y aprenden sobre sus finanzas personales. A través de soluciones tecnológicas innovadoras, la empresa apunta a cerrar la brecha entre la teoría financiera y la práctica cotidiana en la vida de los estudiantes.
+Somos CampArquiUPC una startup universitaria que busca transformar la manera en que los jóvenes gestionan y aprenden sobre sus finanzas personales. A través de soluciones tecnológicas innovadoras, la empresa apunta a cerrar la brecha entre la teoría financiera y la práctica cotidiana en la vida de los estudiantes.
 
-Su primer producto, PonteBarbón, es una aplicación móvil diseñada para estudiantes universitarios peruanos que desean mejorar sus habilidades de gestión financiera de forma práctica, dinámica y contextualizada a su realidad.
+Nuestro primer producto, PonteBarbón, es una aplicación móvil diseñada para estudiantes universitarios peruanos que desean mejorar sus habilidades de gestión financiera de forma práctica, dinámica y contextualizada a su realidad.
 
 La propuesta se apoya en tecnologías emergentes como la inteligencia artificial, que permite ofrecer asesoramiento personalizado mediante un chatbot educativo, así como en módulos de aprendizaje interactivo que enseñan conceptos clave como presupuesto, ahorro, inversión básica y uso responsable del crédito.
 
 PonteBarbón se posiciona como una solución educativa accesible, escalable y centrada en el usuario, que no solo ayuda a tomar mejores decisiones económicas en el presente, sino que también siembra las bases para una cultura financiera sólida a futuro.
-
 
 ### 1.1.2. Perfiles de los integrantes del equipo
 
@@ -289,15 +294,15 @@ PonteBarbón se posiciona como una solución educativa accesible, escalable y ce
 
 En esta sección se presenta una aproximación preliminar a la descripción de los antecedentes y la problemática que aborda la solución PonteBarbón. Se utiliza la técnica de las **5W y 2H** (Quién, Qué, Dónde, Cuándo, Por qué, Cómo y Cuánto) para identificar los elementos clave del problema y la posible solución que ofrecerá la aplicación.
 
-| Elemento | Descripción |
-|----------|-------------|
-| **WHO** | **Equipo:** CampArquiUPC  <br> **Usuarios:** Estudiantes universitarios que desean mejorar su educación financiera y gestión de finanzas personales. |
-| **WHAT** | **Producto/Servicio:** PonteBarbón, una app móvil educativa y de gestión financiera que usa IA para brindar recomendaciones personalizadas y acompañamiento con chatbot. <br> **Problema/Necesidad:** Deficiente cultura financiera entre jóvenes universitarios, lo que limita su capacidad de ahorro, inversión y toma de decisiones. |
-| **WHERE** | **Ubicación:** Perú (foco inicial en universidades peruanas). <br> **Entorno:** Académico, financiero y digital. |
-| **WHEN** | **Momento:** Contexto post-pandemia, con alto uso de apps fintech y urgencia por formar hábitos financieros saludables en jóvenes. |
-| **WHY** | **Causas:** Formación académica sin enfoque práctico en finanzas personales, acceso fácil al crédito sin acompañamiento educativo. <br> **Consecuencias:** Malas decisiones financieras, endeudamiento temprano, bajo ahorro y estrés económico. |
-| **HOW** | **Solución:** PonteBarbón ofrecerá recomendaciones, seguimiento y educación financiera a través de IA entrenada en patrones de uso. Incluirá un chatbot interactivo para resolver dudas en tiempo real. |
-| **HOW MUCH** | **Costo:** Modelo freemium con funcionalidades básicas gratuitas y módulos premium por suscripción. <br> **Impacto:** Aumento en el conocimiento financiero, mejores decisiones económicas, hábitos de ahorro sostenibles. |
+| Elemento           | Descripción                                                                                                                                                                                                                                                                                                                                                  |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **WHO**      | **Equipo:** CampArquiUPC  `<br>` **Usuarios:** Estudiantes universitarios que desean mejorar su educación financiera y gestión de finanzas personales.                                                                                                                                                                                        |
+| **WHAT**     | **Producto/Servicio:** PonteBarbón, una app móvil educativa y de gestión financiera que usa IA para brindar recomendaciones personalizadas y acompañamiento con chatbot. `<br>` **Problema/Necesidad:** Deficiente cultura financiera entre jóvenes universitarios, lo que limita su capacidad de ahorro, inversión y toma de decisiones. |
+| **WHERE**    | **Ubicación:** Perú (foco inicial en universidades peruanas). `<br>` **Entorno:** Académico, financiero y digital.                                                                                                                                                                                                                           |
+| **WHEN**     | **Momento:** Contexto post-pandemia, con alto uso de apps fintech y urgencia por formar hábitos financieros saludables en jóvenes.                                                                                                                                                                                                                    |
+| **WHY**      | **Causas:** Formación académica sin enfoque práctico en finanzas personales, acceso fácil al crédito sin acompañamiento educativo. `<br>` **Consecuencias:** Malas decisiones financieras, endeudamiento temprano, bajo ahorro y estrés económico.                                                                                      |
+| **HOW**      | **Solución:** PonteBarbón ofrecerá recomendaciones, seguimiento y educación financiera a través de IA entrenada en patrones de uso. Incluirá un chatbot interactivo para resolver dudas en tiempo real.                                                                                                                                           |
+| **HOW MUCH** | **Costo:** Modelo freemium con funcionalidades básicas gratuitas y módulos premium por suscripción. `<br>` **Impacto:** Aumento en el conocimiento financiero, mejores decisiones económicas, hábitos de ahorro sostenibles.                                                                                                               |
 
 ### 1.2.2. Lean UX Process
 
@@ -306,11 +311,8 @@ En esta sección se presenta una aproximación preliminar a la descripción de l
 A continuación, se presentan los enunciados de problema utilizando la estructura de Lean UX. Esta herramienta nos permite definir claramente las necesidades del usuario, los objetivos de negocio y las dificultades actuales con base en observaciones e hipótesis preliminares.
 
 1. Los estudiantes universitarios necesitan herramientas prácticas y accesibles para aprender a gestionar sus finanzas personales, porque la educación financiera formal es insuficiente o inexistente en sus currículos académicos.
-
 2. Los estudiantes universitarios necesitan una forma sencilla de recibir asesoría financiera personalizada, porque las soluciones actuales en el mercado son generalistas y no se adaptan a su realidad económica, educativa y emocional.
-
 3. Los estudiantes universitarios necesitan motivación constante para mantener hábitos financieros saludables, porque muchas veces abandonan sus intentos de ahorro o control de gastos por falta de seguimiento o retroalimentación inmediata.
-
 4. Los estudiantes universitarios necesitan comprender de forma visual el impacto de sus decisiones financieras cotidianas, porque interpretar tablas, gráficos o simuladores avanzados les resulta complejo sin una guía contextualizada.
 
 #### 1.2.2.2. Lean UX Assumptions
@@ -318,24 +320,24 @@ A continuación, se presentan los enunciados de problema utilizando la estructur
 Este apartado resume nuestras suposiciones clave sobre los usuarios, sus necesidades, el entorno en el que interactúan con el producto y los resultados esperados. Estas suposiciones nos permitirán validar hipótesis a través de entrevistas, prototipos y métricas de uso.
 
 - **Sobre los usuarios:**
+
   - Los estudiantes universitarios peruanos tienen acceso a smartphones y están familiarizados con aplicaciones móviles.
   - Los estudiantes carecen de educación financiera práctica, pero están motivados por mejorar su situación económica.
   - Confían más en soluciones digitales si incluyen elementos visuales e interactivos.
-
 - **Sobre sus necesidades:**
+
   - Requieren asesoría que se adapte a sus hábitos de consumo y nivel de ingresos.
   - Necesitan ser guiados para establecer presupuestos, controlar gastos y fomentar el ahorro.
   - Valoran la retroalimentación inmediata y el acompañamiento durante su aprendizaje financiero.
-
 - **Sobre el entorno:**
+
   - Se mueven constantemente entre clases, trabajo y actividades sociales, por lo que necesitan soluciones rápidas, accesibles y móviles.
   - Utilizan plataformas como WhatsApp, Instagram, TikTok, lo que sugiere que un chatbot amigable puede integrarse con sus rutinas digitales.
-
 - **Sobre los resultados esperados:**
+
   - Si se les ofrece una solución adaptada a su contexto, incrementarán su frecuencia de ahorro y control de gastos.
   - Si pueden visualizar su progreso financiero, estarán más motivados a continuar usando la aplicación.
   - Si el sistema incorpora personalización mediante IA, se reducirá la tasa de abandono y se generará fidelización.
-
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
@@ -371,21 +373,21 @@ Este apartado resume nuestras suposiciones clave sobre los usuarios, sus necesid
 
 #### 1.2.2.4. Lean UX Canvas
 
-| **Business Problem** | **Solution Ideas** | **Business Outcomes** |
-|----------------------|--------------------|------------------------|
-| Estudiantes universitarios enfrentan dificultades para gestionar sus finanzas personales de forma eficiente y sostenible. <br><br>Esto se debe a:<br>• Falta de educación financiera práctica.<br>• Poco acceso a asesoramiento adaptado a su realidad económica.<br>• Ausencia de herramientas personalizadas y fáciles de usar.<br>• Baja motivación para adoptar hábitos financieros saludables. | Aplicación móvil PonteBarbón que utiliza inteligencia artificial para:<br>• Brindar recomendaciones personalizadas según comportamiento de gasto.<br>• Ofrecer acompañamiento mediante un chatbot financiero.<br>• Visualizar el progreso financiero de manera interactiva.<br>• Enseñar conceptos financieros mediante microcontenidos gamificados. | • Reducción de errores financieros entre estudiantes.<br>• Aumento de la cultura de ahorro y control del gasto.<br>• Incremento en el uso de herramientas financieras entre jóvenes.<br>• Fidelización de usuarios a través de una experiencia educativa personalizada. |
+| **Business Problem**                                                                                                                                                                                                                                                                                                                                                                                                       | **Solution Ideas**                                                                                                                                                                                                                                                                                                                                                       | **Business Outcomes**                                                                                                                                                                                                                                                                 |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Estudiantes universitarios enfrentan dificultades para gestionar sus finanzas personales de forma eficiente y sostenible.`<br><br>`Esto se debe a:`<br>`• Falta de educación financiera práctica.`<br>`• Poco acceso a asesoramiento adaptado a su realidad económica.`<br>`• Ausencia de herramientas personalizadas y fáciles de usar.`<br>`• Baja motivación para adoptar hábitos financieros saludables. | Aplicación móvil PonteBarbón que utiliza inteligencia artificial para:`<br>`• Brindar recomendaciones personalizadas según comportamiento de gasto.`<br>`• Ofrecer acompañamiento mediante un chatbot financiero.`<br>`• Visualizar el progreso financiero de manera interactiva.`<br>`• Enseñar conceptos financieros mediante microcontenidos gamificados. | • Reducción de errores financieros entre estudiantes.`<br>`• Aumento de la cultura de ahorro y control del gasto.`<br>`• Incremento en el uso de herramientas financieras entre jóvenes.`<br>`• Fidelización de usuarios a través de una experiencia educativa personalizada. |
 
-| **Users & Customers** | **User Benefits** |
-|------------------------|-------------------|
-| **Users:** Estudiantes universitarios con interés en mejorar sus finanzas personales.<br>**Customers:** Universidades, incubadoras educativas, o instituciones financieras interesadas en fomentar educación financiera entre jóvenes. | • Recibir recomendaciones personalizadas y contextualizadas.<br>• Aprender a ahorrar, presupuestar y evitar deudas.<br>• Visualizar metas financieras y progreso con gráficos.<br>• Resolver dudas en tiempo real con un chatbot.<br>• Acceder a contenidos gamificados que hacen el aprendizaje más ameno. |
+| **Users & Customers**                                                                                                                                                                                                                               | **User Benefits**                                                                                                                                                                                                                                                                                                            |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Users:** Estudiantes universitarios con interés en mejorar sus finanzas personales.`<br>`**Customers:** Universidades, incubadoras educativas, o instituciones financieras interesadas en fomentar educación financiera entre jóvenes. | • Recibir recomendaciones personalizadas y contextualizadas.`<br>`• Aprender a ahorrar, presupuestar y evitar deudas.`<br>`• Visualizar metas financieras y progreso con gráficos.`<br>`• Resolver dudas en tiempo real con un chatbot.`<br>`• Acceder a contenidos gamificados que hacen el aprendizaje más ameno. |
 
-| **Hypotheses** |
-|----------------|
-| • Los estudiantes estarán más motivados a usar la app si se les ofrece contenido personalizado y visualmente atractivo.<br>• Un chatbot que responde dudas en tiempo real mejorará la retención de usuarios.<br>• El acompañamiento constante aumentará la probabilidad de adquirir buenos hábitos financieros.<br>• El progreso visual y la gamificación reforzarán la constancia en el uso.<br>• Explicar los beneficios del ahorro y la planificación aumentará la percepción de valor de la app. |
+| **Hypotheses**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| • Los estudiantes estarán más motivados a usar la app si se les ofrece contenido personalizado y visualmente atractivo.`<br>`• Un chatbot que responde dudas en tiempo real mejorará la retención de usuarios.`<br>`• El acompañamiento constante aumentará la probabilidad de adquirir buenos hábitos financieros.`<br>`• El progreso visual y la gamificación reforzarán la constancia en el uso.`<br>`• Explicar los beneficios del ahorro y la planificación aumentará la percepción de valor de la app. |
 
-| **What’s the most important thing we need to learn first?** | **What’s the least amount of work we need to do to learn the next most important thing?** |
-|--------------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| ¿Las recomendaciones personalizadas basadas en IA y el chatbot realmente ayudan a los estudiantes a tomar mejores decisiones financieras?<br>¿Cómo prefieren aprender los estudiantes sobre finanzas personales? | Desarrollar un prototipo funcional con:<br>• Chatbot básico con respuestas comunes.<br>• Módulo de visualización de metas y gastos.<br>• Un set de microlecciones gamificadas.<br>Probar con estudiantes y medir impacto en toma de decisiones financieras iniciales. |
+| **What’s the most important thing we need to learn first?**                                                                                                                                                      | **What’s the least amount of work we need to do to learn the next most important thing?**                                                                                                                                                                                            |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ¿Las recomendaciones personalizadas basadas en IA y el chatbot realmente ayudan a los estudiantes a tomar mejores decisiones financieras?`<br>`¿Cómo prefieren aprender los estudiantes sobre finanzas personales? | Desarrollar un prototipo funcional con:`<br>`• Chatbot básico con respuestas comunes.`<br>`• Módulo de visualización de metas y gastos.`<br>`• Un set de microlecciones gamificadas.`<br>`Probar con estudiantes y medir impacto en toma de decisiones financieras iniciales. |
 
 ## 1.3. Segmentos objetivo
 
@@ -429,8 +431,8 @@ En esta sección identificamos los principales competidores que ofrecen solucion
 
 A continuación, se muestra el análisis competitivo
 
-| ¿Por qué llevar a cabo este análisis? | ¿Cuál es el propósito principal de realizar un análisis competitivo del panorama en el mercado de educación financiera para estudiantes universitarios? |
-|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| ¿Por qué llevar a cabo este análisis?                                                                                                                                                                                            | ¿Cuál es el propósito principal de realizar un análisis competitivo del panorama en el mercado de educación financiera para estudiantes universitarios?                                                                              |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Este análisis nos permitirá comprender el posicionamiento de PonteBarbón frente a otras soluciones del mercado, evaluar oportunidades de mejora e identificar ventajas diferenciales mediante el uso de tecnologías emergentes. | Identificar oportunidades y ventajas competitivas para diferenciarnos de soluciones como Fintonic, GoHenry o Yape, integrando tecnologías como inteligencia artificial y personalización educativa orientada al segmento universitario. |
 
 <table border="1" cellspacing="0" cellpadding="6">
@@ -610,7 +612,8 @@ Para destacar en el competitivo entorno de plataformas financieras y educativas,
 **Edad:** 21 años
 **Distrito:** Chorrillos
 **Captura de video:**
-![imagen yadira](/assets/entrevistas/yadira.png)
+
+![imagen_yadira](./assets/entrevistas/yadira.png)
 
 **Enlace al video:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211f984_upc_edu_pe/EYKk4AUaiWNJuDcWgOPDkRsBsjYaGNwRiuK-GJsuf0ydYg?e=7wYTSi](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211f984_upc_edu_pe/EYKk4AUaiWNJuDcWgOPDkRsBsjYaGNwRiuK-GJsuf0ydYg?e=7wYTSi)
 
@@ -621,7 +624,7 @@ Yadira es una estudiante universitaria de 21 años que reside en el distrito de 
 **Edad:** 18 años
 **Distrito:** Chorrillos
 **Captura de video:**
-![imagen alex](/assets/entrevistas/alex.png)
+![imagen alex](./assets/entrevistas/alex.png)
 **Enlace al video:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211f984_upc_edu_pe/EYKk4AUaiWNJuDcWgOPDkRsBsjYaGNwRiuK-GJsuf0ydYg?e=7wYTSi](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211f984_upc_edu_pe/EYKk4AUaiWNJuDcWgOPDkRsBsjYaGNwRiuK-GJsuf0ydYg?e=7wYTSi)
 
 **Resumen descriptivo:**
@@ -631,7 +634,7 @@ Alexander es un estudiante de los primeros ciclos universitarios que demuestra t
 **Edad:** 22 años
 **Distrito:** San Juan de Miraflores
 **Captura de video:**
-![imagen abelardo](/assets/entrevistas/abelador.png)
+![imagen abelardo](./assets/entrevistas/abelador.png)
 **Enlace al video:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211f984_upc_edu_pe/EYKk4AUaiWNJuDcWgOPDkRsBsjYaGNwRiuK-GJsuf0ydYg?e=7wYTSi](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211f984_upc_edu_pe/EYKk4AUaiWNJuDcWgOPDkRsBsjYaGNwRiuK-GJsuf0ydYg?e=7wYTSi)
 
 **Resumen descriptivo:**
@@ -650,31 +653,31 @@ Abelardo es un estudiante que también trabaja en Interbank, percibiendo un ingr
 
 El 75% de los entrevistados aún depende económicamente de sus padres, lo cual revela una limitada autonomía financiera. Esta dependencia puede ser un factor que influye directamente en su interés por mejorar su educación financiera. (Grafico 1)
 
-![grafico 1](/assets/Graficos%20del%20analisis%20de%20entrevistas/grafico%201.png)
+![grafico 1](./assets/Graficos%20del%20analisis%20de%20entrevistas/grafico%201.png)
 
 <p>Grafico 1</p>
 
 La mitad de los entrevistados muestra interes por formas de aprendizaje fuera de lo tradicional. (Grafico 2)
 
-![grafico 1](/assets/Graficos%20del%20analisis%20de%20entrevistas/grafico%202.png)
+![grafico 1](./assets/Graficos%20del%20analisis%20de%20entrevistas/grafico%202.png)
 
 <p>Grafico 2</p>
 
 Un 50% de los entrevistados usa smartphones dando una tendencia en los dispositivos moviles. (Grafico 3)
 
-![grafico 1](/assets/Graficos%20del%20analisis%20de%20entrevistas/grafico%203.png)
+![grafico 1](./assets/Graficos%20del%20analisis%20de%20entrevistas/grafico%203.png)
 
 <p>Grafico 3</p>
 
 El 50% de los entrevistados expresó preocupación por no saber manejar adecuadamente sus ingresos, lo que evidencia un interés creciente entre los jóvenes por adquirir conocimientos sobre educación financiera. Esta preocupación refleja una necesidad latente de herramientas o recursos que les permitan tomar decisiones más informadas sobre su economía personal. (Grafico 4)
 
-![grafico 1](/assets/Graficos%20del%20analisis%20de%20entrevistas/grafico%205.png)
+![grafico 1](./assets/Graficos%20del%20analisis%20de%20entrevistas/grafico%205.png)
 
 <p>Grafico 4</p>
 
 se observa una tendencia hacia las puntuaciones más altas en cuanto a la importancia de aprender sobre educación financiera. Esto indica que, en general, los entrevistados valoran positivamente el desarrollo de competencias en esta área. (Grafico 5)
 
-![grafico 1](/assets/Graficos%20del%20analisis%20de%20entrevistas/grafico%206.png)
+![grafico 1](./assets/Graficos%20del%20analisis%20de%20entrevistas/grafico%206.png)
 
 <p>Grafico 5</p>
 
@@ -684,7 +687,7 @@ se observa una tendencia hacia las puntuaciones más altas en cuanto a la import
 
 **Segmento Objetivo de Estudiante Universitario**
 
-![](/assets/needfinfing/Mario%20Garcia%20Perez.png)
+![](./assets/needfinfing/Mario%20Garcia%20Perez.png)
 
 ### 2.3.2. User Task Matrix
 
@@ -740,11 +743,11 @@ se observa una tendencia hacia las puntuaciones más altas en cuanto a la import
 
 ### 2.3.3. Empathy Mapping
 
-![](/assets/needfinfing/Empathy%20map%20(1).png)
+![](./assets/needfinfing/Empathy%20map%20(1).png)
 
 ### 2.3.4. As-is
 
-![](/assets/needfinfing/Scenario%20Mapping%20-%20As-Is.jpg)
+![](./assets/needfinfing/Scenario%20Mapping%20-%20As-Is.jpg)
 
 ## 2.4. Ubiquitous Language
 
@@ -819,7 +822,9 @@ se observa una tendencia hacia las puntuaciones más altas en cuanto a la import
 
 ## 3.1. To-Be Scenario Mapping
 
-![](/assets/needfinfing/AS%20IS%20Y%20TO%20BE%20%20Scenario%20Mapping%20-%20To-be.jpg)
+A continuación se presenta el diagrama de mapeo del escenario "To-Be" para la aplicación PonteBarbón. Este diagrama ilustra cómo los usuarios interactuarán con la aplicación y las funcionalidades que estarán disponibles para ellos.
+
+![](./assets/needfinfing/Tobe-Mapping.jpg)
 
 ## 3.2. User Stories
 
@@ -1239,7 +1244,7 @@ A continuacion se presenta el link a Jira software que nos ayuda a contener y ge
 
 A continuacion se vera nuestro product backlog en la plataforma de jira donde estamos gestionando todas las users stories en la seccion del Product Backlog.
 
-![jira-product-backlog](/assets/Product%20Backlog/Product%20Backlog%20Jira.png)
+![jira-product-backlog](./assets/Product%20Backlog/Product%20Backlog%20Jira.png)
 
 # Capítulo IV: Strategic-Level Software Design.
 
@@ -1453,28 +1458,29 @@ A continuación, se presentan las decisiones de diseño arquitectónico tomadas 
 
 ## **Driver 9: Cumplimiento de Normativas Financieras (AD-9)**
 
-| **Pattern**                        | **Pro**                                                                                           | **Con**                                                                                             |
-| ----------------------------------  | ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- |
-| **SOA (Service-Oriented Architecture)**  | - Flexibilidad para adaptarse a normativas y cambios regulatorios.<br>- Facilidad para integrar nuevos servicios y componentes regulatorios. | - Aumento de la complejidad.<br>- Requiere una gestión más cuidadosa de los servicios. |
-| **Domain-Driven Design (DDD)**      | - Escalabilidad y flexibilidad para realizar modificaciones rápidas.<br>- Adaptabilidad ante cambios normativos.<br>- Mejora la comprensión del dominio de negocio. | - Requiere una curva de aprendizaje para implementarlo correctamente.<br>- Puede ser complejo si el dominio no está bien definido. |
+| **Pattern**                             | **Pro**                                                                                                                                                                 | **Con**                                                                                                                           |
+| --------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| **SOA (Service-Oriented Architecture)** | - Flexibilidad para adaptarse a normativas y cambios regulatorios.`<br>`- Facilidad para integrar nuevos servicios y componentes regulatorios.                              | - Aumento de la complejidad.`<br>`- Requiere una gestión más cuidadosa de los servicios.                                            |
+| **Domain-Driven Design (DDD)**          | - Escalabilidad y flexibilidad para realizar modificaciones rápidas.`<br>`- Adaptabilidad ante cambios normativos.`<br>`- Mejora la comprensión del dominio de negocio. | - Requiere una curva de aprendizaje para implementarlo correctamente.`<br>`- Puede ser complejo si el dominio no está bien definido. |
 
 **Decisión de Diseño:**
+
 - **Patrón Seleccionado**: **Domain-Driven Design (DDD)**
   - **Razonamiento**: DDD es ideal para proyectos complejos y en constante cambio, como aquellos que deben cumplir con normativas dinámicas. Facilita la evolución del sistema, es fácil de modificar y puede escalar a medida que los requisitos legales cambian.
 
 ---
+
 ## **Driver 10: Soporte para Android (AD-10)**
 
 | **Pattern**                            | **Pro**                                                                                                            | **Con**                                                                                                               |
 | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
-| **Desarrollo Nativo (Kotlin/Java)** | - Mejor rendimiento y experiencia de usuario en Android.`<br>`- Acceso completo a todas las funciones de Android.      | - Requiere desarrollo separado para otras plataformas.`<br>`- Más costoso en términos de tiempo y recursos.             |
+| **Desarrollo Nativo (Kotlin/Java)**    | - Mejor rendimiento y experiencia de usuario en Android.`<br>`- Acceso completo a todas las funciones de Android.      | - Requiere desarrollo separado para otras plataformas.`<br>`- Más costoso en términos de tiempo y recursos.             |
 | **Cross-Platform Framework (Flutter)** | - Permite el desarrollo de aplicaciones para múltiples plataformas, incluyendo Android.`<br>`- Acelera el desarrollo. | - Puede no aprovechar al máximo las capacidades nativas de Android.`<br>`- Requiere manejo adicional para optimización. |
 
 **Decisión de Diseño:**
 
 - **Patrón Seleccionado**: **Desarrollo Nativo (Kotlin/Java)**
   - **Razonamiento**: Dado que el enfoque está en ofrecer la mejor experiencia para los usuarios de Android, se opta por el desarrollo nativo, lo que permitirá un rendimiento óptimo y un acceso completo a las capacidades del sistema operativo Android, sin sacrificar la calidad o experiencia de usuario.
-
 
 ---
 
@@ -1484,71 +1490,71 @@ A continuación se presenta una tabla con los escenarios de atributos de calidad
 
 Escenario 1: Registro y actualización en tiempo real.
 
-| **Elemento**               | **Descripción**                                                                                                                                                          |
-|----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Scenario(s)**            | El usuario registra un nuevo gasto en la aplicación y espera ver reflejado el cambio en el resumen financiero en tiempo real.                                               |
-| **Business Goals**         | Permitir una gestión eficiente y actualizada de los movimientos financieros, proporcionando información inmediata para facilitar el control de gastos.                  |
-| **Relevant Quality Attributes** | Rendimiento, Confiabilidad, Usabilidad.                                                                                                                           |
-| **Scenario Components**    | Registro de gasto → Actualización de resumen financiero → Notificación visual de actualización.                                                                          |
-| **Stimulus**               | El usuario introduce una transacción de gasto desde la interfaz de registro.                                                                                             |
-| **Stimulus Source**        | Usuario.                                                                                                                                                                 |
-| **Environment**            | Interfaz de la aplicación móvil en condiciones de uso normal con conexión estable a internet.                                                                            |
-| **Artifact (if Known)**    | Módulo de registro de transacciones y actualización del dashboard financiero.                                                                                          |
-| **Response**               | La aplicación procesa el registro y actualiza el resumen financiero de forma automática, reflejando el nuevo dato en la pantalla en menos de 2 segundos.                   |
-| **Response Measure**       | Tiempo de respuesta < 2 segundos y consistencia en la actualización del resumen en todos los componentes afectados.                                                         |
-| **Questions**              | ¿Cómo se asegura la integridad de los datos en escenarios de alta concurrencia? ¿Qué mecanismos de validación se aplican para evitar registros erróneos?                   |
-| **Issues**                 | Garantizar la consistencia de la información y manejar correctamente las peticiones simultáneas sin degradar el rendimiento.                                               |
+| **Elemento**                    | **Descripción**                                                                                                                                         |
+| ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Scenario(s)**                 | El usuario registra un nuevo gasto en la aplicación y espera ver reflejado el cambio en el resumen financiero en tiempo real.                                 |
+| **Business Goals**              | Permitir una gestión eficiente y actualizada de los movimientos financieros, proporcionando información inmediata para facilitar el control de gastos.       |
+| **Relevant Quality Attributes** | Rendimiento, Confiabilidad, Usabilidad.                                                                                                                        |
+| **Scenario Components**         | Registro de gasto → Actualización de resumen financiero → Notificación visual de actualización.                                                           |
+| **Stimulus**                    | El usuario introduce una transacción de gasto desde la interfaz de registro.                                                                                  |
+| **Stimulus Source**             | Usuario.                                                                                                                                                       |
+| **Environment**                 | Interfaz de la aplicación móvil en condiciones de uso normal con conexión estable a internet.                                                               |
+| **Artifact (if Known)**         | Módulo de registro de transacciones y actualización del dashboard financiero.                                                                                |
+| **Response**                    | La aplicación procesa el registro y actualiza el resumen financiero de forma automática, reflejando el nuevo dato en la pantalla en menos de 2 segundos.     |
+| **Response Measure**            | Tiempo de respuesta < 2 segundos y consistencia en la actualización del resumen en todos los componentes afectados.                                           |
+| **Questions**                   | ¿Cómo se asegura la integridad de los datos en escenarios de alta concurrencia? ¿Qué mecanismos de validación se aplican para evitar registros erróneos? |
+| **Issues**                      | Garantizar la consistencia de la información y manejar correctamente las peticiones simultáneas sin degradar el rendimiento.                                 |
 
 Escenario 2: Predicción de Gastos Futuros
 
-| **Elemento**               | **Descripción**                                                                                                                                                          |
-|----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Scenario(s)**            | El usuario solicita una predicción de sus gastos futuros para planificar su presupuesto, basándose en su historial de transacciones.                                        |
-| **Business Goals**         | Brindar a los usuarios información predictiva precisa que les permita anticipar y planificar sus gastos, mejorando la toma de decisiones financieras.                 |
-| **Relevant Quality Attributes** | Confiabilidad, Precisón, Adaptabilidad.                                                                                                                              |
-| **Scenario Components**    | Solicitud de predicción → Procesamiento en el motor de predicción (ML) → Visualización de la predicción en el dashboard.                                                     |
-| **Stimulus**               | El usuario hace clic en la opción “Predicción de Gastos” en su panel de control.                                                                                        |
-| **Stimulus Source**        | Usuario.                                                                                                                                                                 |
-| **Environment**            | Interfaz de la aplicación móvil o web, con acceso a la base de datos historial y conectividad en ambiente de uso normal.                                                    |
-| **Artifact (if Known)**    | Motor de predicción basado en Machine Learning integrado al sistema de análisis financiero.                                                                              |
-| **Response**               | El sistema procesa el historial del usuario y muestra una estimación de gastos futuros, ajustada conforme nuevos datos se registran, sin demoras mayores a 3 segundos.   |
-| **Response Measure**       | Precisión del 90% en la estimación y tiempo de respuesta menor a 3 segundos para la generación de la predicción.                                                          |
-| **Questions**              | ¿Cómo se garantizará que el modelo de ML se actualice con datos recientes para mantener la precisión de la predicción? ¿Qué medidas operativas se implementarán para validar el modelo? |
-| **Issues**                 | Asegurar la actualización continua y la correcta integración de los datos históricos con el motor de predicción, evitando sesgos o datos desactualizados.                |
+| **Elemento**                    | **Descripción**                                                                                                                                                                          |
+| ------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Scenario(s)**                 | El usuario solicita una predicción de sus gastos futuros para planificar su presupuesto, basándose en su historial de transacciones.                                                          |
+| **Business Goals**              | Brindar a los usuarios información predictiva precisa que les permita anticipar y planificar sus gastos, mejorando la toma de decisiones financieras.                                          |
+| **Relevant Quality Attributes** | Confiabilidad, Precisón, Adaptabilidad.                                                                                                                                                        |
+| **Scenario Components**         | Solicitud de predicción → Procesamiento en el motor de predicción (ML) → Visualización de la predicción en el dashboard.                                                                  |
+| **Stimulus**                    | El usuario hace clic en la opción “Predicción de Gastos” en su panel de control.                                                                                                            |
+| **Stimulus Source**             | Usuario.                                                                                                                                                                                        |
+| **Environment**                 | Interfaz de la aplicación móvil o web, con acceso a la base de datos historial y conectividad en ambiente de uso normal.                                                                      |
+| **Artifact (if Known)**         | Motor de predicción basado en Machine Learning integrado al sistema de análisis financiero.                                                                                                   |
+| **Response**                    | El sistema procesa el historial del usuario y muestra una estimación de gastos futuros, ajustada conforme nuevos datos se registran, sin demoras mayores a 3 segundos.                         |
+| **Response Measure**            | Precisión del 90% en la estimación y tiempo de respuesta menor a 3 segundos para la generación de la predicción.                                                                            |
+| **Questions**                   | ¿Cómo se garantizará que el modelo de ML se actualice con datos recientes para mantener la precisión de la predicción? ¿Qué medidas operativas se implementarán para validar el modelo? |
+| **Issues**                      | Asegurar la actualización continua y la correcta integración de los datos históricos con el motor de predicción, evitando sesgos o datos desactualizados.                                   |
 
 Escenario 3: Adaptabilidad ante Cambios Normativos
 
-| **Elemento**               | **Descripción**                                                                                                                                                         |
-|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Scenario(s)**            | Los administradores deben poder actualizar las reglas internas de la aplicación en respuesta a cambios en las normativas financieras sin interrumpir el servicio.  |
-| **Business Goals**         | Asegurar que la aplicación se adapte rápidamente a nuevas regulaciones, garantizando el cumplimiento y la continuidad operativa.                                          |
-| **Relevant Quality Attributes** | Adaptabilidad, Confiabilidad.                                                                                                                                  |
-| **Scenario Components**    | Recepción de nueva normativa → Actualización de reglas en el sistema → Verificación en ambiente de producción.                                                            |
-| **Stimulus**               | Se anuncia un cambio en la regulación financiera por parte de la autoridad competente.                                                                                |
-| **Stimulus Source**        | Regulador / Stakeholders.                                                                                                                                               |
-| **Environment**            | Ambiente de producción con el sistema en operación continua.                                                                                                          |
-| **Artifact (if Known)**    | Módulo de configuración de reglas y recomendaciones financieras.                                                                                                      |
-| **Response**               | El sistema permite la actualización rápida de las reglas sin interrumpir el servicio; se implementan mecanismos de validación antes de su despliegue.                    |
-| **Response Measure**       | Actualización implementada y validada en menos de 1 semana, sin generar interrupciones en las operaciones.                                                                |
-| **Questions**              | ¿Cómo se validan y prueban de forma segura las nuevas reglas sin afectar la experiencia del usuario?                                                                     |
-| **Issues**                 | Riesgo de inconsistencias si la actualización no se sincroniza correctamente en todos los módulos del sistema.                                                            |
+| **Elemento**                    | **Descripción**                                                                                                                                             |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Scenario(s)**                 | Los administradores deben poder actualizar las reglas internas de la aplicación en respuesta a cambios en las normativas financieras sin interrumpir el servicio. |
+| **Business Goals**              | Asegurar que la aplicación se adapte rápidamente a nuevas regulaciones, garantizando el cumplimiento y la continuidad operativa.                                 |
+| **Relevant Quality Attributes** | Adaptabilidad, Confiabilidad.                                                                                                                                      |
+| **Scenario Components**         | Recepción de nueva normativa → Actualización de reglas en el sistema → Verificación en ambiente de producción.                                               |
+| **Stimulus**                    | Se anuncia un cambio en la regulación financiera por parte de la autoridad competente.                                                                            |
+| **Stimulus Source**             | Regulador / Stakeholders.                                                                                                                                          |
+| **Environment**                 | Ambiente de producción con el sistema en operación continua.                                                                                                     |
+| **Artifact (if Known)**         | Módulo de configuración de reglas y recomendaciones financieras.                                                                                                 |
+| **Response**                    | El sistema permite la actualización rápida de las reglas sin interrumpir el servicio; se implementan mecanismos de validación antes de su despliegue.           |
+| **Response Measure**            | Actualización implementada y validada en menos de 1 semana, sin generar interrupciones en las operaciones.                                                        |
+| **Questions**                   | ¿Cómo se validan y prueban de forma segura las nuevas reglas sin afectar la experiencia del usuario?                                                             |
+| **Issues**                      | Riesgo de inconsistencias si la actualización no se sincroniza correctamente en todos los módulos del sistema.                                                   |
 
 Escenario 4: Seguridad de Datos ante Fallo Parcial del Módulo de Encriptación
 
-| **Elemento**               | **Descripción**                                                                                                                                                         |
-|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Scenario(s)**            | En caso de fallo parcial del módulo de encriptación, el sistema debe proteger los datos sensibles mediante un mecanismo de respaldo sin exponer información.           |
-| **Business Goals**         | Mantener la seguridad y la integridad de los datos financieros del usuario, aun ante fallos parciales en el sistema.                                                      |
-| **Relevant Quality Attributes** | Seguridad de Datos, Robustez.                                                                                                                                |
-| **Scenario Components**    | Monitoreo del módulo → Detección de fallo → Activación del sistema de respaldo → Notificación al administrador.                                                         |
-| **Stimulus**               | Se detecta un fallo en el módulo de encriptación durante una operación de registro o consulta de datos.                                                                   |
-| **Stimulus Source**        | Sistema de monitoreo interno.                                                                                                                                             |
-| **Environment**            | Ambiente de producción con operaciones continuas.                                                                                                                     |
-| **Artifact (if Known)**    | Módulo de encriptación principal y sistema de respaldo de encriptación.                                                                                                  |
-| **Response**               | El sistema desvía de forma automática la carga al módulo de respaldo y notifica inmediatamente a los administradores, garantizando la protección continua de los datos. |
-| **Response Measure**       | La transición ocurre en menos de 1 segundo sin exponer datos sensibles, manteniendo una tasa de error inferior al 1%.                                                       |
-| **Questions**              | ¿Qué protocolos de verificación se activan para asegurar que la transición al sistema de respaldo sea transparente y segura?                                               |
-| **Issues**                 | Potencial vulnerabilidad durante el cambio; se debe minimizar el tiempo y la posibilidad de exposición de datos durante la conmutación al respaldo.                        |
+| **Elemento**                    | **Descripción**                                                                                                                                                      |
+| ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Scenario(s)**                 | En caso de fallo parcial del módulo de encriptación, el sistema debe proteger los datos sensibles mediante un mecanismo de respaldo sin exponer información.             |
+| **Business Goals**              | Mantener la seguridad y la integridad de los datos financieros del usuario, aun ante fallos parciales en el sistema.                                                        |
+| **Relevant Quality Attributes** | Seguridad de Datos, Robustez.                                                                                                                                               |
+| **Scenario Components**         | Monitoreo del módulo → Detección de fallo → Activación del sistema de respaldo → Notificación al administrador.                                                      |
+| **Stimulus**                    | Se detecta un fallo en el módulo de encriptación durante una operación de registro o consulta de datos.                                                                  |
+| **Stimulus Source**             | Sistema de monitoreo interno.                                                                                                                                               |
+| **Environment**                 | Ambiente de producción con operaciones continuas.                                                                                                                          |
+| **Artifact (if Known)**         | Módulo de encriptación principal y sistema de respaldo de encriptación.                                                                                                  |
+| **Response**                    | El sistema desvía de forma automática la carga al módulo de respaldo y notifica inmediatamente a los administradores, garantizando la protección continua de los datos. |
+| **Response Measure**            | La transición ocurre en menos de 1 segundo sin exponer datos sensibles, manteniendo una tasa de error inferior al 1%.                                                      |
+| **Questions**                   | ¿Qué protocolos de verificación se activan para asegurar que la transición al sistema de respaldo sea transparente y segura?                                            |
+| **Issues**                      | Potencial vulnerabilidad durante el cambio; se debe minimizar el tiempo y la posibilidad de exposición de datos durante la conmutación al respaldo.                       |
 
 ## 4.2. Strategic-Level Domain-Driven Design.
 
@@ -1565,14 +1571,21 @@ Escenario 4: Seguridad de Datos ante Fallo Parcial del Módulo de Encriptación
 ## 4.3. Software Architecture.
 
 ### 4.3.1. Software Architecture System Landscape Diagram.
-![](/assets/c4/structurizr-Landscape.png)
+
+![](./assets/c4/structurizr-Landscape.png)
+
 ### 4.3.1. Software Architecture Context Level Diagrams.
-![](/assets/c4/structurizr-101659-SystemContext.png)
+
+![](./assets/c4/structurizr-101659-SystemContext.png)
 
 ### 4.3.2. Software Architecture Container Level Diagrams.
-![](/assets/c4/structurizr-101659-Containers.png)
+
+![](./assets/c4/structurizr-101659-Containers.png)
+
 ### 4.3.3. Software Architecture Deployment Diagrams.
-![](/assets/c4/structurizr-101659-ProductionDeployment.png)
+
+![](./assets/c4/structurizr-101659-ProductionDeployment.png)
+
 # Capítulo V: Tactical-Level Software Design.
 
 ## 5.1. Bounded Context: "Bounded Context Name"
@@ -1675,10 +1688,20 @@ Escenario 4: Seguridad de Datos ante Fallo Parcial del Módulo de Encriptación
 
 ## Conclusiones y recomendaciones.
 
+Nuestra conclusión grupal para la TB1 es que, a través de un análisis profundo de nuestros segmentos objetivos –los estudiantes universitarios–, hemos logrado comprender sus necesidades y desafíos. Esto nos permitió fundamentar nuestra arquitectura usando técnicas de Event Storming, ADD y el C4 Model. Con este enfoque, hemos integrado de manera efectiva software emergente, como soluciones basadas en IA y ML, garantizando una plataforma robusta, escalable y adaptada a la educación financiera de nuestro público.
+
 ## Video About-the-Team.
 
 # Bibliografía
 
+- Evans, E. (2003). Domain-Driven Design: Tackling Complexity in the Heart of Software. Addison-Wesley Professional.
+- Newman, S. (2015). Building Microservices: Designing Fine-Grained Systems. O’Reilly Media.
+- Brown, S. (2014). The C4 Model for Software Architecture. Recuperado de https://c4model.com.
+- Bass, L., Clements, P., & Kazman, R. (2012). Software Architecture in Practice (3rd ed.). Addison-Wesley Professional. (Incluye conceptos y enfoque de Attribute-Driven Design.)
+- Fowler, M. (2002). Patterns of Enterprise Application Architecture. Addison-Wesley Professional.
+
 # Anexos
+
+- Organización del proyecto en GitHub: https://github.com/CampArquiUpc
 
 <div style="page-break-before: always"></div>
