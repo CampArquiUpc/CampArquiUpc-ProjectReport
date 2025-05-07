@@ -662,7 +662,7 @@ La mitad de los entrevistados muestra interes por formas de aprendizaje fuera de
 
 <p>Grafico 2</p>
 
-Un 50% de los entrevistados usa smartphones dando una tendencia en los dispositivos moviles. (Grafico 3)
+Un 75% de los entrevistados usa smartphones (Android y IPhone) dando una tendencia en los dispositivos moviles. (Grafico 3)
 
 ![grafico 1](./assets/Graficos%20del%20analisis%20de%20entrevistas/grafico%203.png)
 
