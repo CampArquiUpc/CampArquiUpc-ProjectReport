@@ -1,4 +1,4 @@
-r `<div align="center">`
+<div align="center">
 
 **Universidad Peruana de Ciencias Aplicadas - Ingeniería de Software**
 
@@ -1805,23 +1805,222 @@ Analisis y Recomendaciones Context
 
 # Capítulo V: Tactical-Level Software Design.
 
-## 5.1. Bounded Context: "Bounded Context Name"
+A continuación se presenta el diseño táctico del software, que incluye la arquitectura de software a nivel de componentes y código para los bounded context relevantes para el negocio de la aplicación PonteBarbón. Este diseño se basa en los principios de Domain-Driven Design (DDD) y sigue el enfoque del C4 Model para representar la arquitectura de software.
+
+## 5.1. Bounded Context: "Gestión Financiera"
 
 ### 5.1.1. Domain Layer.
 
+Dentro del dominio de **Gestión Financiera**, se encuentran las entidades, agregados, value objects y definiciones de servicios que permiten generar, administrar y consultar reportes detallados sobre las transacciones a nivel lógica de las finanzas del usuario. Este contexto es fundamental para proporcionar a los usuarios información valiosa basada en los datos de sus gastos y ayudarlos a tomar decisiones estratégicas.
+
+
+---
+
+#### Aggregate Root
+
+##### Aggregate: `FinancialStatus`
+
+
+| Nombre       | CropReport                                                                                                         |
+| -------------- | -------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Representa el estado financiero de un usuario en relación a sus gastos e ingresos.  |
+
+##### Atributos
+
+- `id: Number`
+- `userId: UserId`
+- `totalIncome: Float`
+- `totalExpenses: Float`
+- `netSavings: Float`
+- `financialGoals: List<FinancialGoal>`
+
+
+##### Métodos
+
+- `calculateNetSavings()`
+- `addIncome(income: Float): void`
+- `addExpense(expense: Float): void`
+- `setFinancialGoal(goal: FinancialGoal): void`
+- `getFinancialSummary(): FinancialSummary`
+
+---
+
+#### Entities
+
+##### Entidad: `FinancialSummary`
+
+
+| Nombre       | FinancialSummary                                                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Representa un resumen financiero que incluye ingresos, gastos y metas financieras del usuario. |
+
+##### Atributos
+
+- `id: String`
+- `totalIncome: Float`
+- `totalExpenses: Float`
+- `netSavings: Float`
+- `financialGoals: List<FinancialGoal>`
+
+##### Entidad: `FinancialGoal`
+
+
+| Nombre       | FinancialGoal                                                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Representa una meta financiera del usuario, incluyendo detalles como el monto objetivo y la fecha límite. |
+
+##### Atributos
+
+- `id: String`
+- `targetAmount: Float`
+- `dueDate: Date`
+- `description: String`
+- `status: String` (e.g., "In Progress", "Achieved", "Failed")
+- `createdAt: Date`
+- `updatedAt: Date`
+
+---
+
+#### Value Objects
+
+##### Value Object: `UserId`
+
+| Nombre       | UserId                                                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Representa el identificador único del usuario, utilizado para asociar datos financieros y reportes a un usuario específico en el contexto de microservicios. |
+
+
+
 ### 5.1.2. Interface Layer.
+
+La capa de interfaz del bounded context **Gestión Financiera** expone los puntos de entrada y salida del sistema, permitiendo la interacción con los usuarios a través de recursos RESTful y controladores.
+
+---
+
+#### Controladores
+
+##### Controlador: `FinancialController`
+
+| Nombre       | FinancialController                                                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Gestiona las solicitudes relacionadas con la gestión financiera, como ingresos, gastos y metas financieras. |
+
+##### Métodos
+
+- `POST /financial/income`: Registra un ingreso.
+- `POST /financial/expense`: Registra un gasto.
+- `POST /financial/goal`: Crea una nueva meta financiera.
+- `GET /financial/summary`: Obtiene el resumen financiero del usuario.
+- `PUT /financial/goal/{id}`: Actualiza una meta financiera.
+
+---
+
+#### Recursos
+
+##### Recurso: `IncomeResource`
+
+| Nombre       | IncomeResource                                                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Representa los datos necesarios para registrar un ingreso. |
+
+##### Atributos
+
+- `amount: Float`
+- `description: String`
+- `date: Date`
+
+---
+
+##### Recurso: `ExpenseResource`
+
+| Nombre       | ExpenseResource                                                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Representa los datos necesarios para registrar un gasto. |
+
+##### Atributos
+
+- `amount: Float`
+- `description: String`
+- `date: Date`
+
+---
+
+##### Recurso: `FinancialGoalResource`
+
+| Nombre       | FinancialGoalResource                                                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Representa los datos necesarios para crear o actualizar una meta financiera. |
+
+##### Atributos
+
+- `targetAmount: Float`
+- `dueDate: Date`
+- `description: String`
+- `status: String` (e.g., "In Progress", "Achieved", "Failed")
+
+---
 
 ### 5.1.3. Application Layer.
 
+La capa de aplicación del bounded context **Gestión Financiera** contiene los casos de uso que orquestan la lógica del dominio y coordinan las interacciones entre las capas de interfaz y dominio.
+
+---
+
+#### Servicios de Aplicación
+
+##### Servicio: `FinancialService`
+
+| Nombre       | FinancialService                                                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Proporciona los casos de uso relacionados con la gestión financiera, como el registro de ingresos, gastos y metas financieras. |
+
+##### Métodos
+
+- `registerIncome(incomeResource: IncomeResource): void`: Registra un ingreso en el sistema.
+- `registerExpense(expenseResource: ExpenseResource): void`: Registra un gasto en el sistema.
+- `createFinancialGoal(goalResource: FinancialGoalResource): void`: Crea una nueva meta financiera.
+- `updateFinancialGoal(id: String, goalResource: FinancialGoalResource): void`: Actualiza una meta financiera existente.
+- `getFinancialSummary(userId: UserId): FinancialSummary`: Obtiene el resumen financiero del usuario.
+
+---
+
 ### 5.1.4. Infrastructure Layer.
 
-### 5.1.6. Bounded Context Software Architecture Component Level Diagrams.
+La capa de infraestructura del bounded context **Gestión Financiera** se encarga de la persistencia de datos, integración con servicios externos y configuración técnica.
 
-### 5.1.7. Bounded Context Software Architecture Code Level Diagrams.
+---
 
-#### 5.1.7.1. Bounded Context Domain Layer Class Diagrams.
+#### Repositorios
 
-#### 5.1.7.2. Bounded Context Database Design Diagram.
+##### Repositorio: `FinancialRepository`
+
+| Nombre       | FinancialRepository                                                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Gestiona la persistencia de datos relacionados con ingresos, gastos y metas financieras. |
+
+##### Métodos
+
+- `saveIncome(income: Income): void`: Guarda un ingreso en la base de datos.
+- `saveExpense(expense: Expense): void`: Guarda un gasto en la base de datos.
+- `saveFinancialGoal(goal: FinancialGoal): void`: Guarda una meta financiera en la base de datos.
+- `findFinancialSummaryByUserId(userId: UserId): FinancialSummary`: Recupera el resumen financiero de un usuario.
+
+---
+
+
+
+#### Configuración
+
+- **Base de Datos:** Configuración para la persistencia de datos financieros en una base de datos relacional.
+- **Mensajería:** Configuración para la integración con un sistema de mensajería basado en eventos (e.g., RabbitMQ o Kafka) para manejar notificaciones en tiempo real.
+
+### 5.1.5. Bounded Context Software Architecture Component Level Diagrams.
+
+### 5.1.6. Bounded Context Software Architecture Code Level Diagrams.
+
+#### 5.1.6.1. Bounded Context Domain Layer Class Diagrams.
+
+#### 5.1.6.2. Bounded Context Database Design Diagram.
 
 # Capítulo VI: Solution UX Design
 
