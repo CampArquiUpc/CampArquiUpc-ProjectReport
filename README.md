@@ -662,7 +662,7 @@ La mitad de los entrevistados muestra interes por formas de aprendizaje fuera de
 
 <p>Grafico 2</p>
 
-Un 50% de los entrevistados usa smartphones dando una tendencia en los dispositivos moviles. (Grafico 3)
+Un 75% de los entrevistados usa smartphones (Android y IPhone) dando una tendencia en los dispositivos moviles. (Grafico 3)
 
 ![grafico 1](./assets/Graficos%20del%20analisis%20de%20entrevistas/grafico%203.png)
 
@@ -2637,8 +2637,54 @@ A continuación se presentan los diagramas de componentes a nivel de software pa
 ## 6.1.Style Guidelines.
 
 ### 6.1.1. General Style Guidelines.
+A continuacion, se mostrará de manera organizada los Branding, Typography, Colors y Spacing que se usarán para diseñar nuestro proyecto.
+
+
+
+* __Brand Name.-__ El nombre de PonteBarbon viene de una lluvia de ideas del equipo, buscando una palabra divertida que atrape a nuestro publico objetivo incentivando el uso de esta.
+  
+<div style="display: flex; justify-content: center; align-items: center; height: 200px; ">
+  <img src="./assets/styles/ChatGPT Image 7 may 2025, 02_18_25 a.m. (1).png" alt="logo">
+</div>
+
+* __Fonts.-__ El tipo de tipografia de letra elegido fue Monserrat gracias a que transmite una sensación contemporánea, amigable y profesional, ideal para aplicaciones orientadas a públicos jóvenes como estudiantes universitarios.
+
+<div style="display: flex; justify-content: center; align-items: center; padding:10px;">
+  <img src="./assets/styles/tipografia.png" alt="logo">
+</div>
+
+* __Colores.-__ Para los colores de nuestro proyecto se escogio la siguiente paleta de colores que reflejan nuestras ideas.
+
+<div style="display: flex; justify-content: center; align-items: center; padding:10px;">
+  <img src="./assets/styles/paleta.png" alt="logo">
+</div>
+
+**Color Principal.-** Los tonos oscuros de azul inspiran confianza, seguridad y autoridad, atributos que buscamos reflejar en el interfaz de nuestro proyecto.
+
+**Colores Secundarios(Titulos,Subtitulos,etc).-**Los colores secundarios son tonos amigables que evitan la saturacion del color principal aportando dinamismo y energia.
+
+**Colores Terciarios.-** Estos colores permite usar los más claros para estados activos, hover, bordes o fondos de componentes sin afectar la visibilidad.
+
+**Colores Texto.-**El color escojido mejora la legibilidad sin causar fatiga visual, especialmente en interfaces claras.
+
+**Colores Fondo.-** Suaviza la visualización general y evita el uso de blanco puro, lo cual mejora la experiencia visual prolongada.
 
 ### 6.1.2. Web, Mobile & Devices Style Guidelines.
+En esta seccion se estableceran los detalles para la interface web y aplicacion movil.
+
+__Interfaz Web__
+
+* __Adaptabilidad.-__ La adaptabilidad permite a la intefaz adaptarse a diferentes tamaños de pantalla sin perder la estetica y funcionalidad.
+
+* __Navegacion.-__ Para la navegacion de la web se establecio un navbar y menus desplegables para su uso en cualquier dispositivo.
+
+* __Elementos Interactivos.-__ Los elementos visuales tendran un hover y animacion suaves para ser mas atGestos y aniamcionesractivas para los usuarios.
+
+__Interfaz Movil__
+
+* __Gestos y aniamciones.-__ Se usaran transiciones fluidas y naturales entre vistas con curvas de animación tipo ease-in-out.
+
+* __Componentes.-__ Se usaran componentes de las bibliotecas respectivas para la plataforma en el cual se desarrolla la aplicacion.
 
 ## 6.2. Information Architecture.
 
@@ -2654,7 +2700,18 @@ A continuación se presentan los diagramas de componentes a nivel de software pa
 
 ### 6.3.1. Landing Page Wireframe.
 
+En esta seccion mostraresmos el wireframe del landing page de nuestra aplicacion movil, donde se muestra la navbar: barra de navegacion del landing con sus diferentes secciones y un switch que permita cambiar el idioma de la pagina. En segundo tenemos el inicio donde tenemos el una pequeñá informacion de la app con dos botones que dirige a descargar la app. A continuacion tenemos las diferentes secciones que muestra informacion de nuestro negocio como planes,beneficios,videos del producto y el equipo.
+
+<div style="display: flex; justify-content: center; align-items: center; padding:10px; ">
+  <img src="./assets/styles/Landing page.png" alt="logo">
+</div>
+
 ### 6.3.2. Landing Page Mock-up.
+En esta seccion se mostrara el landing page con el diseño final para el desarrollo de este se tomo en cuenta los estilos prestablecidos anteriormente.
+
+<div style="display: flex; justify-content: center; align-items: center; padding:10px; ">
+  <img src="./assets/styles/Landing page (2).png" alt="logo">
+</div>
 
 ## 6.4. Applications UX/UI Design.
 
