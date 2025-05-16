@@ -1,0 +1,60 @@
+CREATE DATABASE GestionFinanciera;
+
+USE GestionFinanciera;
+
+-- Tabla para los usuarios
+CREATE TABLE Users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    userId VARCHAR(50) NOT NULL UNIQUE,
+    createdAt DATETIME DEFAULT CURRENT_TIMESTAMP,
+    updatedAt DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+
+-- Tabla para los ingresos
+CREATE TABLE Incomes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    userId VARCHAR(50) NOT NULL,
+    amount FLOAT NOT NULL,
+    description VARCHAR(255),
+    date DATE NOT NULL,
+    createdAt DATETIME DEFAULT CURRENT_TIMESTAMP,
+    updatedAt DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    FOREIGN KEY (userId) REFERENCES Users(userId) ON DELETE CASCADE
+);
+
+-- Tabla para los gastos
+CREATE TABLE Expenses (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    userId VARCHAR(50) NOT NULL,
+    amount FLOAT NOT NULL,
+    description VARCHAR(255),
+    date DATE NOT NULL,
+    createdAt DATETIME DEFAULT CURRENT_TIMESTAMP,
+    updatedAt DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    FOREIGN KEY (userId) REFERENCES Users(userId) ON DELETE CASCADE
+);
+
+-- Tabla para las metas financieras
+CREATE TABLE FinancialGoals (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    userId VARCHAR(50) NOT NULL,
+    targetAmount FLOAT NOT NULL,
+    dueDate DATE NOT NULL,
+    description VARCHAR(255),
+    status ENUM('In Progress', 'Achieved', 'Failed') DEFAULT 'In Progress',
+    createdAt DATETIME DEFAULT CURRENT_TIMESTAMP,
+    updatedAt DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    FOREIGN KEY (userId) REFERENCES Users(userId) ON DELETE CASCADE
+);
+
+-- Tabla para el resumen financiero
+CREATE TABLE FinancialSummaries (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    userId VARCHAR(50) NOT NULL,
+    totalIncome FLOAT DEFAULT 0,
+    totalExpenses FLOAT DEFAULT 0,
+    netSavings FLOAT DEFAULT 0,
+    createdAt DATETIME DEFAULT CURRENT_TIMESTAMP,
+    updatedAt DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    FOREIGN KEY (userId) REFERENCES Users(userId) ON DELETE CASCADE
+);

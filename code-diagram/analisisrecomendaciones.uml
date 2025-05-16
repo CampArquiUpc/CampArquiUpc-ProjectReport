@@ -1,0 +1,25 @@
+@startuml
+class Recommendation {
+    - id: String
+    - user_id: String
+    - content: String
+    - created_at: String
+    + send_to_user()
+}
+
+class FinancialAnalysis {
+    - user_id: String
+    - insights: Dict
+    + generate_insights()
+}
+
+class UserReport {
+    - user_id: String
+    - report_data: Dict
+    - generated_at: String
+    + generate_report()
+}
+
+Recommendation "1" -- "1" FinancialAnalysis
+FinancialAnalysis "1" -- "0..*" UserReport
+@enduml

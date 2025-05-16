@@ -1,0 +1,59 @@
+@startuml
+class User {
+    - userId: String
+    - createdAt: Date
+    - updatedAt: Date
+}
+
+class FinancialStatus {
+    - id: Number
+    - userId: UserId
+    - totalIncome: Float
+    - totalExpenses: Float
+    - netSavings: Float
+    - financialGoals: List<FinancialGoal>
+    + calculateNetSavings(): void
+    + addIncome(income: Float): void
+    + addExpense(expense: Float): void
+    + setFinancialGoal(goal: FinancialGoal): void
+    + getFinancialSummary(): FinancialSummary
+}
+
+class FinancialGoal {
+    - id: String
+    - targetAmount: Float
+    - dueDate: Date
+    - description: String
+    - status: String
+    - createdAt: Date
+    - updatedAt: Date
+}
+
+class FinancialSummary {
+    - id: String
+    - totalIncome: Float
+    - totalExpenses: Float
+    - netSavings: Float
+    - financialGoals: List<FinancialGoal>
+}
+
+class Income {
+    - id: String
+    - amount: Float
+    - description: String
+    - date: Date
+}
+
+class Expense {
+    - id: String
+    - amount: Float
+    - description: String
+    - date: Date
+}
+
+User "1" -- "1" FinancialStatus
+FinancialStatus "1" -- "0..*" FinancialGoal
+FinancialStatus "1" -- "1" FinancialSummary
+FinancialStatus "1" -- "0..*" Income
+FinancialStatus "1" -- "0..*" Expense
+@enduml

@@ -1699,6 +1699,7 @@ Este flujo permite al usuario tener un control visual y sencillo de su evolució
   </tbody>
 </table>
 
+
 Link del Miro: [https://miro.com/app/board/uXjVI9xUGTI=/?share_link_id=436378574816](https://miro.com/app/board/uXjVI9xUGTI=/?share_link_id=436378574816)
 
 Gestion Financiera Context:
@@ -2014,6 +2015,15 @@ La capa de infraestructura del bounded context **Gestión Financiera** se encarg
 - **Base de Datos:** Configuración para la persistencia de datos financieros en una base de datos relacional.
 - **Mensajería:** Configuración para la integración con un sistema de mensajería basado en eventos (e.g., RabbitMQ o Kafka) para manejar notificaciones en tiempo real.
 
+
+
+
+
+### 5.1.5. Bounded Context Software Architecture Component Level Diagrams.
+
+A continuación se presentan los diagramas de componentes a nivel de software para el bounded context **Gestión Financiera**. Estos diagramas ilustran la estructura y las interacciones entre los diferentes componentes del sistema.
+![Component Level Diagram](assets\GestionFinanciera-ComponentC4.png)
+
 ### 5.1.5. Bounded Context Software Architecture Component Level Diagrams.
 
 ### 5.1.6. Bounded Context Software Architecture Code Level Diagrams.
@@ -2021,6 +2031,7 @@ La capa de infraestructura del bounded context **Gestión Financiera** se encarg
 #### 5.1.6.1. Bounded Context Domain Layer Class Diagrams.
 
 #### 5.1.6.2. Bounded Context Database Design Diagram.
+
 
 # Capítulo VI: Solution UX Design
 

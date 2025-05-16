@@ -1,0 +1,28 @@
+@startuml
+class Lesson {
+    - id: String
+    - title: String
+    - content: String
+    - difficulty: String
+    + mark_as_completed(user_id: String)
+}
+
+class Challenge {
+    - id: String
+    - description: String
+    - reward: String
+    + complete_challenge(user_id: String)
+}
+
+class UserProgress {
+    - user_id: String
+    - completed_lessons: List<String>
+    - completed_challenges: List<String>
+    + add_completed_lesson(lesson_id: String)
+    + add_completed_challenge(challenge_id: String)
+}
+
+Lesson "1" -- "0..*" Challenge
+UserProgress "1" -- "0..*" Lesson
+UserProgress "1" -- "0..*" Challenge
+@enduml

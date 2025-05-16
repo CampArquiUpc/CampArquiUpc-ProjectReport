@@ -1,0 +1,46 @@
+@startuml
+class Chatbot {
+    - id: String
+    - name: String
+    - language: String
+    + process_query(query: String): String
+}
+
+class UserQuery {
+    - user_id: String
+    - query: String
+    - timestamp: String
+}
+
+class Lesson {
+    - id: String
+    - title: String
+    - content: String
+    - difficulty: String
+    + mark_as_completed(user_id: String)
+}
+
+class Challenge {
+    - id: String
+    - description: String
+    - reward: String
+}
+
+class Recommendation {
+    - id: String
+    - user_id: String
+    - content: String
+    - created_at: String
+    + send_to_user()
+}
+
+class FinancialAnalysis {
+    - user_id: String
+    - insights: Dict
+    + generate_insights()
+}
+
+Chatbot "1" -- "0..*" UserQuery
+Lesson "1" -- "0..*" Challenge
+Recommendation "1" -- "1" FinancialAnalysis
+@enduml
