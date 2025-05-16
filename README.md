@@ -2010,14 +2010,6 @@ La capa de infraestructura del bounded context **Gestión Financiera** se encarg
 
 
 
-#### Configuración
-
-- **Base de Datos:** Configuración para la persistencia de datos financieros en una base de datos relacional.
-- **Mensajería:** Configuración para la integración con un sistema de mensajería basado en eventos (e.g., RabbitMQ o Kafka) para manejar notificaciones en tiempo real.
-
-
-
-
 
 ### 5.1.5. Bounded Context Software Architecture Component Level Diagrams.
 
@@ -2031,6 +2023,613 @@ A continuación se presentan los diagramas de componentes a nivel de software pa
 #### 5.1.6.1. Bounded Context Domain Layer Class Diagrams.
 
 #### 5.1.6.2. Bounded Context Database Design Diagram.
+
+## 5.2. Bounded Context: "Educación Financiera"
+
+### 5.2.1. Domain Layer.
+
+Dentro del dominio de **Educación Financiera**, se encuentran las entidades, agregados, value objects y definiciones de servicios que permiten brindar contenido educativo, módulos de aprendizaje y gamificación para los usuarios. Este contexto es fundamental para proporcionar a los usuarios herramientas y recursos que les ayuden a mejorar sus habilidades financieras.
+
+
+---
+
+#### Aggregate Root
+
+##### Aggregate: `FinancialStatus`
+
+
+| Nombre       | CropReport                                                                                                         |
+| -------------- | -------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Representa el estado financiero de un usuario en relación a sus gastos e ingresos.  |
+
+##### Atributos
+
+- `id: Number`
+- `userId: UserId`
+- `totalIncome: Float`
+- `totalExpenses: Float`
+- `netSavings: Float`
+- `financialGoals: List<FinancialGoal>`
+
+
+##### Métodos
+
+- `calculateNetSavings()`
+- `addIncome(income: Float): void`
+- `addExpense(expense: Float): void`
+- `setFinancialGoal(goal: FinancialGoal): void`
+- `getFinancialSummary(): FinancialSummary`
+
+---
+
+#### Entities
+
+##### Entidad: `FinancialSummary`
+
+
+| Nombre       | FinancialSummary                                                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Representa un resumen financiero que incluye ingresos, gastos y metas financieras del usuario. |
+
+##### Atributos
+
+- `id: String`
+- `totalIncome: Float`
+- `totalExpenses: Float`
+- `netSavings: Float`
+- `financialGoals: List<FinancialGoal>`
+
+##### Entidad: `FinancialGoal`
+
+
+| Nombre       | FinancialGoal                                                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Representa una meta financiera del usuario, incluyendo detalles como el monto objetivo y la fecha límite. |
+
+##### Atributos
+
+- `id: String`
+- `targetAmount: Float`
+- `dueDate: Date`
+- `description: String`
+- `status: String` (e.g., "In Progress", "Achieved", "Failed")
+- `createdAt: Date`
+- `updatedAt: Date`
+
+---
+
+#### Value Objects
+
+##### Value Object: `UserId`
+
+| Nombre       | UserId                                                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Representa el identificador único del usuario, utilizado para asociar datos financieros y reportes a un usuario específico en el contexto de microservicios. |
+
+
+
+### 5.2.2. Interface Layer.
+
+La capa de interfaz del bounded context **Gestión Financiera** expone los puntos de entrada y salida del sistema, permitiendo la interacción con los usuarios a través de recursos RESTful y controladores.
+
+---
+
+#### Controladores
+
+##### Controlador: `FinancialController`
+
+| Nombre       | FinancialController                                                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Gestiona las solicitudes relacionadas con la gestión financiera, como ingresos, gastos y metas financieras. |
+
+##### Métodos
+
+- `POST /financial/income`: Registra un ingreso.
+- `POST /financial/expense`: Registra un gasto.
+- `POST /financial/goal`: Crea una nueva meta financiera.
+- `GET /financial/summary`: Obtiene el resumen financiero del usuario.
+- `PUT /financial/goal/{id}`: Actualiza una meta financiera.
+
+---
+
+#### Recursos
+
+##### Recurso: `IncomeResource`
+
+| Nombre       | IncomeResource                                                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Representa los datos necesarios para registrar un ingreso. |
+
+##### Atributos
+
+- `amount: Float`
+- `description: String`
+- `date: Date`
+
+---
+
+##### Recurso: `ExpenseResource`
+
+| Nombre       | ExpenseResource                                                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Representa los datos necesarios para registrar un gasto. |
+
+##### Atributos
+
+- `amount: Float`
+- `description: String`
+- `date: Date`
+
+---
+
+##### Recurso: `FinancialGoalResource`
+
+| Nombre       | FinancialGoalResource                                                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Representa los datos necesarios para crear o actualizar una meta financiera. |
+
+##### Atributos
+
+- `targetAmount: Float`
+- `dueDate: Date`
+- `description: String`
+- `status: String` (e.g., "In Progress", "Achieved", "Failed")
+
+---
+
+### 5.2.3. Application Layer.
+
+La capa de aplicación del bounded context **Gestión Financiera** contiene los casos de uso que orquestan la lógica del dominio y coordinan las interacciones entre las capas de interfaz y dominio.
+
+---
+
+#### Servicios de Aplicación
+
+##### Servicio: `FinancialService`
+
+| Nombre       | FinancialService                                                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Proporciona los casos de uso relacionados con la gestión financiera, como el registro de ingresos, gastos y metas financieras. |
+
+##### Métodos
+
+- `registerIncome(incomeResource: IncomeResource): void`: Registra un ingreso en el sistema.
+- `registerExpense(expenseResource: ExpenseResource): void`: Registra un gasto en el sistema.
+- `createFinancialGoal(goalResource: FinancialGoalResource): void`: Crea una nueva meta financiera.
+- `updateFinancialGoal(id: String, goalResource: FinancialGoalResource): void`: Actualiza una meta financiera existente.
+- `getFinancialSummary(userId: UserId): FinancialSummary`: Obtiene el resumen financiero del usuario.
+
+---
+
+### 5.2.4. Infrastructure Layer.
+
+La capa de infraestructura del bounded context **Gestión Financiera** se encarga de la persistencia de datos, integración con servicios externos y configuración técnica.
+
+---
+
+#### Repositorios
+
+##### Repositorio: `FinancialRepository`
+
+| Nombre       | FinancialRepository                                                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Gestiona la persistencia de datos relacionados con ingresos, gastos y metas financieras. |
+
+##### Métodos
+
+- `saveIncome(income: Income): void`: Guarda un ingreso en la base de datos.
+- `saveExpense(expense: Expense): void`: Guarda un gasto en la base de datos.
+- `saveFinancialGoal(goal: FinancialGoal): void`: Guarda una meta financiera en la base de datos.
+- `findFinancialSummaryByUserId(userId: UserId): FinancialSummary`: Recupera el resumen financiero de un usuario.
+
+---
+
+
+
+
+### 5.2.5. Bounded Context Software Architecture Component Level Diagrams.
+
+A continuación se presentan los diagramas de componentes a nivel de software para el bounded context **Gestión Financiera**. Estos diagramas ilustran la estructura y las interacciones entre los diferentes componentes del sistema.
+![Component Level Diagram](assets\EducacionFinanciera-ComponentC4.png)
+
+
+### 5.2.6. Bounded Context Software Architecture Code Level Diagrams.
+
+#### 5.2.6.1. Bounded Context Domain Layer Class Diagrams.
+
+#### 5.2.6.2. Bounded Context Database Design Diagram.
+
+## 5.2. Bounded Context: "Educación Financiera"
+### 5.2.1. Domain Layer.
+
+Dentro del dominio de **Educación Financiera**, se encuentran las entidades, agregados y servicios que permiten ofrecer módulos de aprendizaje interactivo, desafíos gamificados y contenidos educativos para mejorar las habilidades financieras de los usuarios.
+
+---
+
+#### Aggregate Root
+
+##### Aggregate: `LearningModule`
+
+| Nombre       | LearningModule                                                                                                         |
+| -------------- | -------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Representa un módulo educativo que contiene lecciones y desafíos gamificados para mejorar las habilidades financieras del usuario. |
+
+##### Atributos
+
+- `id: String`
+- `title: String`
+- `description: String`
+- `difficulty: String`
+- `lessons: List<Lesson>`
+- `challenges: List<Challenge>`
+
+##### Métodos
+
+- `addLesson(lesson: Lesson): void`
+- `addChallenge(challenge: Challenge): void`
+- `getProgress(userId: String): Float`
+
+---
+
+#### Entities
+
+##### Entidad: `Lesson`
+
+| Nombre       | Lesson                                                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Representa una lección educativa que forma parte de un módulo de aprendizaje. |
+
+##### Atributos
+
+- `id: String`
+- `title: String`
+- `content: String`
+- `difficulty: String`
+
+---
+
+##### Entidad: `Challenge`
+
+| Nombre       | Challenge                                                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Representa un desafío gamificado que incentiva al usuario a aplicar lo aprendido. |
+
+##### Atributos
+
+- `id: String`
+- `description: String`
+- `reward: String`
+
+---
+
+### 5.2.2. Interface Layer.
+
+La capa de interfaz del bounded context **Educación Financiera** expone los puntos de entrada y salida del sistema, permitiendo la interacción con los usuarios a través de recursos RESTful y controladores.
+
+---
+
+#### Controladores
+
+##### Controlador: `LearningController`
+
+| Nombre       | LearningController                                                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Gestiona las solicitudes relacionadas con los módulos de aprendizaje, lecciones y desafíos. |
+
+##### Métodos
+
+- `GET /learning/modules`: Obtiene todos los módulos de aprendizaje.
+- `GET /learning/module/{id}`: Obtiene los detalles de un módulo específico.
+- `POST /learning/progress`: Registra el progreso del usuario en un módulo.
+
+---
+
+#### Recursos
+
+##### Recurso: `LessonResource`
+
+| Nombre       | LessonResource                                                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Representa los datos necesarios para mostrar una lección. |
+
+##### Atributos
+
+- `title: String`
+- `content: String`
+- `difficulty: String`
+
+---
+
+##### Recurso: `ChallengeResource`
+
+| Nombre       | ChallengeResource                                                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Representa los datos necesarios para mostrar un desafío. |
+
+##### Atributos
+
+- `description: String`
+- `reward: String`
+
+---
+
+### 5.2.3. Application Layer.
+
+#### Servicio: `LearningService`
+
+| Nombre       | LearningService                                                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Proporciona los casos de uso relacionados con los módulos de aprendizaje, lecciones y desafíos. |
+
+##### Métodos
+
+- `getAllModules(): List<LearningModule>`
+- `getModuleById(id: String): LearningModule`
+- `registerProgress(userId: String, moduleId: String): void`
+
+---
+
+### 5.2.4. Infrastructure Layer.
+
+#### Repositorio: `LearningRepository`
+
+| Nombre       | LearningRepository                                                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Gestiona la persistencia de datos relacionados con los módulos de aprendizaje, lecciones y desafíos. |
+
+##### Métodos
+
+- `findAllModules(): List<LearningModule>`
+- `findModuleById(id: String): LearningModule`
+- `saveProgress(userId: String, moduleId: String): void`
+
+---
+
+
+### 5.2.5. Bounded Context Software Architecture Component Level Diagrams.
+
+A continuación se presentan los diagramas de componentes a nivel de software para el bounded context **Gestión Financiera**. Estos diagramas ilustran la estructura y las interacciones entre los diferentes componentes del sistema.
+![Component Level Diagram](assets\EducacionFinanciera-ComponentC4.png)
+
+
+### 5.2.6. Bounded Context Software Architecture Code Level Diagrams.
+
+#### 5.2.6.1. Bounded Context Domain Layer Class Diagrams.
+
+#### 5.2.6.2. Bounded Context Database Design Diagram.
+
+## 5.3. Bounded Context: "Interacción Conversacional"
+
+
+### 5.3.1. Domain Layer.
+
+Dentro del dominio de **Interacción Conversacional**, se encuentran las entidades y servicios que permiten gestionar las consultas de los usuarios y las respuestas generadas por el chatbot.
+
+---
+
+#### Aggregate Root
+
+##### Aggregate: `Chatbot`
+
+| Nombre       | Chatbot                                                                                                         |
+| -------------- | -------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Representa el chatbot que procesa las consultas de los usuarios y genera respuestas personalizadas. |
+
+##### Atributos
+
+- `id: String`
+- `name: String`
+- `language: String`
+
+##### Métodos
+
+- `processQuery(query: String): String`
+
+---
+
+#### Entities
+
+##### Entidad: `UserQuery`
+
+| Nombre       | UserQuery                                                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Representa una consulta realizada por un usuario al chatbot. |
+
+##### Atributos
+
+- `userId: String`
+- `query: String`
+- `timestamp: Date`
+
+---
+
+### 5.3.2. Interface Layer.
+
+#### Controladores
+
+##### Controlador: `ChatbotController`
+
+| Nombre       | ChatbotController                                                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Gestiona las solicitudes relacionadas con las consultas al chatbot. |
+
+##### Métodos
+
+- `POST /chatbot/query`: Procesa una consulta del usuario.
+
+---
+
+#### Recursos
+
+##### Recurso: `QueryResource`
+
+| Nombre       | QueryResource                                                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Representa los datos necesarios para realizar una consulta al chatbot. |
+
+##### Atributos
+
+- `query: String`
+
+---
+
+### 5.3.3. Application Layer.
+
+#### Servicio: `ChatbotService`
+
+| Nombre       | ChatbotService                                                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Proporciona los casos de uso relacionados con el procesamiento de consultas al chatbot. |
+
+##### Métodos
+
+- `processQuery(query: String): String`
+
+---
+
+### 5.3.4. Infrastructure Layer.
+
+#### Repositorio: `ChatbotRepository`
+
+| Nombre       | ChatbotRepository                                                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Gestiona la persistencia de datos relacionados con las consultas realizadas al chatbot. |
+
+##### Métodos
+
+- `saveQuery(query: UserQuery): void`
+- `findQueriesByUserId(userId: String): List<UserQuery>`
+
+### 5.3.5. Bounded Context Software Architecture Component Level Diagrams.
+
+A continuación se presentan los diagramas de componentes a nivel de software para el bounded context **Gestión Financiera**. Estos diagramas ilustran la estructura y las interacciones entre los diferentes componentes del sistema.
+![Component Level Diagram](assets\EducacionFinanciera-ComponentC4.png)
+
+
+### 5.3.6. Bounded Context Software Architecture Code Level Diagrams.
+
+#### 5.3.6.1. Bounded Context Domain Layer Class Diagrams.
+
+#### 5.3.6.2. Bounded Context Database Design Diagram.
+
+
+---
+
+## 5.4. Bounded Context: "Análisis y Recomendaciones"
+
+### 5.4.1. Domain Layer.
+
+Dentro del dominio de **Análisis y Recomendaciones**, se encuentran las entidades y servicios que permiten procesar datos financieros y generar recomendaciones personalizadas.
+
+---
+
+#### Aggregate Root
+
+##### Aggregate: `RecommendationEngine`
+
+| Nombre       | RecommendationEngine                                                                                                         |
+| -------------- | -------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Representa el motor que procesa datos financieros y genera recomendaciones personalizadas. |
+
+##### Atributos
+
+- `id: String`
+- `userId: String`
+- `recommendations: List<Recommendation>`
+
+##### Métodos
+
+- `generateRecommendation(data: FinancialData): Recommendation`
+
+---
+
+#### Entities
+
+##### Entidad: `Recommendation`
+
+| Nombre       | Recommendation                                                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Representa una recomendación financiera generada para un usuario. |
+
+##### Atributos
+
+- `id: String`
+- `content: String`
+- `createdAt: Date`
+
+---
+
+### 5.4.2. Interface Layer.
+
+#### Controladores
+
+##### Controlador: `RecommendationController`
+
+| Nombre       | RecommendationController                                                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Gestiona las solicitudes relacionadas con la generación y visualización de recomendaciones. |
+
+##### Métodos
+
+- `POST /recommendations`: Genera una nueva recomendación.
+- `GET /recommendations/{userId}`: Obtiene las recomendaciones de un usuario.
+
+---
+
+#### Recursos
+
+##### Recurso: `RecommendationResource`
+
+| Nombre       | RecommendationResource                                                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Representa los datos necesarios para mostrar una recomendación. |
+
+##### Atributos
+
+- `content: String`
+- `createdAt: Date`
+
+---
+
+### 5.4.3. Application Layer.
+
+#### Servicio: `RecommendationService`
+
+| Nombre       | RecommendationService                                                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Proporciona los casos de uso relacionados con la generación y visualización de recomendaciones. |
+
+##### Métodos
+
+- `generateRecommendation(userId: String, data: FinancialData): Recommendation`
+- `getRecommendationsByUserId(userId: String): List<Recommendation>`
+
+---
+
+### 5.4.4. Infrastructure Layer.
+
+#### Repositorio: `RecommendationRepository`
+
+| Nombre       | RecommendationRepository                                                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Gestiona la persistencia de datos relacionados con las recomendaciones generadas. |
+
+##### Métodos
+
+- `saveRecommendation(recommendation: Recommendation): void`
+- `findRecommendationsByUserId(userId: String): List<Recommendation>`
+
+### 5.4.5. Bounded Context Software Architecture Component Level Diagrams.
+
+A continuación se presentan los diagramas de componentes a nivel de software para el bounded context **Gestión Financiera**. Estos diagramas ilustran la estructura y las interacciones entre los diferentes componentes del sistema.
+![Component Level Diagram](assets\EducacionFinanciera-ComponentC4.png)
+
+
+### 5.4.6. Bounded Context Software Architecture Code Level Diagrams.
+
+#### 5.4.6.1. Bounded Context Domain Layer Class Diagrams.
+
+#### 5.4.6.2. Bounded Context Database Design Diagram.
 
 
 # Capítulo VI: Solution UX Design
