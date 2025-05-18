@@ -7,7 +7,7 @@
 ## 1ASI0728 - Arquitectura de Software Emergentes
 
 Docente: Christian Luis De Los Rios Fernandez
-Informe TB1
+Informe TP
 
 Startup: CampArquiUpc
 Producto: PonteBarbón
@@ -203,10 +203,17 @@ Producto: PonteBarbón
         <p><strong>Nombre: Brayan Smith Morales Quispe</strong> En el desarrollo del proyecto PonteBarbón, he aprendido a comunicar de manera efectiva los resultados de la investigación y la solución propuesta, ajustando el nivel de complejidad del mensaje según el público.</p>
 <p><strong>Nombre: Fernando Daniel Quispe Condori</strong> En el desarrollo de esta entrega pude alcanzar este objetivo específico coordinando con mi equipo las ideas que tenía para así coordinar y buscar un acuerdo para una solución.</p>
 <p><strong>Nombre: Carlos Alberto Ochoa Colonia</strong> En esta entrega pude desarrollar este objetivo colaborativamente resolviendo dudas y comunicando mis ideas sobre el event storming.</p>
+
+<strong>TP:</strong>
+        <p><strong>Nombre: Brayan Smith Morales Quispe</strong> En esta entrega he podido comunicar mis ideas de manera más clara y concisa, utilizando herramientas visuales que facilitaron la comprensión del proyecto con herramientas de arquitectura</p>
+<p><strong>Nombre: Fernando Daniel Quispe Condori</strong> En el desarrollo de esta entrega logré expresar mis ideas de manera más efectiva, utilizando diagramas y prototipos que facilitaron la comunicación con el equipo y con el público general en la exposición</p>
+<p><strong>Nombre: Carlos Alberto Ochoa Colonia</strong> En esta entrega logré comunicar mis ideas de manera más efectiva, utilizando diagramas y prototipos que facilitaron la comunicación con el equipo y con el público general en la exposición</p>
       </td>
       <td>
         <strong>TB1:</strong>
         Fuimos capaces de presentar nuestra propuesta de forma clara y accesible a distintos públicos, adaptando el contenido según el nivel técnico y jerárquico de cada audiencia. Esto permitió transmitir la visión del proyecto de manera efectiva y recibir valioso feedback.
+        <strong>TP:</strong>
+        La presentación del proyecto fue un éxito, logrando captar la atención de diferentes públicos y generando interés en la solución propuesta. La comunicación efectiva fue clave para transmitir la importancia de PonteBarbón en la educación financiera de los estudiantes universitarios.
       </td>
     </tr>
     <tr>
@@ -217,10 +224,16 @@ Producto: PonteBarbón
         <p><strong>Nombre: Brayan Smith Morales Quispe</strong> Las descripciones de las funcionalidades, la implementación de la inteligencia artificial y los módulos de aprendizaje fueron bien detalladas, pero siempre con un enfoque accesible.</p>
 <p><strong>Nombre: Fernando Daniel Quispe Condori</strong> En la entrega pude ser capaz de desarrollar los artefactos que nos permiten experesar las ideas de nuestro proyecto.</p>
 <p><strong>Nombre: Carlos Alberto Ochoa Colonia</strong> En esta entrega desarrolle los artefactos y de esa manera pude alcanzar los objetivos de manera escrita.</p>
+<strong>TP:</strong>
+        <p><strong>Nombre: Brayan Smith Morales Quispe</strong> En esta entrega elaborar los artefactos de arquitectura me permitieron estructurar mejor mis ideas y presentarlas de manera más clara.</p>
+<p><strong>Nombre: Fernando Daniel Quispe Condori</strong> En la entrega pude ser capaz de plasmar las ideas del equipo y las mías en los diagramas C4 lo cuál me permite comunicar de manera más efectiva la arquitectura del sistema.</p>
+<p><strong>Nombre: Carlos Alberto Ochoa Colonia</strong> En esta entrega logré plasmar mis ideas en los artefactos de arquitectura, lo que facilitó la comprensión del proyecto y su implementación. De la misma manera colaboré con los temas de diseño de la interfaz de usuario.</p>
       </td>
       <td>
         <strong>TB1:</strong>
         Conseguimos documentar el proyecto de manera precisa y comprensible, abordando tanto los aspectos técnicos como sociales de la solución, con un enfoque que permitió a públicos diversos entender el impacto de PonteBarbón en la educación financiera de los estudiantes universitarios.
+        <strong>TP:</strong>
+        La documentación del proyecto fue clara y accesible, facilitando la comprensión de la propuesta y su implementación. La estructura de los artefactos de arquitectura permitió una mejor comunicación entre los miembros del equipo y con el público en general.
       </td>
     </tr>
   </tbody>
@@ -2008,9 +2021,6 @@ La capa de infraestructura del bounded context **Gestión Financiera** se encarg
 
 ---
 
-
-
-
 ### 5.1.5. Bounded Context Software Architecture Component Level Diagrams.
 
 A continuación se presentan los diagramas de componentes a nivel de software para el bounded context **Gestión Financiera**. Estos diagramas ilustran la estructura y las interacciones entre los diferentes componentes del sistema.
@@ -2018,11 +2028,17 @@ A continuación se presentan los diagramas de componentes a nivel de software pa
 
 ### 5.1.5. Bounded Context Software Architecture Component Level Diagrams.
 
+![Component Level Diagram](assets\EducacionFinanciera-ComponentC4.png)
+
 ### 5.1.6. Bounded Context Software Architecture Code Level Diagrams.
 
 #### 5.1.6.1. Bounded Context Domain Layer Class Diagrams.
 
+![Domain Layer Class Diagram](assets\code-diagram\gestion-financiera.png)
+
 #### 5.1.6.2. Bounded Context Database Design Diagram.
+
+![Database Design Diagram](assets\database\gestion-financiera.png)
 
 ## 5.2. Bounded Context: "Educación Financiera"
 
@@ -2110,7 +2126,7 @@ Dentro del dominio de **Educación Financiera**, se encuentran las entidades, ag
 
 ### 5.2.2. Interface Layer.
 
-La capa de interfaz del bounded context **Gestión Financiera** expone los puntos de entrada y salida del sistema, permitiendo la interacción con los usuarios a través de recursos RESTful y controladores.
+La capa de interfaz del bounded context **Educación Financiera** expone los puntos de entrada y salida del sistema, permitiendo la interacción con los usuarios a través de recursos RESTful y controladores.
 
 ---
 
@@ -2120,7 +2136,7 @@ La capa de interfaz del bounded context **Gestión Financiera** expone los punto
 
 | Nombre       | FinancialController                                                                                                                 |
 | -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| Descripción | Gestiona las solicitudes relacionadas con la gestión financiera, como ingresos, gastos y metas financieras. |
+| Descripción | Gestiona las solicitudes relacionadas con la Educación Financiera, como ingresos, gastos y metas financieras. |
 
 ##### Métodos
 
@@ -2179,7 +2195,7 @@ La capa de interfaz del bounded context **Gestión Financiera** expone los punto
 
 ### 5.2.3. Application Layer.
 
-La capa de aplicación del bounded context **Gestión Financiera** contiene los casos de uso que orquestan la lógica del dominio y coordinan las interacciones entre las capas de interfaz y dominio.
+La capa de aplicación del bounded context **Educación Financiera** contiene los casos de uso que orquestan la lógica del dominio y coordinan las interacciones entre las capas de interfaz y dominio.
 
 ---
 
@@ -2237,7 +2253,43 @@ A continuación se presentan los diagramas de componentes a nivel de software pa
 
 #### 5.2.6.1. Bounded Context Domain Layer Class Diagrams.
 
+![Domain Layer Class Diagram](assets\code-diagram\educacion-financiera.png)
+
 #### 5.2.6.2. Bounded Context Database Design Diagram.
+
+Se adjunta la estructura de database en json.
+
+```json
+{
+  "tables": [
+    {
+      "name": "LearningModule",
+      "columns": [
+        {"name": "id", "type": "String", "primaryKey": true},
+        {"name": "title", "type": "String"},
+        {"name": "description", "type": "String"},
+        {"name": "difficulty", "type": "String"}
+      ]
+    },
+    {
+      "name": "Lesson",
+      "columns": [
+        {"name": "id", "type": "String", "primaryKey": true},
+        {"name": "title", "type": "String"},
+        {"name": "content", "type": "String"},
+        {"name": "difficulty", "type": "String"}
+      ]
+    },
+    {
+      "name": "Challenge",
+      "columns": [
+        {"name": "id", "type": "String", "primaryKey": true},
+        {"name": "description", "type": "String"},
+        {"name": "reward", "type": "String"}
+      ]
+    }
+  ]
+```	
 
 ## 5.2. Bounded Context: "Educación Financiera"
 ### 5.2.1. Domain Layer.
@@ -2396,7 +2448,43 @@ A continuación se presentan los diagramas de componentes a nivel de software pa
 
 #### 5.2.6.1. Bounded Context Domain Layer Class Diagrams.
 
+![Domain Layer Class Diagram](assets\code-diagram\educacion-financiera.png)
+
 #### 5.2.6.2. Bounded Context Database Design Diagram.
+
+Se adjunta la estructura de database en json.
+
+```json
+{
+  "tables": [
+    {
+      "name": "LearningModule",
+      "columns": [
+        {"name": "id", "type": "String", "primaryKey": true},
+        {"name": "title", "type": "String"},
+        {"name": "description", "type": "String"},
+        {"name": "difficulty", "type": "String"}
+      ]
+    },
+    {
+      "name": "Lesson",
+      "columns": [
+        {"name": "id", "type": "String", "primaryKey": true},
+        {"name": "title", "type": "String"},
+        {"name": "content", "type": "String"},
+        {"name": "difficulty", "type": "String"}
+      ]
+    },
+    {
+      "name": "Challenge",
+      "columns": [
+        {"name": "id", "type": "String", "primaryKey": true},
+        {"name": "description", "type": "String"},
+        {"name": "reward", "type": "String"}
+      ]
+    }
+  ]
+```	
 
 ## 5.3. Bounded Context: "Interacción Conversacional"
 
@@ -2510,7 +2598,58 @@ A continuación se presentan los diagramas de componentes a nivel de software pa
 
 #### 5.3.6.1. Bounded Context Domain Layer Class Diagrams.
 
+![Domain Layer Class Diagram](assets\code-diagram\interaccion-conversacional.png)
+
 #### 5.3.6.2. Bounded Context Database Design Diagram.
+
+Se adjunta el .json de la estructura de documentos de mongo DB:
+
+```json
+// MongoDB Schema for Interacción Conversacional
+db.createCollection("queries", {
+  validator: {
+    $jsonSchema: {
+      bsonType: "object",
+      required: ["user_id", "query", "timestamp"],
+      properties: {
+        user_id: { bsonType: "string" },
+        query: { bsonType: "string" },
+        timestamp: { bsonType: "date" }
+      }
+    }
+  }
+});
+
+// MongoDB Schema for Educación Financiera
+db.createCollection("lessons", {
+  validator: {
+    $jsonSchema: {
+      bsonType: "object",
+      required: ["title", "content", "difficulty"],
+      properties: {
+        title: { bsonType: "string" },
+        content: { bsonType: "string" },
+        difficulty: { bsonType: "string" }
+      }
+    }
+  }
+});
+
+// MongoDB Schema for Análisis y Recomendaciones
+db.createCollection("recommendations", {
+  validator: {
+    $jsonSchema: {
+      bsonType: "object",
+      required: ["user_id", "content", "created_at"],
+      properties: {
+        user_id: { bsonType: "string" },
+        content: { bsonType: "string" },
+        created_at: { bsonType: "date" }
+      }
+    }
+  }
+});
+```
 
 
 ---
@@ -2627,10 +2766,63 @@ A continuación se presentan los diagramas de componentes a nivel de software pa
 
 ### 5.4.6. Bounded Context Software Architecture Code Level Diagrams.
 
+A continuación se presentan los diagramas de código a nivel de software para el bounded context **Analisis y recomendaciones**. Estos diagramas ilustran la estructura y las interacciones entre los diferentes componentes del sistema.
+
 #### 5.4.6.1. Bounded Context Domain Layer Class Diagrams.
+
+![Domain Layer Class Diagram](assets\code-diagram\analisis-recomendaciones.png)
 
 #### 5.4.6.2. Bounded Context Database Design Diagram.
 
+Se adjunta el .json de la estructura de documentos de mongo DB:
+
+```json
+// MongoDB Schema for Recommendations
+db.createCollection("recommendations", {
+  validator: {
+    $jsonSchema: {
+      bsonType: "object",
+      required: ["user_id", "content", "created_at"],
+      properties: {
+        user_id: { bsonType: "string" },
+        content: { bsonType: "string" },
+        created_at: { bsonType: "date" }
+      }
+    }
+  }
+});
+
+// MongoDB Schema for Financial Analysis
+db.createCollection("financial_analysis", {
+  validator: {
+    $jsonSchema: {
+      bsonType: "object",
+      required: ["user_id", "insights"],
+      properties: {
+        user_id: { bsonType: "string" },
+        insights: { bsonType: "object" }
+      }
+    }
+  }
+});
+
+// MongoDB Schema for User Reports
+db.createCollection("user_reports", {
+  validator: {
+    $jsonSchema: {
+      bsonType: "object",
+      required: ["user_id", "report_data", "generated_at"],
+      properties: {
+        user_id: { bsonType: "string" },
+        report_data: { bsonType: "object" },
+        generated_at: { bsonType: "date" }
+      }
+    }
+  }
+});
+```
+
+---
 
 # Capítulo VI: Solution UX Design
 
