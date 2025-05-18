@@ -2830,7 +2830,7 @@ Link del Lucidchart
 
 ## 6.5. Applications Prototyping.
 
-En esta seccion se apreciara el prototipo que trata de mostrar el flujo dentro de nuestra aplicacion.
+En esta seccion se apreciara el prototipo que trata de mostrar el flujo dentro de nuestra aplicacion móvil.
 
 ![](/assets/Prototype/Prototype.png)
 
