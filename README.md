@@ -2690,11 +2690,50 @@ __Interfaz Movil__
 
 ### 6.2.2. Labeling Systems.
 
+PonteBarbon, su sistema de etiquetas tendra nomenclaturas claras e intuitivas para el usuario reconosca las diferentes secciones.Como estas:
+
+Inicio(Landing Page): Pagina de incio donde se muestra un bonton call-to-action que dirige a la tienda a descargara el aplicativo.
+
+
+Beneficios(Landing Page): Seccion donde muestra los beneficios en una ;linea de tiempo para mayor comodidad y claridad.
+
+
+
 ### 6.2.3. Searching Systems.
+La navegación dentro de la landing page contará con las secciones principales:
+
+**Hierarchical Navigation System:** La navegación se organiza de manera jerarquica desde la pagina principal hacia las páginas de destino.
+
+**Global Navigation Systems:** Permite el movimiento vertical dentro de la pagina. Incluye un botón que te regresará a la pagina principal.
+
+**Local Navigation System:** Completa al sistema global permitiendo accceso a otras secciones dentro del sub-sitio.
 
 ### 6.2.4. SEO Tags and Meta Tags.
+Se usaran las sifuientes etiquetas para resaltar nuestro sitio web en el gran mundo de la red que es internet.
+
+* Titulo:
+```
+<title>Ponte Barbon - Official</title>
+```
+* Descripción:
+```
+<meta name="description" content="Gestiona y ahorra gracias a la IA"/>
+```
+* Palabras Clave:
+```
+<meta name="keyword" content="ponteBarbon", "ahorrar", "IA", "Educacion finaciera",>
+```
 
 ### 6.2.5. Navigation Systems.
+
+**Interfaz de búsqueda:**
+La interfaz de busqueda movil mostrara un diseño limpio con una navegacion facil y donde las busquedas sean realizadas por el chatbot.
+
+**Hierarchical Navigation System:** La navegación se organiza de manera jerarquica desde la pagina principal hacia las páginas de destino.
+
+**Global Navigation Systems:** Permite el movimiento vertical dentro de la pagina. Incluye un botón que te regresará a la pagina principal.
+
+**Local Navigation System:** Completa al sistema global permitiendo accceso a otras secciones dentro del sub-sitio.
 
 ## 6.3. Landing Page UI Design.
 
@@ -2715,15 +2754,48 @@ En esta seccion se mostrara el landing page con el diseño final para el desarro
 
 ## 6.4. Applications UX/UI Design.
 
+
 ### 6.4.1. Applications Wireframes.
 
+![](/assets/wireframes/Page-1.png)
+
+Page-1.png: Configuración de Preferencias Financieras (hábitos de ahorro, rango de ingresos, metas financieras).
+
+![](/assets/wireframes/Page21.png)
+
+Page-2.png: Paso Final: Resumen de la información personal y financiera antes de confirmar el perfil.
+
+![](/assets/wireframes/Page-3.png)
+
+Page-3.png: Perfil Creado con Éxito. Una ilustración que representa el progreso financiero.
+
+![](/assets/wireframes/Page-4.png)
+
+Page-4.png: Pantalla de bienvenida de PonteBarbón. Invita a registrarse o iniciar sesión para tomar el control de las finanzas.
+
+![](/assets/wireframes/Page-5.png)
+
+Page-5.png: Pantalla para Iniciar Sesión en PonteBarbón con correo electrónico y contraseña.
+
+![](/assets/wireframes/Page-6.png)
+
+Page-6.png, Page-7.png, Page-8.png, Page-9.png: Panel Principal (Dashboard) del usuario (ej. Carlos). Muestra un resumen del progreso de metas, presupuesto restante y enlaces rápidos a herramientas financieras y consejos.
+
+![](/assets/wireframes/Page-10.png)
+Page-10.png: Panel de Aprendizaje. Muestra el progreso educativo y módulos disponibles sobre temas financieros.
+
 ### 6.4.2. Applications Wireflow Diagrams.
+
+
 
 ### 6.4.2. Applications Mock-ups.
 
 ### 6.4.3. Applications User Flow Diagrams.
 
 ## 6.5. Applications Prototyping.
+En esta seccion se apreciara el prototipo que trata de mostrar el flujo dentro de nuestra aplicacion.
+
+[link](https://www.figma.com/proto/N5ZwRxa5l1vpUIY0uwQQ4v/Mobile?node-id=71-1919&p=f&t=1NzTsCXCU5X5kTBW-0&scaling=min-zoom&content-scaling=fixed&page-id=71%3A1223&starting-point-node-id=71%3A1919&show-proto-sidebar=1)
 
 # Capítulo VII: Product Implementation, Validation & Deployment
 
