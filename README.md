@@ -2661,11 +2661,11 @@ A continuacion, se mostrará de manera organizada los Branding, Typography, Colo
 
 **Color Principal.-** Los tonos oscuros de azul inspiran confianza, seguridad y autoridad, atributos que buscamos reflejar en el interfaz de nuestro proyecto.
 
-**Colores Secundarios(Titulos,Subtitulos,etc).-**Los colores secundarios son tonos amigables que evitan la saturacion del color principal aportando dinamismo y energia.
+**Colores Secundarios (Titulos,Subtitulos,etc).-** Los colores secundarios son tonos amigables que evitan la saturacion del color principal aportando dinamismo y energia.
 
 **Colores Terciarios.-** Estos colores permite usar los más claros para estados activos, hover, bordes o fondos de componentes sin afectar la visibilidad.
 
-**Colores Texto.-**El color escojido mejora la legibilidad sin causar fatiga visual, especialmente en interfaces claras.
+**Colores Texto.-** El color escojido mejora la legibilidad sin causar fatiga visual, especialmente en interfaces claras.
 
 **Colores Fondo.-** Suaviza la visualización general y evita el uso de blanco puro, lo cual mejora la experiencia visual prolongada.
 
@@ -2754,48 +2754,89 @@ En esta seccion se mostrara el landing page con el diseño final para el desarro
 
 ## 6.4. Applications UX/UI Design.
 
-
 ### 6.4.1. Applications Wireframes.
 
-![](/assets/wireframes/Page-1.png)
+A continuacion se muestran los prototipos en baja fidelidad de la aplicación
 
-Page-1.png: Configuración de Preferencias Financieras (hábitos de ahorro, rango de ingresos, metas financieras).
+**1. Registro de Usuario**
 
-![](/assets/wireframes/Page21.png)
+![](/assets/Wireframes/Wireframe%201%20-%20Registro.png)
 
-Page-2.png: Paso Final: Resumen de la información personal y financiera antes de confirmar el perfil.
+**2. Educación Financiera**
 
-![](/assets/wireframes/Page-3.png)
+![](/assets/Wireframes/Wireframe%202%20-%20Educacion%20Financiera.png)
 
-Page-3.png: Perfil Creado con Éxito. Una ilustración que representa el progreso financiero.
+**3. Gestión Financiera**
 
-![](/assets/wireframes/Page-4.png)
+![](/assets/Wireframes/Wireframe%203%20-%20Gestion%20Financiera.png)
 
-Page-4.png: Pantalla de bienvenida de PonteBarbón. Invita a registrarse o iniciar sesión para tomar el control de las finanzas.
+**4. Interacción Conversacional**
 
-![](/assets/wireframes/Page-5.png)
+![](/assets/Wireframes/Wireframe%204%20-%20Interaccion%20Conversacional.png)
 
-Page-5.png: Pantalla para Iniciar Sesión en PonteBarbón con correo electrónico y contraseña.
+Link del Figma
 
-![](/assets/wireframes/Page-6.png)
-
-Page-6.png, Page-7.png, Page-8.png, Page-9.png: Panel Principal (Dashboard) del usuario (ej. Carlos). Muestra un resumen del progreso de metas, presupuesto restante y enlaces rápidos a herramientas financieras y consejos.
-
-![](/assets/wireframes/Page-10.png)
-Page-10.png: Panel de Aprendizaje. Muestra el progreso educativo y módulos disponibles sobre temas financieros.
+[https://www.figma.com/design/N5ZwRxa5l1vpUIY0uwQQ4v/Mobile?node-id=71-1223&t=mbmIJLAb5XFF9AyO-1](https://www.figma.com/design/N5ZwRxa5l1vpUIY0uwQQ4v/Mobile?node-id=71-1223&t=mbmIJLAb5XFF9AyO-1)
 
 ### 6.4.2. Applications Wireflow Diagrams.
 
+A continuacion se presentan los Wireflows que son los flujos que seguira el usuario en la aplicación en los prototipos de baja fidelidad
 
+**1. Registro de Usuario**
+
+![](/assets/Wireflows/Wireflow%201%20-%20Registro.png)
+
+**2. Educación Financiera**
+
+![](/assets/Wireflows/Wireflow%202%20-%20Educacion%20Financiera.png)
+
+**3. Gestión Financiera**
+
+![](/assets/Wireflows/Wireflow%203%20-%20Gestion%20Financiera.png)
+
+**4. Interacción Conversacional**
+
+![](/assets/Wireflows/Wireflow%204%20-%20Interaccion%20Conversacional.png)
 
 ### 6.4.2. Applications Mock-ups.
 
+A continuacion se muestran los Mock-ups. Estos son los diseños en alta fidelidad
+
+**1. Registro de Usuario**
+
+![](/assets/Mockups/Mockup%201%20-%20Registro.png)
+
+**2. Educación Financiera**
+
+![](/assets/Mockups/Mockup%202%20-%20Educacion%20Financiera.png)
+
+**3. Gestión Financiera**
+
+![](/assets/Mockups/Mockup%203%20-%20Gestion%20Financiera.png)
+
+**4. Interacción Conversacional**
+
+![](/assets/Mockups/Mockup%204%20-%20Interaccion%20Conversacional.png)
+
 ### 6.4.3. Applications User Flow Diagrams.
 
+En esta sección se mostrarán los User Flows más importantes que los usuarios van a realizar al momento de usar la aplicación móvil
+
+![](/assets/Userflows/Userflow%201%20-%20Registro.png)
+
+Link del Lucidchart
+
+[https://lucid.app/lucidchart/e12644c2-f929-41ed-ae59-baa03845b07e/edit?viewport_loc=-2921%2C-2098%2C13412%2C6359%2C0_0&invitationId=inv_68deecf6-7f33-43ce-9abc-0b9bfaaf65d4](https://lucid.app/lucidchart/e12644c2-f929-41ed-ae59-baa03845b07e/edit?viewport_loc=-2921%2C-2098%2C13412%2C6359%2C0_0&invitationId=inv_68deecf6-7f33-43ce-9abc-0b9bfaaf65d4)
+
 ## 6.5. Applications Prototyping.
+
 En esta seccion se apreciara el prototipo que trata de mostrar el flujo dentro de nuestra aplicacion.
 
-[link](https://www.figma.com/proto/N5ZwRxa5l1vpUIY0uwQQ4v/Mobile?node-id=71-1919&p=f&t=1NzTsCXCU5X5kTBW-0&scaling=min-zoom&content-scaling=fixed&page-id=71%3A1223&starting-point-node-id=71%3A1919&show-proto-sidebar=1)
+![](/assets/Prototype/Prototype.png)
+
+Link del prototipo en Figma
+
+[https://www.figma.com/proto/N5ZwRxa5l1vpUIY0uwQQ4v/Mobile?page-id=122%3A915&node-id=122-1154&p=f&viewport=542%2C61%2C0.16&t=hSH1nZgydxTQl0Yt-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=122%3A1154&show-proto-sidebar=1](https://www.figma.com/proto/N5ZwRxa5l1vpUIY0uwQQ4v/Mobile?page-id=122%3A915&node-id=122-1154&p=f&viewport=542%2C61%2C0.16&t=hSH1nZgydxTQl0Yt-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=122%3A1154&show-proto-sidebar=1)
 
 # Capítulo VII: Product Implementation, Validation & Deployment
 
