@@ -469,7 +469,6 @@ A continuación, se muestra el análisis competitivo
       <th>PonteBarbón</th>
       <th>Fintonic</th>
       <th>GoHenry</th>
-      <th>Billetera Móvil Yape</th>
     </tr>
   </thead>
   <tbody>
@@ -481,14 +480,12 @@ A continuación, se muestra el análisis competitivo
       <td>Plataforma de gestión y educación de finanzas con IA y Machine Learning.</td>
       <td>Gestión financiera con conexión bancaria y análisis de gastos.</td>
       <td>Tarjeta prepago con control parental y enfoque educativo.</td>
-      <td>App de pagos respaldada por el BCP.</td>
     </tr>
     <tr>
       <td>Ventaja Competitiva</td>
       <td>Personalización por IA basada en comportamiento universitario.</td>
       <td>Análisis financiero basado en hábitos de consumo.</td>
       <td>Enseñanza financiera con control parental.</td>
-      <td>Alto nivel de adopción en Perú y eficiencia en pagos.</td>
     </tr>
     <tr>
       <td colspan="5" style="text-align:center; font-weight:bold;">Perfil de Marketing</td>
@@ -498,14 +495,12 @@ A continuación, se muestra el análisis competitivo
       <td>Estudiantes universitarios peruanos que desean educarse y gestionar sus finanzas.</td>
       <td>Usuarios que desean reducir gastos y administrar sus finanzas.</td>
       <td>Familias que quieren enseñar finanzas a sus hijos.</td>
-      <td>Público general que busca simplicidad en pagos móviles.</td>
     </tr>
     <tr>
       <td>Estrategias de Marketing</td>
       <td>Contenido educativo en redes, alianzas con universidades y promociones estudiantiles.</td>
       <td>Contenido educativo y promociones en canales digitales.</td>
       <td>Enfoque en padres con tutoriales y herramientas de seguimiento.</td>
-      <td>Descuentos en comercios, marketing masivo y beneficios por uso.</td>
     </tr>
     <tr>
       <td colspan="5" style="text-align:center; font-weight:bold;">Perfil de Producto</td>
@@ -515,21 +510,18 @@ A continuación, se muestra el análisis competitivo
       <td>Gestión financiera, recomendaciones personalizadas, simuladores y chatbot.</td>
       <td>Presupuestos, informes y conexión bancaria.</td>
       <td>Tarjetas, plataforma educativa y aplicación de seguimiento.</td>
-      <td>Transferencias, pagos, recargas y retiro en agentes.</td>
     </tr>
     <tr>
       <td>Precios & Costos</td>
       <td>Freemium con módulos premium educativos y personalizados.</td>
       <td>Gratuito con opción premium para funcionalidades avanzadas.</td>
       <td>Suscripción mensual por tarjeta y cuenta.</td>
-      <td>Gratis; monetiza por alianzas comerciales y comisiones.</td>
     </tr>
     <tr>
       <td>Canales de Distribución</td>
       <td>App móvil y sitio web.</td>
       <td>App móvil y sitio web.</td>
       <td>App para padres e hijos.</td>
-      <td>App móvil con funciones web integradas.</td>
     </tr>
     <tr>
       <td colspan="5" style="text-align:center; font-weight:bold;">Análisis SWOT (FODA)</td>
@@ -539,28 +531,24 @@ A continuación, se muestra el análisis competitivo
       <td>Uso de IA y enfoque en educación financiera para estudiantes.</td>
       <td>Automatización de análisis financiero.</td>
       <td>Plataforma educativa con control parental.</td>
-      <td>Popularidad, confianza y respaldo bancario en Perú.</td>
     </tr>
     <tr>
       <td>Debilidades</td>
       <td>Startup en etapa inicial con baja visibilidad institucional.</td>
       <td>Dependencia de datos bancarios para análisis.</td>
       <td>Público reducido y limitado a menores.</td>
-      <td>Escasa diferenciación en innovación tecnológica.</td>
     </tr>
     <tr>
       <td>Oportunidades</td>
       <td>Alianzas educativas y expansión del modelo Freemium con IA.</td>
       <td>Ingreso a mercados latinoamericanos.</td>
       <td>Crecimiento del interés en educación financiera infantil.</td>
-      <td>Mayor adopción de apps financieras en jóvenes.</td>
     </tr>
     <tr>
       <td>Amenazas</td>
       <td>Competencia consolidada y baja cultura financiera.</td>
       <td>Aparición de apps más abiertas y colaborativas.</td>
       <td>Competencia de plataformas gratuitas educativas.</td>
-      <td>Riesgos regulatorios y saturación del mercado.</td>
     </tr>
   </tbody>
 </table>
@@ -1826,7 +1814,20 @@ Analisis y Recomendaciones Context
 
 ### 4.3.2. Software Architecture Container Level Diagrams.
 
+El presente diagrama es el AS-IS de nuestro diseño de arquitectura de contenedores para la solución Ponte Barbón.
+
 ![](./assets/c4/structurizr-101659-Containers.png)
+
+El siguiente diagrama es para presentar la **mejora continua** de la arquitectura de contenedores para la solución Ponte Barbón, incorporando características como:
+
+
+- Mejora en la gestión de datos y la trazabilidad de las transacciones financieras para Machine Learning e IA.
+- Integración con sistemas de API externas.
+- Implementación del patrón API Canal para la comunicación entre microservicios.
+- Hook para la asociación de la aplicación móvil con aplicaciones de billeteras móviles y gestionar transacciones de forma segura.
+
+![](./assets/Arquitectura-Solucion.jpg)
+
 
 ### 4.3.3. Software Architecture Deployment Diagrams.
 
@@ -3049,49 +3050,256 @@ Link del prototipo en Figma
 
 ## 7.1. Software Configuration Management.
 
+En este capítulo se documentan los procesos y herramientas utilizados para la gestión de la configuración del software, asegurando la trazabilidad y calidad en el desarrollo del proyecto durante el primer sprint.
+
 ### 7.1.1. Software Development Environment Configuration.
 
+Describimos la configuración básica del entorno de desarrollo utilizado por el equipo, incluyendo sistema operativo, IDE, lenguajes y herramientas principales. Esto garantiza que todos los miembros trabajen bajo las mismas condiciones y facilita la colaboración.
+
+Herramientas utilizadas:
+
+- IntelliJ IDEA para desarrollo en Java.
+- VS Code para el desarrollo en Python.
+- Postman para pruebas de APIs.
+- Git para control de versiones.
+- Android Studio para desarrollo de la aplicación móvil.
+
+![VSCode](assets/cap7/vscode.png)
+
+![Android Studio](assets/cap7/AndroidStudio.png)
+![IntelliJ IDEA](assets/cap7/Intellijea.png)
 ### 7.1.2. Source Code Management.
+
+Se utiliza Git como sistema de control de versiones, alojando el repositorio en GitHub. Esto permite la colaboración, gestión de ramas y seguimiento de cambios en el código fuente.
+
+![Repositorio GitHub](assets/cap7/github.png)
 
 ### 7.1.3. Source Code Style Guide & Conventions.
 
+El equipo sigue una guía de estilos para mantener la calidad y uniformidad del código, aplicando convenciones de nombres, formato y estructura según las mejores prácticas de cada tecnología.
+
+Las convenciones incluyen:
+- Uso de camelCase para nombres de variables y métodos.
+- Uso de PascalCase para nombres de clases.
+- Comentarios claros y concisos para explicar la lógica del código.
+- Documentación de funciones y clases utilizando Javadoc para Java y docstrings para Python.
+- Uso de linters y formateadores automáticos para mantener la consistencia del código.
+
 ### 7.1.4. Software Deployment Configuration.
 
-## 7.2. Solution Implementation.
+Durante el primer sprint, el despliegue se realiza manualmente en entornos de prueba locales. Se documentan los pasos básicos para compilar, ejecutar y validar la aplicación. Esto con la ayuda de Docker y Docker Compose para facilitar la configuración del entorno de desarrollo y pruebas.
 
-### 7.2.1. Sprint 1.
+![Configuración de despliegue](assets/cap7/docker.png)
 
-#### 7.2.1.1. Sprint Planning 1.
+## 7.2. Solution Implementation
 
-#### 7.2.1.2. Sprint Backlog 1.
+En esta sección se detalla el trabajo realizado durante el primer sprint del proyecto PonteBarbón. El equipo desarrolló la primera versión de la aplicación móvil, integró el servicio de voz a texto y mejoró la arquitectura de la solución. A continuación, se presenta la evidencia de planificación, backlog, desarrollo, pruebas y colaboración del equipo.
 
-#### 7.2.1.3. Development Evidence for Sprint Review.
+---
 
-#### 7.2.1.4. Testing Suite Evidence for Sprint Review.
+### 7.2.1. Sprint 1
 
-#### 7.2.1.5. Execution Evidence for Sprint Review.
+#### 7.2.1.1. Sprint Planning 1
 
-#### 7.2.1.6. Services Documentation Evidence for Sprint Review.
+<table>
+    <thead>
+        <tr>
+            <td>Sprint #</td>
+            <td>Sprint 1</td>
+        </tr>
+        <tr>
+            <td colspan="2">Sprint Planning Background</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Date</td>
+            <td>27/05/2025</td>
+        </tr>
+        <tr>
+            <td>Time</td>
+            <td>21:00 hrs</td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>Google Meet</td>
+        </tr>
+        <tr>
+            <td>Prepared By</td>
+            <td>PonteBarbón Team</td>
+        </tr>
+        <tr>
+            <td>Attendees (to planning meeting)</td>
+            <td>Brayan Smith Morales / Carlos Ochoa / Fernando Quispe</td>
+        </tr>
+        <tr>
+            <td>Sprint n – 1 Review Summary</td>
+            <td>Debido a que es el primer sprint, no hay reviews de un sprint anterior.</td>
+        </tr>
+        <tr>
+            <td>Sprint n – 1 Retrospective Summary</td>
+            <td>Expectativa del equipo para el primer sprint: Culminar con las actividades en las fechas indicadas.</td>
+        </tr>
+        <tr>
+            <td colspan="2">Sprint Goal & User Stories</td>
+        </tr>
+        <tr>
+            <td>Sprint 1 Goal</td>
+            <td>Desarrollar la primera versión funcional de la aplicación móvil, integrar el servicio de voz a texto y mejorar la arquitectura de la solución para sentar las bases del producto.</td>
+        </tr>
+        <tr>
+            <td>Sprint 1 Velocity</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Sum of Story Points</td>
+            <td>10</td>
+        </tr>
+    </tbody>
+</table>
 
-#### 7.2.1.7. Software Deployment Evidence for Sprint Review.
+---
 
-#### 7.2.1.8. Team Collaboration Insights during Sprint.
+#### 7.2.1.2. Sprint Backlog 1
 
-## 7.3. Validation Interviews.
+<table>
+    <thead>
+        <tr>
+            <td>Sprint #:</td>
+            <td colspan="7">Sprint 1</td>
+        </tr>
+        <tr>
+            <td colspan="2">User Story</td>
+            <td colspan="6">Work-Item / Task</td>
+        </tr>
+        <tr>
+            <td>ID</td>
+            <td>Title</td>
+            <td>ID</td>
+            <td>Title</td>
+            <td>Description</td>
+            <td>Estimation (Hours)</td>
+            <td>Assigned to</td>
+            <td>Status</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>SCRUM-9</td>
+            <td>Inicio de sesión</td>
+            <td>01</td>
+            <td>Implementar pantalla de login</td>
+            <td>Desarrollar la pantalla de inicio de sesión para la app móvil</td>
+            <td>4</td>
+            <td>Brayan Smith Morales</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>SCRUM-10</td>
+            <td>Mantener la sesión iniciada</td>
+            <td>02</td>
+            <td>Persistencia de sesión</td>
+            <td>Implementar lógica para mantener la sesión activa en la app</td>
+            <td>3</td>
+            <td>Brayan Smith Morales</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>SCRUM-21</td>
+            <td>Registrar gastos e ingresos</td>
+            <td>03</td>
+            <td>Formulario de registro</td>
+            <td>Crear formulario para registrar gastos e ingresos en la app</td>
+            <td>5</td>
+            <td>Carlos Ochoa</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>SCRUM-16</td>
+            <td>Chatbot financiero con IA</td>
+            <td>04</td>
+            <td>Integrar servicio de voz a texto</td>
+            <td>Integrar funcionalidad de voz a texto para el chatbot financiero</td>
+            <td>6</td>
+            <td>Fernando Quispe</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>SCRUM-4</td>
+            <td>Gestión de ahorros y gastos</td>
+            <td>05</td>
+            <td>Diseño de arquitectura inicial</td>
+            <td>Definir y documentar la arquitectura base de la solución</td>
+            <td>4</td>
+            <td>Carlos Ochoa</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>SCRUM-28</td>
+            <td>Landing page</td>
+            <td>06</td>
+            <td>Diseño de landing page</td>
+            <td>Crear la estructura inicial de la landing page del producto</td>
+            <td>3</td>
+            <td>Brayan Smith Morales</td>
+            <td>Done</td>
+        </tr>
+    </tbody>
+</table>
 
-### 7.3.1. Diseño de Entrevistas.
+---
 
-### 7.3.2. Registro de Entrevistas.
+#### 7.2.1.3. Development Evidence for Sprint Review
 
-### 7.3.3. Evaluaciones según heurísticas.
+Durante este sprint se desarrolló la primera versión de la aplicación móvil, permitiendo el registro de usuarios, inicio de sesión y registro de gastos e ingresos. Además, se implementó la integración básica de la funcionalidad de voz a texto.
 
-## 7.4. Video About-the-Product.
+
+---
+
+#### 7.2.1.4. Testing Suite Evidence for Sprint Review
+
+Se realizaron pruebas sobre la integración de voz a texto para este sprint, asegurando que el servicio funcione correctamente y se integre con la aplicación móvil.
+
+
+---
+
+#### 7.2.1.5. Execution Evidence for Sprint Review
+
+Se ejecutó la aplicación en dispositivos Android y emuladores, verificando el flujo de usuario desde el login hasta el registro de movimientos financieros.
+
+![Ejecución app](assets/cap7/execution-evidence.png)
+
+---
+
+#### 7.2.1.6. Services Documentation Evidence for Sprint Review
+
+Se documentaron los servicios implementados en la app, incluyendo endpoints para autenticación, registro de movimientos y el servicio de voz a texto.
+
+![Documentación de servicios](assets/cap7/services-doc.png)
+
+---
+
+#### 7.2.1.7. Software Deployment Evidence for Sprint Review
+
+La aplicación fue desplegada manualmente en dispositivos de prueba y se utilizó Docker para levantar servicios auxiliares en local.
+
+![Despliegue software](assets/cap7/deployment-evidence.png)
+
+---
+
+#### 7.2.1.8. Team Collaboration Insights during Sprint
+
+El equipo mantuvo reuniones periódicas para coordinar avances y resolver bloqueos. La colaboración se realizó principalmente por Google Meet y GitHub, logrando cumplir los objetivos del sprint.
+
+![Colaboración equipo](assets/cap7/team-collab.png)
 
 # Conclusiones
 
 ## Conclusiones y recomendaciones.
 
 Nuestra conclusión grupal para la TB1 es que, a través de un análisis profundo de nuestros segmentos objetivos –los estudiantes universitarios–, hemos logrado comprender sus necesidades y desafíos. Esto nos permitió fundamentar nuestra arquitectura usando técnicas de Event Storming, ADD y el C4 Model. Con este enfoque, hemos integrado de manera efectiva software emergente, como soluciones basadas en IA y ML, garantizando una plataforma robusta, escalable y adaptada a la educación financiera de nuestro público.
+
+Nuestra conclusión grupal de que la implementación de arquitecturas de software emergentes, como microservicios y DDD, ha sido clave para el éxito de nuestro proyecto. Estas arquitecturas no solo nos han permitido una mayor flexibilidad y escalabilidad, sino que también han facilitado la integración de tecnologías avanzadas como IA y ML. Además, la adopción de patrones de diseño y principios de arquitectura ha mejorado la mantenibilidad y la calidad del código, asegurando que nuestra solución sea sostenible a largo plazo.
 
 ## Video About-the-Team.
 
