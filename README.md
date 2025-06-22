@@ -3301,7 +3301,20 @@ Durante este sprint se desarrolló la primera versión de la aplicación móvil,
 
 #### 7.2.1.4. Testing Suite Evidence for Sprint Review
 
-Se realizaron pruebas sobre la integración de voz a texto para este sprint, asegurando que el servicio funcione correctamente y se integre con la aplicación móvil.
+Se realizaron pruebas sobre la integración de voz a texto para este sprint, asegurando que el servicio funcione correctamente y se integre con la aplicación móvil. Para esto se realizaron pruebas funcionales con la aplicación.
+
+![Prueba 1](assets/cap7/testing/testing1.jpg)
+
+![Prueba 2](assets/cap7/testing/testing2.jpg)
+
+![Prueba 3](assets/cap7/testing/testing3.jpg)
+
+![Prueba 4](assets/cap7/testing/testing4.jpg)
+
+Prueba de la validacion por voz - Integración de voz a texto con la aplicación móvil.
+
+
+![Prueba 5](assets/cap7/testing/testing5.jpg)
 
 
 ---
@@ -3344,7 +3357,7 @@ Se documentaron los servicios implementados en la app, incluyendo endpoints para
 
 La aplicación fue desplegada manualmente en dispositivos de prueba y se utilizó Docker para levantar servicios auxiliares en local.
 
-![Despliegue software](assets/cap7/deployment-evidence.png)
+![Despliegue software](assets/cap7/docker_2.png)
 
 ---
 
