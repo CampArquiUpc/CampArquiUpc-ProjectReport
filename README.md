@@ -3253,6 +3253,49 @@ En esta sección se detalla el trabajo realizado durante el primer sprint del pr
 
 Durante este sprint se desarrolló la primera versión de la aplicación móvil, permitiendo el registro de usuarios, inicio de sesión y registro de gastos e ingresos. Además, se implementó la integración básica de la funcionalidad de voz a texto.
 
+**PonteBarbon AppMobile**
+| Repository   | Commit   | Author    | Date       | Message                                                                  |
+|--------------|----------|-----------|------------|--------------------------------------------------------------------------|
+| repository   | ba3ce7d  | farioraro | 2025-06-21 | refactor: update ChatPage and add WelcomePage with navigation buttons    |
+|              | 2d7faa6  | farioraro | 2025-05-30 | added chat page for voice notes                                          |
+|              | 4fea4c6  | farioraro | 2025-05-30 | added dependencies and configured the build.gradle and gradle.properties |
+|              | e83f4f6  | farioraro | 2025-05-29 | first commit                                                             |
+
+**Servicio de Voz**
+
+| Repository   | Commit   | Author               | Date       | Message                                                             |
+|--------------|----------|----------------------|------------|----------------------------------------------------------------------|
+| repository   | 6835404  | Brayan Smith Morales | 2025-05-29 | chore: añadir método que permite escuchar a Kafka                   |
+|              | ab22638  | Brayan Smith Morales | 2025-05-28 | fix: fixed ExpenseController                                        |
+|              | 35656a5  | Brayan Smith Morales | 2025-05-26 | fix: fixed ExpenseController and added GoogleServices               |
+|              | 260cf27  | Brayan Smith Morales | 2025-05-25 | chore: added configuration connection to Speech-to-Text Google Cloud|
+|              | d554ea1  | Brayan Smith Morales | 2025-05-25 | chore: added connection to Speech-to-Text Google Cloud              |
+|              | 40d8a4d  | Brayan Smith Morales | 2025-05-25 | chore: added class controller                                       |
+|              | 031a642  | Brayan Smith Morales | 2025-05-24 | chore: added ExpenseService                                         |
+|              | 47530db  | Brayan Smith Morales | 2025-05-24 | chore: added class of domain                                        |
+|              | 8c4e575  | Brayan Smith Morales | 2025-05-24 | chore: initial commit                                               |
+
+
+**Servicio de Finanzas**
+
+| Repository   | Commit   | Author               | Date       | Message                                                              |
+|--------------|----------|----------------------|------------|----------------------------------------------------------------------|
+| repository   | 770b1d7  | Brayan Smith Morales | 2025-06-05 | fix: arreglar credenciales                                           |
+|              | 842fc01  | Brayan Smith Morales | 2025-06-03 | doc: añadir comando de docker compose                                |
+|              | 88e3e8e  | Brayan Smith Morales | 2025-06-03 | doc: añadir documentación de Google                                  |
+|              | 8d4433e  | Brayan Smith Morales | 2025-05-30 | feature: añadir conexión a cluster de Kafka al topic "expense-topic" |
+|              | fd660ca  | Brayan Smith Morales | 2025-05-30 | feature: añadir módulos externos de Google                           |
+|              | 0804b7b  | Brayan Smith Morales | 2025-05-30 | feature: añadir .gitignore y Flask para API REST en main.py          |
+|              | 7531d05  | Brayan Smith Morales | 2025-05-29 | fix: arreglar prompt para la generación de JSON                      |
+|              | a005056  | Brayan Smith Morales | 2025-05-29 | feature: arreglar mensaje enviado a Kafka                            |
+|              | 0f0141f  | Brayan Smith Morales | 2025-05-28 | chore: added .gitignore                                              |
+|              | 651fc6b  | Brayan Smith Morales | 2025-05-28 | chore: initial commit                                                |
+
+**Servicio de ApiGateway**
+
+| Repository   | Commit   | Author               | Date       | Message              |
+|--------------|----------|----------------------|------------|----------------------|
+| repository   | 210e74a  | Brayan Smith Morales | 2025-05-29 | chore:commit initial |
 
 ---
 
