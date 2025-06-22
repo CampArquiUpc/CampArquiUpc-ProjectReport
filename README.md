@@ -3318,7 +3318,21 @@ Se ejecutó la aplicación en dispositivos Android y emuladores, verificando el 
 
 Se documentaron los servicios implementados en la app, incluyendo endpoints para autenticación, registro de movimientos y el servicio de voz a texto.
 
-![Documentación de servicios](assets/cap7/services-doc.png)
+**Expense Controller**
+
+| Método | Endpoint                                               | Descripción                                            |
+|--------|--------------------------------------------------------|--------------------------------------------------------|
+| POST   | `/api/v1/expense`                  | Crear un nuevo gasto                             |
+| GET    | `/api/v1/expense/{id}`         | Obtienes un gasto por su id |
+
+**Translaccion Controller**
+
+| Método | Endpoint                                               | Descripción                                            |
+|--------|--------------------------------------------------------|--------------------------------------------------------|
+| POST   | `/api/v1/transcribe`                  | Envair un audio para transcribir y crear un gasto                             |
+
+
+
 
 ---
 
@@ -3334,7 +3348,9 @@ La aplicación fue desplegada manualmente en dispositivos de prueba y se utiliz�
 
 El equipo mantuvo reuniones periódicas para coordinar avances y resolver bloqueos. La colaboración se realizó principalmente por Google Meet y GitHub, logrando cumplir los objetivos del sprint.
 
-![Colaboración equipo](assets/cap7/team-collab.png)
+![Colaboración equipo](assets/team-collaboration/front.jpeg)
+![Colaboración equipo](assets/team-collaboration/java.jpeg)
+![Colaboración equipo](assets/team-collaboration/Captura%20de%20pantalla_21-6-2025_22515_github.com.jpeg)
 
 # Conclusiones
 
