@@ -3310,7 +3310,11 @@ Se realizaron pruebas sobre la integración de voz a texto para este sprint, ase
 
 Se ejecutó la aplicación en dispositivos Android y emuladores, verificando el flujo de usuario desde el login hasta el registro de movimientos financieros.
 
-![Ejecución app](assets/cap7/execution-evidence.png)
+**Ejecucion de la app mobile 1**
+![Ejecución app](assets/sprint%201/app-1.jpeg)
+
+**Ejecucion de la app mobile 2**
+![Ejecución app](assets/sprint%201/app%20-2.jpeg)
 
 ---
 
