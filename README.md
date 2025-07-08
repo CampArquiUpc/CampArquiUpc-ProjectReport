@@ -3370,10 +3370,52 @@ El equipo mantuvo reuniones periódicas para coordinar avances y resolver bloque
 ![Colaboración equipo](assets/team-collaboration/Captura%20de%20pantalla_21-6-2025_22515_github.com.jpeg)
 
 ## 7.3. Validation Interviews
+En esta sección se documentan las entrevistas realizadas para validar la solución propuesta, enfocándose en la experiencia del usuario y la funcionalidad de la aplicación móvil. Se llevaron a cabo entrevistas con estudiantes universitarios para obtener retroalimentación sobre el diseño, usabilidad y características de la aplicación.
 
 ### 7.3.1. Diseño de entrevistas
+Se diseñaron entrevistas semiestructuradas con preguntas abiertas y cerradas para obtener información cualitativa y cuantitativa. Las entrevistas contienen las siguientes preguntas:
+
+1. ¿El proceso de registro y creación de perfil te pareció claro y fácil de completar?
+   Follow-up: ¿Hubo algún paso que te generara dudas o donde no supieras qué hacer?
+
+2. ¿Consideras útil que se te pregunte sobre tus ingresos y objetivos financieros al registrarte?
+   Follow-up: ¿Sientes que estas preguntas son relevantes o demasiado personales?
+
+3. ¿Cómo fue tu experiencia navegando por el Dashboard principal?
+   Follow-up: ¿Pudiste identificar rápidamente lo que podías hacer desde allí?
+
+4. ¿Te resulta clara la función de cada módulo de aprendizaje (por ejemplo, “Budgeting Basics” o “Saving & Goals”)?
+   Follow-up: ¿Te motiva continuar con los módulos según se presentan?
+
+5. En la sección de aprendizaje, ¿te pareció claro el contenido de las lecciones como “Establecer Metas Financieras”?
+   Follow-up: ¿Agregarías o quitarías algo para mejorar la experiencia?
+
+6. ¿Qué te pareció la funcionalidad para establecer metas de ahorro personalizadas?
+   Follow-up: ¿Te sentiste motivado a definir tus propias metas?
+
+7. ¿Te resultó útil y comprensible la vista del resumen financiero (gastos, ahorros, progreso)?
+   Follow-up: ¿Cambiarías algo del diseño o la forma en que se presenta la información?
+
+8. ¿Te gustaría usar el asistente financiero (chatbot) para hacer preguntas sobre tus finanzas?
+   Follow-up: ¿Qué tipo de preguntas esperarías poder hacerle?
+
+9. ¿Sientes que el flujo de pantallas sigue una secuencia lógica que te ayuda a entender cómo gestionar tus finanzas?
+   Follow-up: ¿Te perdiste en algún momento o sentiste que algo no tenía sentido?
+
+10. Después de interactuar con el prototipo, ¿usarías una app como esta en tu vida diaria para gestionar tus finanzas?
+    Follow-up: ¿Qué te motivaría o desmotivaría a usarla regularmente?
 
 ### 7.3.2. Registro de entrevistas
+A continuación se presenta un resumen de las entrevistas realizadas, incluyendo la fecha, participantes y sus respuestas a las preguntas planteadas.
+
+- Entrevista 1
+  - Fecha: 07/07/2025
+  - Nombre: Juan Jesús Calisaya Sánchez
+  - Edad: 21 años
+  - Distrito: Villa María del Triunfo
+  - Captura de pantalla: ![Entrevista 1](assets/validation%20interviews/Entrevista%201%20-%20Juan%20Calisaya.png)
+  - Link del video: [https://www.youtube.com/watch?v=oyKq1trIiDs](https://www.youtube.com/watch?v=oyKq1trIiDs) Duración: 16:48 minutos
+  - Resumen de la entrevista: El participante valoró positivamente la experiencia general con el prototipo. Consideró clara la navegación, útil el registro de datos financieros y destacó como funcionalidad favorita la creación de metas de ahorro. También mostró gran interés por el asistente con inteligencia artificial, considerándolo una herramienta práctica y motivadora. Sugirió mejorar la intuición del botón de login y evitar elementos desmotivadores como anuncios o lecciones poco dinámicas. Confirmó que usaría una app como PonteBarbon para gestionar sus finanzas personales.
 
 ### 7.3.3. Evaluaciones según eurísticas
 
