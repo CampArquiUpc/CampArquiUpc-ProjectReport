@@ -7,7 +7,7 @@
 ## 1ASI0728 - Arquitectura de Software Emergentes
 
 Docente: Christian Luis De Los Rios Fernandez
-Informe TB2
+Informe TF
 
 Startup: CampArquiUpc
 Producto: PonteBarbón
@@ -215,7 +215,12 @@ Producto: PonteBarbón
 <p><strong>Nombre: Fernando Daniel Quispe Condori</strong> En esta entrega pude comunicar las ideas sobre la mejora
 continua de la arquitectura de Ponte Barbon y poder determinar su impacto en la experiencia del usuario.</p>
 <p><strong>Nombre: Carlos Alberto Ochoa Colonia</strong> Pude comunicar de manera efectiva mis ideas sobre la arquitectura de Ponte Barbon y su implementación. Contribuyendo también en la creación de prototipos y diagramas que facilitaron la comprensión del proyecto.</p>
-      </td>
+      <strong>TF:</strong>
+        <p><strong>Nombre: Brayan Smith Morales Quispe</strong> Al finalizar la entrega del producto pude determinar como mi proyecto a mejorado y hemos aplicado teconologias emergentes y así comunicarlos a traves de arquitectura..</p>
+<p><strong>Nombre: Fernando Daniel Quispe Condori</strong> En la entrega final, considero que desarrolle actividades que me permitieron comunicar efectivamente ideas en la arquitectura y prototipo de nuestra solución</p>
+<p><strong>Nombre: Carlos Alberto Ochoa Colonia</strong> Considero que he mejorado en la comunicación de mis ideas y en la creación de prototipos que facilitan la comprensión del proyecto.</p>
+
+</td>
       <td>
         <strong>TB1:</strong>
         Fuimos capaces de presentar nuestra propuesta de forma clara y accesible a distintos públicos, adaptando el contenido según el nivel técnico y jerárquico de cada audiencia. Esto permitió transmitir la visión del proyecto de manera efectiva y recibir valioso feedback.
@@ -223,6 +228,8 @@ continua de la arquitectura de Ponte Barbon y poder determinar su impacto en la 
         La presentación del proyecto fue un éxito, logrando captar la atención de diferentes públicos y generando interés en la solución propuesta. La comunicación efectiva fue clave para transmitir la importancia de PonteBarbón en la educación financiera de los estudiantes universitarios.
         <strong>TB2:</strong>
         La comunicación de los resultados del proyecto fue clara y efectiva, utilizando herramientas visuales que facilitaron la comprensión del impacto de PonteBarbón en la educación financiera. La presentación generó interés y discusión constructiva entre los asistentes.
+        <strong>TF:</strong>
+        Como equipo en esta entrega final logramos comunicar de manera efectiva los resultados del proyecto, utilizando herramientas visuales y prototipos que facilitaron la comprensión del impacto de PonteBarbón en la educación financiera. Con el objetivo de generar interés y discusión constructiva entre los asistentes.
       </td>
     </tr>
     <tr>
@@ -237,10 +244,14 @@ continua de la arquitectura de Ponte Barbon y poder determinar su impacto en la 
         <p><strong>Nombre: Brayan Smith Morales Quispe</strong> En esta entrega elaborar los artefactos de arquitectura me permitieron estructurar mejor mis ideas y presentarlas de manera más clara.</p>
 <p><strong>Nombre: Fernando Daniel Quispe Condori</strong> En la entrega pude ser capaz de plasmar las ideas del equipo y las mías en los diagramas C4 lo cuál me permite comunicar de manera más efectiva la arquitectura del sistema.</p>
 <p><strong>Nombre: Carlos Alberto Ochoa Colonia</strong> En esta entrega logré plasmar mis ideas en los artefactos de arquitectura, lo que facilitó la comprensión del proyecto y su implementación. De la misma manera colaboré con los temas de diseño de la interfaz de usuario.</p>
-<strong>TP:</strong>
+<strong>TB2:</strong>
         <p><strong>Nombre: Brayan Smith Morales Quispe</strong> Para cumplir este criterio utilicé diagramas y prototipos que facilitaron la comunicación de mis ideas y resultados.</p>
 <p><strong>Nombre: Fernando Daniel Quispe Condori</strong> En esta entrega pude determinar la elaboración de las herramientas de diagrama de arquitectura que nos permiten visualizar mejor la estructura del sistema.</p>
 <p><strong>Nombre: Carlos Alberto Ochoa Colonia</strong> Pude realizar el objetivo cuando colaboramos en conjunto y aporte mis ideas en los diagramas de arquitectura de software para mejorar la comprensión del proyecto.</p>
+<strong>TF:</strong>
+        <p><strong>Nombre: Brayan Smith Morales Quispe</strong> De manera escrita se pudieron comunicar las ideas con acciones en el código del proyecto.</p>
+<p><strong>Nombre: Fernando Daniel Quispe Condori</strong> Puede contribuir de manera escrita despues de colaborar con la arquitectura de la solución y prototipos.</p>
+<p><strong>Nombre: Carlos Alberto Ochoa Colonia</strong> Para cumplir el criterio colaboré con el diseño de la interfaz de usuario y la documentación del proyecto.</p>
       </td>
       <td>
         <strong>TB1:</strong>
@@ -249,6 +260,8 @@ continua de la arquitectura de Ponte Barbon y poder determinar su impacto en la 
         La documentación del proyecto fue clara y accesible, facilitando la comprensión de la propuesta y su implementación. La estructura de los artefactos de arquitectura permitió una mejor comunicación entre los miembros del equipo y con el público en general.
         <strong>TB2:</strsong>
         Documentamos y realizamos la arquitectura de PonteBarbón de manera efectiva, utilizando diagramas y prototipos que facilitaron la comprensión del proyecto. La documentación fue clara y accesible, permitiendo a diferentes públicos entender el impacto de la solución en la educación financiera.
+        <strong>TF:</strsong>
+        Pudimos cumplir el TF con una documentación clara y accesible, utilizando diagramas y prototipos que facilitaron la comprensión del proyecto. Nuestro prototipo es completo basado en la architectura de software y la implementación de la solución, lo que permitió a diferentes públicos entender el impacto de PonteBarbón en la educación financiera.
       </td>
     </tr>
   </tbody>
