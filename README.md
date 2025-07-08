@@ -3430,7 +3430,8 @@ A continuación se presentan las evaluaciones realizadas según eurísticas.
 | 6 | Posible duda sobre el uso de datos personales             | Aunque no lo criticó directamente, podría no quedar claro cómo se usan los datos financieros ingresados.          | Añadir una sección visible explicando cómo se protegen y usan los datos del usuario.                               | 2                   | Usability: Transparencia                      |
 
 ## 7.4. Video About-the-Product
-
+En esta sección se muestra un video promocional del producto
+[https://youtu.be/CcfkjErQ1eY](https://youtu.be/CcfkjErQ1eY)
 
 # Conclusiones
 
