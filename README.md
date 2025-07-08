@@ -3418,8 +3418,19 @@ A continuación se presenta un resumen de las entrevistas realizadas, incluyendo
   - Resumen de la entrevista: El participante valoró positivamente la experiencia general con el prototipo. Consideró clara la navegación, útil el registro de datos financieros y destacó como funcionalidad favorita la creación de metas de ahorro. También mostró gran interés por el asistente con inteligencia artificial, considerándolo una herramienta práctica y motivadora. Sugirió mejorar la intuición del botón de login y evitar elementos desmotivadores como anuncios o lecciones poco dinámicas. Confirmó que usaría una app como PonteBarbon para gestionar sus finanzas personales.
 
 ### 7.3.3. Evaluaciones según eurísticas
+A continuación se presentan las evaluaciones realizadas según eurísticas.
+
+| # | Problema                                                  | Descripción                                                                                                       | Recomendación                                                                                                      | Escala de Severidad | Heurística / Principio Violado                |
+| - | --------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ------------------- | --------------------------------------------- |
+| 1 | El botón de login no es intuitivo                         | El participante indicó que el botón de login no era lo suficientemente claro o intuitivo.                         | Rediseñar el botón de login para que sea más visible, destacando su función mediante color o ícono.                | 2                   | Usability: Visibilidad del estado del sistema |
+| 2 | Posible sobrecarga cognitiva en el flujo de pantallas     | El usuario comentó que el flujo podría sentirse “engorroso” en algunos momentos.                                  | Simplificar el flujo de pantallas o dividir formularios extensos en pasos progresivos con retroalimentación clara. | 2                   | Usability: Control y libertad del usuario     |
+| 3 | Falta de conectividad del asistente de IA en el prototipo | El usuario no pudo experimentar con el asistente por estar desconectado, afectando su comprensión del valor real. | Simular respuestas del asistente en el prototipo para reflejar su funcionamiento o incluir ejemplos visibles.      | 2                   | Usability: Feedback / retroalimentación       |
+| 4 | Lecciones podrían volverse aburridas                      | El participante señaló que la sección de aprendizaje podría perder atractivo si no es dinámica.                   | Gamificar más las lecciones con elementos interactivos, recompensas y progresos visibles.                          | 2                   | Usability: Estética y diseño minimalista      |
+| 5 | Ausencia de personalización visual en metas financieras   | Aunque le pareció útil, el participante no mencionó opciones para personalizar metas (iconos, colores, etc).      | Incluir elementos visuales para que los usuarios personalicen sus metas y generen mayor compromiso.                | 1                   | Usability: Reconocimiento mejor que recuerdo  |
+| 6 | Posible duda sobre el uso de datos personales             | Aunque no lo criticó directamente, podría no quedar claro cómo se usan los datos financieros ingresados.          | Añadir una sección visible explicando cómo se protegen y usan los datos del usuario.                               | 2                   | Usability: Transparencia                      |
 
 ## 7.4. Video About-the-Product
+
 
 # Conclusiones
 
