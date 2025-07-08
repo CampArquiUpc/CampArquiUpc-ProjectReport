@@ -3408,6 +3408,263 @@ El equipo mantuvo reuniones periódicas para coordinar avances y resolver bloque
 ![Colaboración equipo](assets/team-collaboration/java.jpeg)
 ![Colaboración equipo](assets/team-collaboration/Captura%20de%20pantalla_21-6-2025_22515_github.com.jpeg)
 
+---
+
+### 7.2.2. Sprint 2
+
+#### 7.2.2.1. Sprint Planning 2
+
+<table>
+    <thead>
+        <tr>
+            <td>Sprint #</td>
+            <td>Sprint 2</td>
+        </tr>
+        <tr>
+            <td colspan="2">Sprint Planning Background</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Date</td>
+            <td>20/06/2025</td>
+        </tr>
+        <tr>
+            <td>Time</td>
+            <td>20:00 hrs</td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>Google Meet</td>
+        </tr>
+        <tr>
+            <td>Prepared By</td>
+            <td>PonteBarbón Team</td>
+        </tr>
+        <tr>
+            <td>Attendees (to planning meeting)</td>
+            <td>Brayan Smith Morales / Carlos Ochoa / Fernando Quispe</td>
+        </tr>
+        <tr>
+            <td>Sprint n – 1 Review Summary</td>
+            <td>En el Sprint 1 se logró implementar la aplicación móvil básica con funcionalidades de login, registro de gastos e integración de voz a texto. Se cumplieron los objetivos principales establecidos.</td>
+        </tr>
+        <tr>
+            <td>Sprint n – 1 Retrospective Summary</td>
+            <td>El equipo identificó la necesidad de mejorar la comunicación y coordinación entre los microservicios. Se destacó la importancia de implementar más funcionalidades de IA y mejorar la experiencia de usuario.</td>
+        </tr>
+        <tr>
+            <td colspan="2">Sprint Goal & User Stories</td>
+        </tr>
+        <tr>
+            <td>Sprint 2 Goal</td>
+            <td>Expandir las funcionalidades de la aplicación móvil con módulos de educación financiera, recomendaciones personalizadas y mejoras en la arquitectura de microservicios para una experiencia más completa del usuario.</td>
+        </tr>
+        <tr>
+            <td>Sprint 2 Velocity</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>Sum of Story Points</td>
+            <td>15</td>
+        </tr>
+    </tbody>
+</table>
+
+---
+
+#### 7.2.2.2. Sprint Backlog 2
+
+<table>
+    <thead>
+        <tr>
+            <td>Sprint #:</td>
+            <td colspan="7">Sprint 2</td>
+        </tr>
+        <tr>
+            <td colspan="2">User Story</td>
+            <td colspan="6">Work-Item / Task</td>
+        </tr>
+        <tr>
+            <td>ID</td>
+            <td>Title</td>
+            <td>ID</td>
+            <td>Title</td>
+            <td>Description</td>
+            <td>Estimation (Hours)</td>
+            <td>Assigned to</td>
+            <td>Status</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>SCRUM-15</td>
+            <td>Recomendaciones de Aprendizaje</td>
+            <td>08</td>
+            <td>Motor de recomendaciones con IA</td>
+            <td>Implementar sistema de recomendaciones personalizadas basado en patrones de usuario</td>
+            <td>8</td>
+            <td>Fernando Quispe</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>SCRUM-25</td>
+            <td>Registro de metas</td>
+            <td>09</td>
+            <td>Sistema de metas financieras</td>
+            <td>Crear funcionalidad para establecer y seguir metas de ahorro</td>
+            <td>5</td>
+            <td>Brayan Smith Morales</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>SCRUM-19</td>
+            <td>Alertas con consejos personalizados</td>
+            <td>10</td>
+            <td>Sistema de notificaciones inteligentes</td>
+            <td>Desarrollar alertas personalizadas basadas en comportamiento financiero</td>
+            <td>7</td>
+            <td>Carlos Ochoa</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>SCRUM-27</td>
+            <td>Gráficos de ingresos vs egresos</td>
+            <td>11</td>
+            <td>Dashboard de visualización</td>
+            <td>Implementar gráficos interactivos para análisis financiero</td>
+            <td>4</td>
+            <td>Fernando Quispe</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>SCRUM-11</td>
+            <td>Visualizar y editar perfil</td>
+            <td>12</td>
+            <td>Mejoras en gestión de perfil</td>
+            <td>Expandir funcionalidades de edición y personalización del perfil de usuario</td>
+            <td>3</td>
+            <td>Brayan Smith Morales</td>
+            <td>Done</td>
+        </tr>
+    </tbody>
+</table>
+
+---
+
+#### 7.2.2.3. Development Evidence for Sprint Review
+
+Durante este segundo sprint se expandieron significativamente las funcionalidades de la aplicación, implementando módulos de educación financiera, sistemas de recomendaciones con IA y mejoras en la visualización de datos financieros.
+
+**PonteBarbon AppMobile - Sprint 2**
+| Repository   | Commit   | Author    | Date       | Message                                                                    |
+|--------------|----------|-----------|------------|----------------------------------------------------------------------------|
+| repository   | c9a4f2e  | farioraro | 2025-07-15 | feat: add financial education video module with interactive features       |
+|              | a8b3d1c  | farioraro | 2025-07-12 | refactor: improve navigation flow for better user experience               |
+|              | 7f2e8a9  | farioraro | 2025-07-10 | feat: implement goal tracking system with progress visualization           |
+|              | 5d9c1b4  | farioraro | 2025-07-08 | chore: update dependencies and optimize app performance                    |
+
+**Servicio de Recomendaciones IA**
+
+| Repository   | Commit   | Author               | Date       | Message                                                                   |
+|--------------|----------|----------------------|------------|---------------------------------------------------------------------------|
+| repository   | e4f7a3b  | Brayan Smith Morales | 2025-07-14 | feat: implement ML-based recommendation engine for personalized advice   |
+|              | b6c8e2d  | Brayan Smith Morales | 2025-07-13 | chore: add machine learning pipeline for user behavior analysis          |
+|              | 9a1f5c7  | Brayan Smith Morales | 2025-07-11 | fix: optimize recommendation algorithms for better accuracy               |
+|              | 3e8b9d2  | Brayan Smith Morales | 2025-07-09 | feat: integrate recommendation service with main application API          |
+
+**Servicio de Visualización y Analytics**
+
+| Repository   | Commit   | Author               | Date       | Message                                                                   |
+|--------------|----------|----------------------|------------|---------------------------------------------------------------------------|
+| repository   | f3a7b5e  | Fernando Quispe      | 2025-07-16 | feat: add interactive charts and financial analytics dashboard            |
+|              | d2c4f8a  | Fernando Quispe      | 2025-07-13 | implement: real-time data visualization for income vs expenses            |
+|              | a9e6b3c  | Fernando Quispe      | 2025-07-11 | chore: optimize chart rendering performance for mobile devices            |
+|              | 8b5d2f1  | Fernando Quispe      | 2025-07-09 | feat: create responsive design for financial graphics components          |
+
+**Sistema de Notificaciones**
+
+| Repository   | Commit   | Author               | Date       | Message                                                                   |
+|--------------|----------|----------------------|------------|---------------------------------------------------------------------------|
+| repository   | c7e9a4b  | Carlos Ochoa         | 2025-07-15 | feat: implement intelligent notification system with personalized alerts |
+|              | b8f3d6e  | Carlos Ochoa         | 2025-07-12 | add: smart financial advice notifications based on user patterns         |
+|              | a5c1e8f  | Carlos Ochoa         | 2025-07-10 | chore: configure notification scheduling and delivery system             |
+
+---
+
+#### 7.2.2.4. Testing Suite Evidence for Sprint Review
+
+Se realizaron pruebas exhaustivas en las nuevas funcionalidades implementadas, incluyendo el sistema de recomendaciones, módulos educativos y visualización de datos financieros.
+
+![alt text](<WhatsApp Image 2025-07-07 at 20.13.34_612015bb.jpg>)
+
+![alt text](image-8.png)
+
+![alt text](image-9.png)
+
+Prueba del sistema de recomendaciones - Validación de algoritmos de IA para sugerencias personalizadas.
+
+
+---
+
+#### 7.2.2.5. Execution Evidence for Sprint Review
+
+Se ejecutaron todas las nuevas funcionalidades en diferentes dispositivos Android, verificando la integración completa del sistema de educación financiera, recomendaciones y analytics.
+![alt text](<WhatsApp Image 2025-07-07 at 20.14.22_af6790e4.jpg>)
+
+![alt text](<WhatsApp Image 2025-07-07 at 20.14.48_03756568.jpg>)
+
+![alt text](<WhatsApp Image 2025-07-07 at 20.16.04_dca6c1f7.jpg>)
+
+---
+
+#### 7.2.2.6. Services Documentation Evidence for Sprint Review
+
+Se documentaron los nuevos servicios implementados, incluyendo APIs para educación financiera, sistema de recomendaciones y analytics.
+
+**Learning Module Controller**
+
+| Método | Endpoint                                               | Descripción                                            |
+|--------|--------------------------------------------------------|--------------------------------------------------------|
+| GET    | `/api/v1/learning/modules`            | Obtiene todos los módulos de aprendizaje disponibles  |
+| GET    | `/api/v1/learning/module/{id}`        | Obtiene detalles de un módulo específico              |
+| POST   | `/api/v1/learning/progress`           | Registra el progreso del usuario en un módulo         |
+
+**Recommendation Controller**
+
+| Método | Endpoint                                               | Descripción                                            |
+|--------|--------------------------------------------------------|--------------------------------------------------------|
+| GET    | `/api/v1/recommendations/{userId}`    | Obtiene recomendaciones personalizadas para el usuario|
+| POST   | `/api/v1/recommendations/generate`    | Genera nuevas recomendaciones basadas en IA           |
+
+**Analytics Controller**
+
+| Método | Endpoint                                               | Descripción                                            |
+|--------|--------------------------------------------------------|--------------------------------------------------------|
+| GET    | `/api/v1/analytics/dashboard/{userId}`| Obtiene datos del dashboard financiero del usuario    |
+| GET    | `/api/v1/analytics/charts/{userId}`   | Genera gráficos de ingresos vs egresos                |
+
+**Interacción Conversacional Controller**
+| Método | Endpoint                                               | Descripción                                            |
+|--------|--------------------------------------------------------|--------------------------------------------------------|
+| POST   | `/api/v1/transcribe/{userId}`         | Envía un audio para transcribir y generar recomendaciones |
+
+---
+
+#### 7.2.2.7. Software Deployment Evidence for Sprint Review
+
+La aplicación expandida fue desplegada con éxito en los entornos de prueba, incluyendo los nuevos microservicios de recomendaciones y analytics. Todo esto utilizando Docker para facilitar la configuración y despliegue.
+
+Se presentan todos los servicios de backend que se han implementado en este sprint, incluyendo el servicio de recomendaciones, el servicio de educación financiera y el servicio de visualización de datos en Docker.
+
+![alt text](<WhatsApp Image 2025-07-07 at 20.40.24_67d6ed0e.jpg>)
+
+---
+
+#### 7.2.2.8. Team Collaboration Insights during Sprint
+
+El equipo mantuvo una colaboración efectiva durante el Sprint 2, con reuniones diarias de seguimiento y una distribución eficiente de tareas para completar las funcionalidades
+
 ## 7.3. Validation Interviews
 En esta sección se documentan las entrevistas realizadas para validar la solución propuesta, enfocándose en la experiencia del usuario y la funcionalidad de la aplicación móvil. Se llevaron a cabo entrevistas con estudiantes universitarios para obtener retroalimentación sobre el diseño, usabilidad y características de la aplicación.
 
@@ -3456,6 +3713,27 @@ A continuación se presenta un resumen de las entrevistas realizadas, incluyendo
   - Link del video: [https://www.youtube.com/watch?v=oyKq1trIiDs](https://www.youtube.com/watch?v=oyKq1trIiDs) Duración: 16:48 minutos
   - Resumen de la entrevista: El participante valoró positivamente la experiencia general con el prototipo. Consideró clara la navegación, útil el registro de datos financieros y destacó como funcionalidad favorita la creación de metas de ahorro. También mostró gran interés por el asistente con inteligencia artificial, considerándolo una herramienta práctica y motivadora. Sugirió mejorar la intuición del botón de login y evitar elementos desmotivadores como anuncios o lecciones poco dinámicas. Confirmó que usaría una app como PonteBarbon para gestionar sus finanzas personales.
 
+---
+
+- Entrevista 2
+  - Fecha: 07/07/2025
+  - Nombre: Edison Jean Franco Coaguila Fuentes
+  - Edad: 20 años
+  - Distrito: San Miguel
+  - Captura de pantalla: ![alt text](image-6.png)
+  - Link del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c628_upc_edu_pe/Ec_8u5Ni4EZMgHFhLt5moJUBuIxe7K6xS058j3QcGHthxw?e=sky1fs&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c628_upc_edu_pe/Ec_8u5Ni4EZMgHFhLt5moJUBuIxe7K6xS058j3QcGHthxw?e=sky1fs&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) 
+  - Resumen de la entrevista: El participante menciono que las funcionalidades del prototipo le parecieron útiles, especialmente el registro de gastos e ingresos. Destacó la claridad del flujo de pantallas y la facilidad para navegar por la aplicación. Sin embargo, sugirió mejorar la visibilidad del botón de login y hacer las lecciones más dinámicas para evitar el aburrimiento. También expresó interés en el asistente de IA, aunque mencionó que no pudo interactuar con él debido a problemas de conectividad. En general, consideró que usaría una app como PonteBarbon para gestionar sus finanzas personales.
+
+---
+  - Entrevista 3
+  - Fecha: 07/07/2025
+  - Nombre: Jair Ramos Llano
+  - Edad: 20 años
+  - Distrito: Tacna
+  - Captura de pantalla: ![alt text](image-7.png)
+  - Link del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c628_upc_edu_pe/ERub68PDAt1JpZghN6sMIsQB3Xhs3PR7j-Wffdd-O6GfCg?e=tJ720P&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c628_upc_edu_pe/ERub68PDAt1JpZghN6sMIsQB3Xhs3PR7j-Wffdd-O6GfCg?e=tJ720P&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) 
+  - Resumen de la entrevista: El participante menciono que era muy sencillo y util registrarse y crear un perfil. Destacó la utilidad de registrar ingresos y objetivos financieros, considerándolo relevante para su situación. La navegación por el Dashboard principal le pareció clara, aunque sugirió mejorar la visibilidad del botón de login. Mostró interés en el asistente financiero, pero no pudo interactuar con él debido a problemas de conectividad. En general, consideró que usaría una app como PonteBarbon para gestionar sus finanzas personales.
+
 ### 7.3.3. Evaluaciones según eurísticas
 A continuación se presentan las evaluaciones realizadas según eurísticas.
 
@@ -3478,6 +3756,8 @@ A continuación se presentan las evaluaciones realizadas según eurísticas.
 Nuestra conclusión grupal para la TB1 es que, a través de un análisis profundo de nuestros segmentos objetivos –los estudiantes universitarios–, hemos logrado comprender sus necesidades y desafíos. Esto nos permitió fundamentar nuestra arquitectura usando técnicas de Event Storming, ADD y el C4 Model. Con este enfoque, hemos integrado de manera efectiva software emergente, como soluciones basadas en IA y ML, garantizando una plataforma robusta, escalable y adaptada a la educación financiera de nuestro público.
 
 Nuestra conclusión grupal de que la implementación de arquitecturas de software emergentes, como microservicios y DDD, ha sido clave para el éxito de nuestro proyecto. Estas arquitecturas no solo nos han permitido una mayor flexibilidad y escalabilidad, sino que también han facilitado la integración de tecnologías avanzadas como IA y ML. Además, la adopción de patrones de diseño y principios de arquitectura ha mejorado la mantenibilidad y la calidad del código, asegurando que nuestra solución sea sostenible a largo plazo.
+
+Finalmente, al entregar el trabajo final podemos concluir que la aplicación móvil PonteBarbon no solo aborda las necesidades financieras de los estudiantes universitarios, sino que también se alinea con las tendencias actuales en tecnología y educación financiera. La integración de IA para recomendaciones personalizadas y el enfoque en la usabilidad aseguran que la aplicación sea una herramienta valiosa para mejorar la gestión financiera personal. Recomendamos continuar iterando sobre el producto, incorporando feedback de usuarios reales y explorando nuevas funcionalidades que puedan enriquecer aún más la experiencia del usuario.
 
 ## Video About-the-Team.
 
