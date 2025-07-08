@@ -1823,7 +1823,13 @@ Analisis y Recomendaciones Context
 
 ### 4.3.1. Software Architecture Context Level Diagrams.
 
+El presente es el AS-IS de nuestro diseño de arquitectura de contexto para la solución Ponte Barbón, que representa cómo se relaciona con los sistemas externos y los usuarios finales.
+
 ![](./assets/c4/structurizr-101659-SystemContext.png)
+
+Luego de analizar el contexto y solución identificamos el siguiente diagrama de contexto para la solución Ponte Barbón, incorporando características como:
+
+
 
 ### 4.3.2. Software Architecture Container Level Diagrams.
 
@@ -2055,6 +2061,10 @@ La capa de infraestructura del bounded context **Gestión Financiera** se encarg
 A continuación se presentan los diagramas de componentes a nivel de software para el bounded context **Gestión Financiera**. Estos diagramas ilustran la estructura y las interacciones entre los diferentes componentes del sistema.
 ![Component Level Diagram](assets\GestionFinanciera-ComponentC4.png)
 
+Luego de las correciones necesarias tenemos esto:
+
+![alt text](image-1.png)
+
 ### 5.1.5. Bounded Context Software Architecture Component Level Diagrams.
 
 ![Component Level Diagram](assets\EducacionFinanciera-ComponentC4.png)
@@ -2278,6 +2288,10 @@ A continuación se presentan los diagramas de componentes a nivel de software pa
 ![Component Level Diagram](assets\EducacionFinanciera-ComponentC4.png)
 
 
+Luego de las mejoras necesarias tenemos esto:
+
+![alt text](image-2.png)
+
 ### 5.2.6. Bounded Context Software Architecture Code Level Diagrams.
 
 #### 5.2.6.1. Bounded Context Domain Layer Class Diagrams.
@@ -2472,6 +2486,10 @@ La capa de interfaz del bounded context **Educación Financiera** expone los pun
 A continuación se presentan los diagramas de componentes a nivel de software para el bounded context **Gestión Financiera**. Estos diagramas ilustran la estructura y las interacciones entre los diferentes componentes del sistema.
 ![Component Level Diagram](assets\EducacionFinanciera-ComponentC4.png)
 
+LLuego de las mejoras necesarias tenemos esto:
+
+![alt text](image-3.png)
+
 
 ### 5.2.6. Bounded Context Software Architecture Code Level Diagrams.
 
@@ -2621,6 +2639,10 @@ Dentro del dominio de **Interacción Conversacional**, se encuentran las entidad
 
 A continuación se presentan los diagramas de componentes a nivel de software para el bounded context **Gestión Financiera**. Estos diagramas ilustran la estructura y las interacciones entre los diferentes componentes del sistema.
 ![Component Level Diagram](assets\EducacionFinanciera-ComponentC4.png)
+
+Luego de realizar las mejoras necesarias tenemos esto:
+
+![alt text](image-4.png)
 
 
 ### 5.3.6. Bounded Context Software Architecture Code Level Diagrams.
@@ -2791,6 +2813,10 @@ Dentro del dominio de **Análisis y Recomendaciones**, se encuentran las entidad
 
 A continuación se presentan los diagramas de componentes a nivel de software para el bounded context **Gestión Financiera**. Estos diagramas ilustran la estructura y las interacciones entre los diferentes componentes del sistema.
 ![Component Level Diagram](assets\EducacionFinanciera-ComponentC4.png)
+
+Luego de realizar las mejoras necesarias tenemos esto:
+
+![alt text](image-5.png)
 
 
 ### 5.4.6. Bounded Context Software Architecture Code Level Diagrams.
