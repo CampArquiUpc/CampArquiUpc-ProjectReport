@@ -3369,6 +3369,16 @@ El equipo mantuvo reuniones periódicas para coordinar avances y resolver bloque
 ![Colaboración equipo](assets/team-collaboration/java.jpeg)
 ![Colaboración equipo](assets/team-collaboration/Captura%20de%20pantalla_21-6-2025_22515_github.com.jpeg)
 
+## 7.3. Validation Interviews
+
+### 7.3.1. Diseño de entrevistas
+
+### 7.3.2. Registro de entrevistas
+
+### 7.3.3. Evaluaciones según eurísticas
+
+## 7.4. Video About-the-Product
+
 # Conclusiones
 
 ## Conclusiones y recomendaciones.
